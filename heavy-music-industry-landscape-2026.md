@@ -583,6 +583,37 @@ Self-production examples: Bilmuri (Johnny Franck does everything), Bad Omens (No
 | VIP/Meet & Greet | 5-10% | $60-200 per package. Can match or exceed nightly guarantee |
 | YouTube/Content | 1-5% | Higher for content-creator musicians (Bilmuri, Nik Nocturnal) |
 
+### Music Publishing Companies (Metal/Rock)
+
+| Publisher | Notable Metal Artists | Focus |
+|-----------|---------------------|-------|
+| **Iron Avantgarde Publishing** | Evergrey, Conan, Greenleaf | Global publisher with strong rock/metal focus. Sync licensing, royalty collection, creative support |
+| **Primary Wave Music** | Alice in Chains, Def Leppard, Disturbed, Dave Navarro | Major independent. Acquires and manages iconic rock/metal catalogs |
+| **Schubert Music Publishing** | Various (catalog-based) | European publisher with hard rock/metal catalog. Active in sync licensing |
+| **Artist Publishing Group (APG)** | Drew Fulk (WZRD BLD) | Drew Fulk's publishing home. In the Cut Publishing imprint |
+
+**Royalty collection infrastructure:**
+- **PROs:** ASCAP, BMI, SESAC -- collect performance royalties from radio, TV, live venues, streaming
+- **The MLC (Mechanical Licensing Collective)** -- collects US mechanical royalties from streaming/downloads
+- **SoundExchange** -- collects digital performance royalties for sound recordings
+
+### Sync Licensing: Metal in Visual Media
+
+Metal's emotional intensity and high energy make it well-suited for sync placements. Notable examples:
+
+| Song | Artist | Placement | Impact |
+|------|--------|-----------|--------|
+| "Master of Puppets" | Metallica | Stranger Things S4 (2022) | Drove Metallica back to Billboard Hot 100. Massive streaming spike |
+| "For Whom the Bell Tolls" | Metallica | Zombieland | Action sequence sync |
+| "Immigrant Song" | Led Zeppelin | Thor: Ragnarok | $854M box office exposure |
+| "Wake Up" | Rage Against the Machine | The Matrix | Iconic closing credits. Cultural touchstone |
+| "Iron Man" | Black Sabbath | Iron Man (2008) | Franchise theme association |
+| "Angel of Death" | Slayer | Gremlins 2 | Genre crossover placement |
+| "Ace of Spades" | Motorhead | Severance (Apple TV) | Premium TV exposure |
+| "Dead Souls" | Nine Inch Nails | The Crow | Soundtrack-defined film |
+
+Sync fees are negotiated case-by-case. A major film/TV placement can generate $50,000-$500,000+ in upfront fees plus ongoing performance royalties from broadcasts.
+
 ### Merchandise Companies & Deal Structures
 
 | Company | Model | Notes |
@@ -722,6 +753,7 @@ Album launches and press cycles in heavy music are typically handled by speciali
 | **Nik Nocturnal** | 1.2M+ | Covers, reactions, tutorials. Member of Termina | Biggest metalcore-focused YouTube channel |
 | **Jared Dines** | ~3M | Viral videos, Oni (band), Dines x Heafy collab | Massive reach, crossover appeal |
 | **Ryan "Fluff" Bruce** | 400K+ | Gear demos, mixing tutorials, studio vlogs | Bridges content creation and production. Music Man signature, Fishman signature pickups |
+| **SteveTerreberry** | 3M+ | Comedy guitar content, metal parodies | Massive reach, comedic crossover appeal to non-metal audiences |
 
 ### SiriusXM
 
