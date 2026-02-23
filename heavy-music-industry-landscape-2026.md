@@ -59,6 +59,8 @@ Underneath this growth, the ecosystem is controlled by a surprisingly small numb
 | **Hardcore** | Raw, short, aggressive, punk-rooted | Knocked Loose, Turnstile, Drain, Harm's Way, Vein.fm | DIY scene backbone |
 | **Nu-Metalcore** | Nu-metal influence + modern production | Thrown, Loathe, Alpha Wolf | European-led resurgence |
 | **Groove Metal** | Mid-tempo, riff-driven, rhythmic | Lamb of God, Kublai Khan TX, Gojira | Legacy + new blood |
+| **Mathcore** | Complex time signatures, angular riffs, dissonance, technical chaos | The Dillinger Escape Plan, Converge, Botch | Niche but influential. Feeds into prog and experimental metalcore |
+| **Electronicore** | Metalcore fused with synths, electronic beats, and digital textures | I See Stars, Enter Shikari, Eskimo Callboy | Evolved steadily since 2010s. Blends heavy and melodic with EDM elements |
 
 ### Market Size Estimates
 
@@ -459,6 +461,7 @@ How support slots are determined:
 | **Misha Mansoor** | Periphery (all), Animals As Leaders | Godfather of djent. Co-founder GetGood Drums |
 | **Matt Goldman** | Underoath, The Chariot, As Cities Burn, Haste the Day, TDWP | Raw, organic sound. Defined early 2000s metalcore. Lets imperfections shine through |
 | **Adam Dutkiewicz (Adam D)** | As I Lay Dying, Underoath, All That Remains, TDWP, Parkway Drive | Killswitch Engage guitarist. Punchy, aggressive. Defined 2000s metalcore alongside Goldman |
+| **Taylor Young** | God's Hate, Nails, Xibalba, Twitching Tongues | Hardcore/powerviolence specialist. The Pit Studio, Van Nuys CA. Scene-shaping alongside Putney and LeBoeuf |
 
 ### Who Produced What (Recent Albums)
 
@@ -511,6 +514,10 @@ Modern tools have made self-production viable:
 - **~70% of music collaborations now involve remote elements**
 
 Self-production examples: Bilmuri (Johnny Franck does everything), Bad Omens (Noah Sebastian + Jolly), Thrown (Buster Odeholm), Periphery (Misha Mansoor), Currents (band self-produced The Death We Seek)
+
+### Scene Cross-Pollination
+
+The metalcore scene is tightly interconnected through shared members, producers, and touring. Example: **Better Lovers** is a supergroup with members from The Dillinger Escape Plan, Every Time I Die, and Fit for an Autopsy -- illustrating how the scene's collaborative DNA drives evolution and keeps talent circulating.
 
 ---
 
