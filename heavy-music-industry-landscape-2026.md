@@ -363,6 +363,23 @@ How support slots are determined:
 - Industry average merch spend per head: $10.29 (2025, atVenu)
 - T-shirts: $25-35 | Hoodies: $45-60 | Vinyl: $20-40 | Hats: $25-30
 
+### Tour Managers
+
+| Name | Notable Clients | Notes |
+|------|----------------|-------|
+| **Jon Stiffler** | Metalcore touring circuit | Formerly of Attack Attack! Transitioned from musician to tour management |
+| **Dominic Anderson** | Metalcore scene | Active tour manager in the metalcore circuit |
+| **Matt Dierkes** | Bad Omens | Tour manager for one of metalcore's fastest-rising acts |
+
+### Tour Production Companies
+
+| Company | Specialization |
+|---------|---------------|
+| **PRG** | Major production company handling sound, lighting, staging for arena/theater-level metal tours |
+| **Metalworks Production Group** | Metal-focused tour production |
+| **Metal-Core Technologies** | Metalcore/heavy music tour production |
+| **Grindstone Studio** | Production services for metal tours |
+
 ---
 
 ## 7. Festival Circuit
@@ -386,6 +403,9 @@ How support slots are determined:
 - **Hellfest** -- Clisson, France. 280,000 attendees, 180 bands, 6 stages
 - **Slam Dunk Festival** -- UK. 2026: Knocked Loose, Malevolence, Bury Tomorrow
 - **Furnace Fest** -- Birmingham, AL. Collapsed financially 2024-2025. Production company takeover.
+- **Graspop Metal Meeting** -- Dessel, Belgium. Major European metal festival
+- **Bloodstock Open Air** -- Catton Park, UK. Independent metal festival, strong underground focus
+- **New England Metal and Hardcore Festival** -- USA. Long-running regional fest for metalcore/hardcore
 
 ### Festival Payment Structure
 
