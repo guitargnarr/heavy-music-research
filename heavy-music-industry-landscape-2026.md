@@ -497,8 +497,16 @@ Self-production examples: Bilmuri (Johnny Franck does everything), Bad Omens (No
 
 **Spiritbox's Dropbox Tour Archive:**
 - Spiritbox pioneered a fan engagement tactic: a shared Dropbox folder serving as a living, high-resolution photo/video archive from every tour stop
+- Key team: manager Jason Mageau, creative developer **Mike Baldo**, tour photographer **Alexander Bemis** (uploads to public Dropbox folder linked to band website gallery)
 - Fans contribute and access a "digital time capsule" -- fosters community and organic sharing beyond traditional social media limitations
+- Band also leverages SMS and newsletter marketing heavily alongside social channels
 - Low-cost, high-engagement strategy that any band could replicate
+
+**Knocked Loose's Crossover Playbook:**
+- Bryan Garris's vocal intelligibility makes lyrics accessible to non-metal listeners -- a key crossover factor
+- Memorable breakdown callouts are highly clippable for social media, fueling organic virality
+- Pure Noise Records placed their music in mainstream retail outlets (Target) -- unusual for hardcore
+- High-profile support slots (Slipknot tours) combined with organic TikTok growth drove mainstream recognition without sonic compromise
 
 **TikTok:**
 - Short-form riff clips and breakdown moments drive virality
@@ -653,12 +661,18 @@ Johnny Franck (ex-Attack Attack!) operates without a traditional label or manage
 | **Lambgoat** | Staff | Various | Founded 1999. The OG hardcore/metal aggregator |
 | **Loudwire** | Staff | Various | Townsquare Media. High-traffic rock/metal news |
 | **Blabbermouth** | Staff | Various | Legacy metal news site. High SEO authority |
+| **Alternative Press** | Staff | Various | Founded 1985. Key publication for alt/punk/post-hardcore/metalcore. Known for breaking new bands, youth culture focus |
 
 ### PR Firms
 
 Album launches and press cycles in heavy music are typically handled by specialized PR firms:
 - **Atom Splitter PR** -- Dominant in metal/hardcore press campaigns. Handles review placements, interview coordination, premiere exclusives
 - **Hold Tight PR** -- Heavy music specialist. Press outreach for album cycles, tour announcements, festival coverage
+- **The Metallist PR** -- Metal-focused press and promotion
+- **Purple Sage PR** -- Heavy music PR campaigns
+- **Cutting Edge Metal** -- Metal-specific media relations
+- **Prescription PR** -- UK-based music PR with metal/rock clients
+- **Noise Cartel** -- Heavy music PR and media outreach
 
 ### Podcasts
 
