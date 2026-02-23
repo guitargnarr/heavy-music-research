@@ -143,7 +143,7 @@ INDEPENDENT (No Major Parent)
 | Name | Title | Label | Notable |
 |------|-------|-------|---------|
 | **Sean Heydorn** | SVP, Rise Records | BMG | Billboard 2025 Indie Power Player. Oversees Spiritbox, Kublai Khan TX |
-| **Ash Avildsen** | Founder/CEO | Sumerian | Controls Bad Omens, Born of Osiris, Animals As Leaders. Expanding into film |
+| **Ash Avildsen** | Founder/CEO | Sumerian | Controls Bad Omens, Born of Osiris, Animals As Leaders. Expanding into filmmaking + revived Hit Parader magazine |
 | **Jake Round** | Founder/Owner | Pure Noise | Former music journalist. Built the most important hardcore label. Knocked Loose's home |
 | **Jackie Andersen** | Head of Label | SharpTone | Promoted after Shawn Keith departure. March 2025 |
 | **Sal Torres** | Head of A&R | SharpTone | Appointed March 2025. Metalcore/alt-metal crossover focus |
@@ -151,7 +151,7 @@ INDEPENDENT (No Major Parent)
 | **Robert Kampf** | Founder/CEO | Century Media | Under Sony since 2015. Lorna Shore's label. Retained creative independence |
 | **Jaddan Comerford** | CEO | UNIFIED/UNFD | Australian independent. ERRA, Northlane, Thornhill. Full-service ecosystem |
 | **Gerardo Martinez** | GM, Americas | Nuclear Blast | Signed Slayer. International metal powerhouse |
-| **Monte Conner** | A&R | Nuclear Blast | Legendary A&R career spanning decades. Previously at Roadrunner (signed Slipknot, Trivium). Renewed focus on artist development |
+| **Monte Conner** | Head of A&R | Nuclear Blast | 25-year SVP A&R at Roadrunner (signed Slipknot, Sepultura, Type O Negative, Machine Head, Fear Factory). Left 2012. Now shaping Nuclear Blast roster |
 | **Francesca Caldara** | Senior A&R Manager | UNFD | Shaping UNFD's future roster. Focus on digital discovery and international artist development |
 | **Justin Louden** | Founder | Closed Casket Activities | Underground incubator. Bands graduate from CCA to bigger labels |
 | **Mike Easterlin** | President | Roadrunner + FBR | Controls both Roadrunner (metal) and Fueled By Ramen (pop crossover) within Warner |
@@ -249,6 +249,10 @@ INDEPENDENT (No Major Parent)
 **Raw Power Management** -- Craig Jennings & Matt Ash (UK)
 - **Roster:** Bring Me the Horizon, Bullet for My Valentine, Of Mice and Men, Miss May I, Atreyu
 
+**Intromental Management** (European)
+- **Roster:** After Lapse, Confidential, Illdisposed, Oddland, Vanir
+- Long-standing European metal management with diverse roster
+
 **Outerloop Group / 10th Street Entertainment** -- Mike Mowery (CEO)
 - **Roster:** Periphery, Ice Nine Kills, Veil of Maya, Dying Fetus, Silverstein
 - Publicly educational. MetalSucks columns, Udemy courses, podcast appearances
@@ -283,7 +287,7 @@ INDEPENDENT (No Major Parent)
 **Creative Artists Agency (CAA)** -- Global powerhouse
 - **Metal/rock roster:** AC/DC, Aerosmith, A Day To Remember, Alice In Chains, Avenged Sevenfold, Deftones, Iron Maiden, Korn, Rammstein, Rob Zombie, Slipknot, System of a Down
 
-**Specialized agencies:** Avocado Booking (EU, Born of Osiris), Heavy Talent (NA), District 19 (EU extreme metal), Distilled Entertainment (NA rock/metal)
+**Specialized agencies:** Avocado Booking (EU, Born of Osiris), Heavy Talent (NA), District 19 (**Roman Alexander Hödl**, EU extreme metal -- Asphyx, Candlemass, Destruction, Enslaved, Obituary), Distilled Entertainment (NA rock/metal)
 
 *Note: Agency affiliations shift frequently. Some sources list Red Light/Culture Wave handling Spiritbox booking alongside management. Nick Storch appears at multiple agencies (IAG, UTA). Verify current representation before outreach.*
 
@@ -722,7 +726,7 @@ Johnny Franck (ex-Attack Attack!) operates without a traditional label or manage
 
 | Publication | Key Person | Role | Why They Matter |
 |-------------|-----------|------|-----------------|
-| **Metal Injection** | Robert Pasbani | Co-founder/Editor | Also co-owns Blast Beat Network (ads for MetalSucks, Lambgoat, The PRP, Gear Gods, Metal Insider) |
+| **Metal Injection** | Robert Pasbani (Co-founder), **Greg Kennelty** (Editor/Writer) | Co-founder/Editor | Also co-owns Blast Beat Network (ads for MetalSucks, Lambgoat, The PRP, Gear Gods, Metal Insider). Kennelty is one of the most prolific online metal journalists |
 | **MetalSucks** | Ben Umanov, Matthew Goldenberg | Co-founders | Acquired by The Orchard (Sony) in 2022. Massive reach |
 | **Revolver** | Brandon Geist | Editorial Director / CCO | Most prominent U.S. metal print/digital magazine |
 | **Metal Hammer** | Eleanor Goodman | Editor | UK. One of world's largest metal publications |
@@ -761,6 +765,7 @@ Album launches and press cycles in heavy music are typically handled by speciali
 | **Jared Dines** | ~3M | Viral videos, Oni (band), Dines x Heafy collab | Massive reach, crossover appeal |
 | **Ryan "Fluff" Bruce** | 400K+ | Gear demos, mixing tutorials, studio vlogs | Bridges content creation and production. Music Man signature, Fishman signature pickups |
 | **SteveTerreberry** | 3M+ | Comedy guitar content, metal parodies | Massive reach, comedic crossover appeal to non-metal audiences |
+| **Matt Bevan** | 400K+ (TikTok) | New music recommendations, metalcore scene coverage | Major TikTok influencer for metalcore discovery |
 
 ### SiriusXM
 
@@ -968,6 +973,14 @@ A public-facing web application that demonstrates multi-hyphenate value while pr
 - Don't mass-email. Personalized outreach only.
 - Don't oversell AI. The music industry is skeptical of AI (Ash Avildsen is publicly anti-AI music). Frame AI as a research and operational tool, not a creative replacement.
 - Don't pretend expertise you don't have in music production or touring. Be honest about what you bring (tech, research, marketing, web dev) and what you're learning (the music business).
+
+### Key Networking Events
+
+| Event | Location | Why It Matters |
+|-------|----------|---------------|
+| **NAMM Show** | Anaheim, CA (Jan annually) | Largest music products trade show. Gear companies, manufacturers, distributors. Face time with AR reps from ESP, Jackson, Neural DSP, etc. |
+| **SXSW** | Austin, TX (Mar annually) | Massive music/tech conference. Metal/rock component. Industry panels, showcases, networking with labels and management |
+| **Metal-specific festivals** | Various | Download, Hellfest, Wacken, Louder Than Life all have industry networking opportunities alongside the music |
 
 ---
 
