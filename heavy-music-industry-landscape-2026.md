@@ -388,24 +388,30 @@ How support slots are determined:
 
 **Danny Wimmer Presents (DWP)** -- Largest independent U.S. rock/metal festival producer, 14 festivals
 
-| Festival | Location | Notes |
-|----------|----------|-------|
-| Welcome to Rockville | Daytona, FL | Largest rock fest in North America |
-| Sonic Temple | Columbus, OH | 4 days, 100+ bands |
-| Aftershock | Sacramento, CA | West Coast's largest, 4 days |
-| Louder Than Life | Louisville, KY | DWP flagship -- **in your backyard** |
-| Inkcarceration | Mansfield, OH | Ohio State Reformatory |
-| Rocklahoma | Pryor, OK | Recently acquired by DWP |
+| Festival | Location | Attendance | Notes |
+|----------|----------|-----------|-------|
+| Welcome to Rockville | Daytona, FL | 230,000 (2025) | Largest rock fest in North America |
+| Sonic Temple | Columbus, OH | 175,000 (2025) | 4 days, 100+ bands. 5-year deal with Crew Stadium |
+| Aftershock | Sacramento, CA | 164,000 (2025) | West Coast's largest, 4 days |
+| Louder Than Life | Louisville, KY | 180,000+ (2023) | DWP flagship -- **in your backyard** |
+| Inkcarceration | Mansfield, OH | -- | Ohio State Reformatory |
+| Rocklahoma | Pryor, OK | -- | Recently acquired by DWP |
 
 **Other key festivals:**
-- **Sick New World** -- Las Vegas. 2024: SOAD, Slipknot, Sleep Token, Spiritbox, Knocked Loose
-- **Download Festival** -- Donington Park, UK. Premier UK metal fest. 2025: Sleep Token, Spiritbox, Korn
-- **Hellfest** -- Clisson, France. 280,000 attendees, 180 bands, 6 stages
-- **Slam Dunk Festival** -- UK. 2026: Knocked Loose, Malevolence, Bury Tomorrow
-- **Furnace Fest** -- Birmingham, AL. Collapsed financially 2024-2025. Production company takeover.
-- **Graspop Metal Meeting** -- Dessel, Belgium. Major European metal festival
-- **Bloodstock Open Air** -- Catton Park, UK. Independent metal festival, strong underground focus
-- **New England Metal and Hardcore Festival** -- USA. Long-running regional fest for metalcore/hardcore
+
+| Festival | Location | Attendance | Key People | Notes |
+|----------|----------|-----------|-----------|-------|
+| **Sick New World** | Las Vegas + Fort Worth | -- | Live Nation | 2024: SOAD, Slipknot, Sleep Token, Spiritbox, Knocked Loose |
+| **Download Festival** | Donington Park, UK | 75,000-110,000 | **Andy Copping** (booker), **Kamran Haq** | Premier UK metal fest. Live Nation. 2025: Sleep Token, Spiritbox, Korn |
+| **Hellfest** | Clisson, France | 60,000-70,000 daily | **Ben Barbaud** (founder) | Independent. 180 bands, 6 stages |
+| **Wacken Open Air** | Wacken, Germany | 85,000+ | **Thomas Jensen**, **Holger Hübner** (founders) | ICS / Superstruct Entertainment |
+| **Slam Dunk Festival** | Hatfield & Leeds, UK | 30K (S) / 40K (N) | **Ben Ray** (Futuresound Group) | 2026: Knocked Loose, Malevolence, Bury Tomorrow |
+| **Bloodstock Open Air** | Derbyshire, UK | 20,000-25,000 | **Adam, Racheal, Vicky Gregory** (family owners), **Stuart Galbraith** (Kilimanjaro Live) | Independent, strong underground focus |
+| **Furnace Fest** | Birmingham, AL | -- | **Johnny Grimes** (founder, stepped away) | Collapsed financially 2024-2025. Sold 2026, rumored Peachtree Entertainment |
+| **So What?! Music Festival** | Dallas, TX | -- | **Mike Ziemer**, **Orlando Mendoza** (Third String Entertainment + Disco Donnie Presents) | Metalcore/post-hardcore focus |
+| **Blue Ridge Rock Festival** | Alton, VA | -- | **Jonathan Slye** (Purpose Driven Events) | Controversial logistics history but large draw |
+| **Graspop Metal Meeting** | Dessel, Belgium | -- | -- | Major European metal festival |
+| **New England Metal & Hardcore Fest** | USA | -- | -- | Long-running regional fest |
 
 ### Festival Payment Structure
 
