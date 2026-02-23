@@ -1,0 +1,616 @@
+[
+  {
+    "name": "Knocked Loose",
+    "current_label": "Pure Noise Records",
+    "distribution": "Orchard (Sony) / ADA (Warner)",
+    "current_manager": "James Vitalo",
+    "current_management_co": "5B Artists + Media",
+    "booking_agency": "Wasserman",
+    "genres": [
+      "metalcore",
+      "hardcore"
+    ],
+    "spotify_id": "placeholder_000"
+  },
+  {
+    "name": "Spiritbox",
+    "current_label": "Pale Chord / Rise Records",
+    "distribution": "BMG",
+    "current_manager": "Jason Mageau",
+    "current_management_co": "Culture Wave",
+    "booking_agency": "IAG",
+    "genres": [
+      "progressive metalcore",
+      "alt-metal"
+    ],
+    "spotify_id": "placeholder_001"
+  },
+  {
+    "name": "Sleep Token",
+    "current_label": "RCA Records",
+    "distribution": "Sony Music",
+    "current_manager": "Ryan Richards",
+    "current_management_co": "Future History Management",
+    "booking_agency": "UTA",
+    "genres": [
+      "post-metalcore",
+      "alt-metal"
+    ],
+    "spotify_id": "placeholder_002"
+  },
+  {
+    "name": "Periphery",
+    "current_label": "3DOT Recordings",
+    "distribution": "MNRK / eOne",
+    "current_manager": "Wayne Pighini",
+    "current_management_co": "Fly South Music Group",
+    "booking_agency": "UTA",
+    "genres": [
+      "progressive metalcore",
+      "djent"
+    ],
+    "spotify_id": "placeholder_003"
+  },
+  {
+    "name": "Lamb of God",
+    "current_label": "Epic Records / Nuclear Blast",
+    "distribution": "Sony + Believe",
+    "current_manager": "Brad Fuhrman",
+    "current_management_co": "5B Artists + Media",
+    "booking_agency": "Wasserman",
+    "genres": [
+      "groove metal"
+    ],
+    "spotify_id": "placeholder_004"
+  },
+  {
+    "name": "Erra",
+    "current_label": "UNFD",
+    "distribution": "FUGA / Downtown Music",
+    "current_manager": "Cory Hajde",
+    "current_management_co": "Alternate Side / BravoArtist",
+    "booking_agency": null,
+    "genres": [
+      "progressive metalcore"
+    ],
+    "spotify_id": "placeholder_005"
+  },
+  {
+    "name": "Whitechapel",
+    "current_label": "Metal Blade Records",
+    "distribution": "RED (Sony) / Warner",
+    "current_manager": "Steve Davis, Vaughn Lewis",
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "deathcore"
+    ],
+    "spotify_id": "placeholder_006"
+  },
+  {
+    "name": "Kublai Khan TX",
+    "current_label": "Rise Records",
+    "distribution": "BMG",
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "metalcore",
+      "hardcore"
+    ],
+    "spotify_id": "placeholder_007"
+  },
+  {
+    "name": "Born of Osiris",
+    "current_label": "Sumerian Records",
+    "distribution": "Virgin Music (UMG)",
+    "current_manager": "E.J. Shannon",
+    "current_management_co": null,
+    "booking_agency": "Avocado Booking",
+    "genres": [
+      "progressive metalcore",
+      "djent"
+    ],
+    "spotify_id": "placeholder_008"
+  },
+  {
+    "name": "Bilmuri",
+    "current_label": "Columbia Records",
+    "distribution": "Sony Music",
+    "current_manager": "Jameson Roper",
+    "current_management_co": null,
+    "booking_agency": "Wasserman",
+    "genres": [
+      "metalcore",
+      "alt-metal"
+    ],
+    "spotify_id": "placeholder_009"
+  },
+  {
+    "name": "Thrown",
+    "current_label": "Arising Empire",
+    "distribution": "Kontor New Media",
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "nu-metalcore"
+    ],
+    "spotify_id": "placeholder_010"
+  },
+  {
+    "name": "Lorna Shore",
+    "current_label": "Century Media",
+    "distribution": "Sony Music",
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "deathcore"
+    ],
+    "spotify_id": "placeholder_011"
+  },
+  {
+    "name": "Bad Omens",
+    "current_label": "Sumerian Records",
+    "distribution": "Virgin Music (UMG)",
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "post-metalcore",
+      "alt-metal"
+    ],
+    "spotify_id": "placeholder_012"
+  },
+  {
+    "name": "Turnstile",
+    "current_label": "Roadrunner Records",
+    "distribution": "Warner Music Group",
+    "current_manager": "James Vitalo",
+    "current_management_co": "5B Artists + Media",
+    "booking_agency": null,
+    "genres": [
+      "hardcore"
+    ],
+    "spotify_id": "placeholder_013"
+  },
+  {
+    "name": "Architects",
+    "current_label": "Epitaph Records",
+    "distribution": "Epitaph (self-distributed)",
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "metalcore"
+    ],
+    "spotify_id": "placeholder_014"
+  },
+  {
+    "name": "Wage War",
+    "current_label": null,
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": "Fly South Music Group",
+    "booking_agency": "UTA",
+    "genres": [
+      "metalcore"
+    ],
+    "spotify_id": "placeholder_015"
+  },
+  {
+    "name": "Veil of Maya",
+    "current_label": null,
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": "Outerloop Group",
+    "booking_agency": null,
+    "genres": [
+      "progressive metalcore",
+      "djent"
+    ],
+    "spotify_id": "placeholder_016"
+  },
+  {
+    "name": "Animals As Leaders",
+    "current_label": "Sumerian Records",
+    "distribution": "Virgin Music (UMG)",
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "progressive metal",
+      "djent"
+    ],
+    "spotify_id": "placeholder_017"
+  },
+  {
+    "name": "Dayseeker",
+    "current_label": "Spinefarm Records",
+    "distribution": "Universal Music Group",
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "post-metalcore",
+      "alt-metal"
+    ],
+    "spotify_id": "placeholder_018"
+  },
+  {
+    "name": "Slaughter to Prevail",
+    "current_label": null,
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "deathcore"
+    ],
+    "spotify_id": "placeholder_019"
+  },
+  {
+    "name": "Drain",
+    "current_label": null,
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": "Wasserman",
+    "genres": [
+      "hardcore"
+    ],
+    "spotify_id": "placeholder_020"
+  },
+  {
+    "name": "Fit for an Autopsy",
+    "current_label": "MNRK Music Group",
+    "distribution": "MNRK",
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "deathcore"
+    ],
+    "spotify_id": "placeholder_021"
+  },
+  {
+    "name": "Counterparts",
+    "current_label": null,
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": "Wasserman",
+    "genres": [
+      "metalcore",
+      "hardcore"
+    ],
+    "spotify_id": "placeholder_022"
+  },
+  {
+    "name": "Ice Nine Kills",
+    "current_label": "Fearless Records",
+    "distribution": "Concord",
+    "current_manager": null,
+    "current_management_co": "Outerloop Group",
+    "booking_agency": null,
+    "genres": [
+      "metalcore"
+    ],
+    "spotify_id": "placeholder_023"
+  },
+  {
+    "name": "Motionless In White",
+    "current_label": "Roadrunner Records",
+    "distribution": "Warner Music Group",
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "metalcore",
+      "gothic metal"
+    ],
+    "spotify_id": "placeholder_024"
+  },
+  {
+    "name": "Gojira",
+    "current_label": "Roadrunner Records",
+    "distribution": "Warner Music Group",
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "groove metal",
+      "progressive metal"
+    ],
+    "spotify_id": "placeholder_025"
+  },
+  {
+    "name": "Trivium",
+    "current_label": "Roadrunner Records",
+    "distribution": "Warner Music Group",
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "metalcore",
+      "thrash metal"
+    ],
+    "spotify_id": "placeholder_026"
+  },
+  {
+    "name": "August Burns Red",
+    "current_label": null,
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "metalcore"
+    ],
+    "spotify_id": "placeholder_027"
+  },
+  {
+    "name": "Loathe",
+    "current_label": null,
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": "Culture Wave",
+    "booking_agency": null,
+    "genres": [
+      "nu-metalcore",
+      "alt-metal"
+    ],
+    "spotify_id": "placeholder_028"
+  },
+  {
+    "name": "Alpha Wolf",
+    "current_label": null,
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "nu-metalcore"
+    ],
+    "spotify_id": "placeholder_029"
+  },
+  {
+    "name": "Invent Animate",
+    "current_label": null,
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "progressive metalcore"
+    ],
+    "spotify_id": "placeholder_030"
+  },
+  {
+    "name": "Polaris",
+    "current_label": null,
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": "Culture Wave",
+    "booking_agency": null,
+    "genres": [
+      "metalcore"
+    ],
+    "spotify_id": "placeholder_031"
+  },
+  {
+    "name": "Silent Planet",
+    "current_label": null,
+    "distribution": null,
+    "current_manager": "Cory Hajde",
+    "current_management_co": "Alternate Side",
+    "booking_agency": null,
+    "genres": [
+      "metalcore"
+    ],
+    "spotify_id": "placeholder_032"
+  },
+  {
+    "name": "Fit For A King",
+    "current_label": null,
+    "distribution": null,
+    "current_manager": "Cory Hajde",
+    "current_management_co": "Alternate Side",
+    "booking_agency": null,
+    "genres": [
+      "metalcore"
+    ],
+    "spotify_id": "placeholder_033"
+  },
+  {
+    "name": "Dance Gavin Dance",
+    "current_label": "Rise Records",
+    "distribution": "BMG",
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "post-hardcore",
+      "progressive"
+    ],
+    "spotify_id": "placeholder_034"
+  },
+  {
+    "name": "We Came As Romans",
+    "current_label": null,
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": "Culture Wave",
+    "booking_agency": "Wasserman",
+    "genres": [
+      "metalcore"
+    ],
+    "spotify_id": "placeholder_035"
+  },
+  {
+    "name": "After The Burial",
+    "current_label": null,
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": "Culture Wave",
+    "booking_agency": null,
+    "genres": [
+      "progressive metalcore",
+      "djent"
+    ],
+    "spotify_id": "placeholder_036"
+  },
+  {
+    "name": "Brand Of Sacrifice",
+    "current_label": null,
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": "Culture Wave",
+    "booking_agency": null,
+    "genres": [
+      "deathcore"
+    ],
+    "spotify_id": "placeholder_037"
+  },
+  {
+    "name": "Currents",
+    "current_label": null,
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "metalcore"
+    ],
+    "spotify_id": "placeholder_038"
+  },
+  {
+    "name": "Like Moths To Flames",
+    "current_label": null,
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "metalcore"
+    ],
+    "spotify_id": "placeholder_039"
+  },
+  {
+    "name": "Rivers of Nihil",
+    "current_label": null,
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "progressive metal",
+      "death metal"
+    ],
+    "spotify_id": "placeholder_040"
+  },
+  {
+    "name": "Between the Buried and Me",
+    "current_label": null,
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "progressive metal"
+    ],
+    "spotify_id": "placeholder_041"
+  },
+  {
+    "name": "A Day To Remember",
+    "current_label": null,
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": "Fly South Music Group",
+    "booking_agency": "CAA",
+    "genres": [
+      "metalcore",
+      "pop-punk"
+    ],
+    "spotify_id": "placeholder_042"
+  },
+  {
+    "name": "Underoath",
+    "current_label": "Fearless Records",
+    "distribution": "Concord",
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "metalcore",
+      "post-hardcore"
+    ],
+    "spotify_id": "placeholder_043"
+  },
+  {
+    "name": "Northlane",
+    "current_label": "UNFD",
+    "distribution": "FUGA",
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "metalcore",
+      "djent"
+    ],
+    "spotify_id": "placeholder_044"
+  },
+  {
+    "name": "Bring Me the Horizon",
+    "current_label": null,
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": "Raw Power Management",
+    "booking_agency": null,
+    "genres": [
+      "metalcore",
+      "alt-metal"
+    ],
+    "spotify_id": "placeholder_045"
+  },
+  {
+    "name": "The Ghost Inside",
+    "current_label": null,
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": "Fly South Music Group",
+    "booking_agency": null,
+    "genres": [
+      "metalcore",
+      "hardcore"
+    ],
+    "spotify_id": "placeholder_046"
+  },
+  {
+    "name": "Converge",
+    "current_label": null,
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "mathcore",
+      "hardcore"
+    ],
+    "spotify_id": "placeholder_047"
+  },
+  {
+    "name": "Code Orange",
+    "current_label": null,
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "hardcore",
+      "industrial"
+    ],
+    "spotify_id": "placeholder_048"
+  }
+]

@@ -1,0 +1,548 @@
+[
+  {
+    "source_type": "artist",
+    "source_id": "Knocked Loose",
+    "target_type": "producer",
+    "target_id": "Drew Fulk",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Lorna Shore",
+    "target_type": "producer",
+    "target_id": "Josh Schroeder",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Spiritbox",
+    "target_type": "producer",
+    "target_id": "Daniel Braunstein",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Erra",
+    "target_type": "producer",
+    "target_id": "Daniel Braunstein",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Sleep Token",
+    "target_type": "producer",
+    "target_id": "Carl Bown",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Sleep Token",
+    "target_type": "producer",
+    "target_id": "Adam Getgood",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Lamb of God",
+    "target_type": "producer",
+    "target_id": "Josh Wilbur",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Whitechapel",
+    "target_type": "producer",
+    "target_id": "Drew Fulk",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Thrown",
+    "target_type": "producer",
+    "target_id": "Buster Odeholm",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Kublai Khan TX",
+    "target_type": "producer",
+    "target_id": "Randy LeBoeuf",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Dayseeker",
+    "target_type": "producer",
+    "target_id": "Daniel Braunstein",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit For A King",
+    "target_type": "producer",
+    "target_id": "Daniel Braunstein",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Between the Buried and Me",
+    "target_type": "producer",
+    "target_id": "Jamie King",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "producer",
+    "target_id": "Andrew Wade",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "August Burns Red",
+    "target_type": "producer",
+    "target_id": "Carson Slovak & Grant McFarland",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Periphery",
+    "target_type": "producer",
+    "target_id": "Adam Getgood",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Periphery",
+    "target_type": "producer",
+    "target_id": "Misha Mansoor",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bad Omens",
+    "target_type": "producer",
+    "target_id": "Zakk Cervini",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Knocked Loose",
+    "target_type": "label",
+    "target_id": "Pure Noise Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Spiritbox",
+    "target_type": "label",
+    "target_id": "Pale Chord",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Spiritbox",
+    "target_type": "label",
+    "target_id": "Rise Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Sleep Token",
+    "target_type": "label",
+    "target_id": "RCA Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Periphery",
+    "target_type": "label",
+    "target_id": "3DOT Recordings",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Lamb of God",
+    "target_type": "label",
+    "target_id": "Epic Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Lamb of God",
+    "target_type": "label",
+    "target_id": "Nuclear Blast",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Erra",
+    "target_type": "label",
+    "target_id": "UNFD",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Whitechapel",
+    "target_type": "label",
+    "target_id": "Metal Blade Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Kublai Khan TX",
+    "target_type": "label",
+    "target_id": "Rise Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Born of Osiris",
+    "target_type": "label",
+    "target_id": "Sumerian Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bilmuri",
+    "target_type": "label",
+    "target_id": "Columbia Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Thrown",
+    "target_type": "label",
+    "target_id": "Arising Empire",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Lorna Shore",
+    "target_type": "label",
+    "target_id": "Century Media",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bad Omens",
+    "target_type": "label",
+    "target_id": "Sumerian Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Turnstile",
+    "target_type": "label",
+    "target_id": "Roadrunner Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Architects",
+    "target_type": "label",
+    "target_id": "Epitaph Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Animals As Leaders",
+    "target_type": "label",
+    "target_id": "Sumerian Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Dayseeker",
+    "target_type": "label",
+    "target_id": "Spinefarm Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit for an Autopsy",
+    "target_type": "label",
+    "target_id": "MNRK Music Group",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Ice Nine Kills",
+    "target_type": "label",
+    "target_id": "Fearless Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Motionless In White",
+    "target_type": "label",
+    "target_id": "Roadrunner Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Gojira",
+    "target_type": "label",
+    "target_id": "Roadrunner Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Trivium",
+    "target_type": "label",
+    "target_id": "Roadrunner Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Dance Gavin Dance",
+    "target_type": "label",
+    "target_id": "Rise Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Underoath",
+    "target_type": "label",
+    "target_id": "Fearless Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Northlane",
+    "target_type": "label",
+    "target_id": "UNFD",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Knocked Loose",
+    "target_type": "management",
+    "target_id": "5B Artists + Media",
+    "relationship_type": "managed_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Spiritbox",
+    "target_type": "management",
+    "target_id": "Culture Wave",
+    "relationship_type": "managed_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Sleep Token",
+    "target_type": "management",
+    "target_id": "Future History Management",
+    "relationship_type": "managed_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Periphery",
+    "target_type": "management",
+    "target_id": "Fly South Music Group",
+    "relationship_type": "managed_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Lamb of God",
+    "target_type": "management",
+    "target_id": "5B Artists + Media",
+    "relationship_type": "managed_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Erra",
+    "target_type": "management",
+    "target_id": "Alternate Side",
+    "relationship_type": "managed_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Erra",
+    "target_type": "management",
+    "target_id": "BravoArtist",
+    "relationship_type": "managed_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Turnstile",
+    "target_type": "management",
+    "target_id": "5B Artists + Media",
+    "relationship_type": "managed_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Wage War",
+    "target_type": "management",
+    "target_id": "Fly South Music Group",
+    "relationship_type": "managed_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Veil of Maya",
+    "target_type": "management",
+    "target_id": "Outerloop Group",
+    "relationship_type": "managed_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Ice Nine Kills",
+    "target_type": "management",
+    "target_id": "Outerloop Group",
+    "relationship_type": "managed_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Loathe",
+    "target_type": "management",
+    "target_id": "Culture Wave",
+    "relationship_type": "managed_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Polaris",
+    "target_type": "management",
+    "target_id": "Culture Wave",
+    "relationship_type": "managed_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Silent Planet",
+    "target_type": "management",
+    "target_id": "Alternate Side",
+    "relationship_type": "managed_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit For A King",
+    "target_type": "management",
+    "target_id": "Alternate Side",
+    "relationship_type": "managed_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "We Came As Romans",
+    "target_type": "management",
+    "target_id": "Culture Wave",
+    "relationship_type": "managed_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "After The Burial",
+    "target_type": "management",
+    "target_id": "Culture Wave",
+    "relationship_type": "managed_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Brand Of Sacrifice",
+    "target_type": "management",
+    "target_id": "Culture Wave",
+    "relationship_type": "managed_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "management",
+    "target_id": "Fly South Music Group",
+    "relationship_type": "managed_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bring Me the Horizon",
+    "target_type": "management",
+    "target_id": "Raw Power Management",
+    "relationship_type": "managed_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "The Ghost Inside",
+    "target_type": "management",
+    "target_id": "Fly South Music Group",
+    "relationship_type": "managed_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Knocked Loose",
+    "target_type": "agency",
+    "target_id": "Wasserman",
+    "relationship_type": "booked_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Spiritbox",
+    "target_type": "agency",
+    "target_id": "IAG",
+    "relationship_type": "booked_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Sleep Token",
+    "target_type": "agency",
+    "target_id": "UTA",
+    "relationship_type": "booked_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Periphery",
+    "target_type": "agency",
+    "target_id": "UTA",
+    "relationship_type": "booked_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Lamb of God",
+    "target_type": "agency",
+    "target_id": "Wasserman",
+    "relationship_type": "booked_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Born of Osiris",
+    "target_type": "agency",
+    "target_id": "Avocado Booking",
+    "relationship_type": "booked_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bilmuri",
+    "target_type": "agency",
+    "target_id": "Wasserman",
+    "relationship_type": "booked_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Wage War",
+    "target_type": "agency",
+    "target_id": "UTA",
+    "relationship_type": "booked_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Drain",
+    "target_type": "agency",
+    "target_id": "Wasserman",
+    "relationship_type": "booked_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Counterparts",
+    "target_type": "agency",
+    "target_id": "Wasserman",
+    "relationship_type": "booked_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "We Came As Romans",
+    "target_type": "agency",
+    "target_id": "Wasserman",
+    "relationship_type": "booked_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "agency",
+    "target_id": "CAA",
+    "relationship_type": "booked_by"
+  }
+]

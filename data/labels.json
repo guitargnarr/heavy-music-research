@@ -1,0 +1,156 @@
+[
+  {
+    "name": "Century Media",
+    "parent_company": "Sony Music",
+    "distribution": "Sony",
+    "key_contact": "Robert Kampf",
+    "contact_title": "Founder/CEO"
+  },
+  {
+    "name": "RCA Records",
+    "parent_company": "Sony Music",
+    "distribution": "Sony",
+    "key_contact": null,
+    "contact_title": null
+  },
+  {
+    "name": "Epic Records",
+    "parent_company": "Sony Music",
+    "distribution": "Sony",
+    "key_contact": null,
+    "contact_title": null
+  },
+  {
+    "name": "Columbia Records",
+    "parent_company": "Sony Music",
+    "distribution": "Sony",
+    "key_contact": null,
+    "contact_title": null
+  },
+  {
+    "name": "Roadrunner Records",
+    "parent_company": "Warner Music Group",
+    "distribution": "Warner",
+    "key_contact": "Mike Easterlin",
+    "contact_title": "President"
+  },
+  {
+    "name": "Spinefarm Records",
+    "parent_company": "Universal Music Group",
+    "distribution": "UMG",
+    "key_contact": null,
+    "contact_title": null
+  },
+  {
+    "name": "Rise Records",
+    "parent_company": "BMG",
+    "distribution": "BMG",
+    "key_contact": "Sean Heydorn",
+    "contact_title": "SVP"
+  },
+  {
+    "name": "Nuclear Blast",
+    "parent_company": "Believe Digital",
+    "distribution": "Believe",
+    "key_contact": "Monte Conner",
+    "contact_title": "Head of A&R"
+  },
+  {
+    "name": "SharpTone Records",
+    "parent_company": "Believe Digital (via Nuclear Blast)",
+    "distribution": "Believe",
+    "key_contact": "Jackie Andersen",
+    "contact_title": "Head of Label"
+  },
+  {
+    "name": "MNRK Music Group",
+    "parent_company": "Blackstone",
+    "distribution": "MNRK",
+    "key_contact": "Scott Givens",
+    "contact_title": "SVP Rock & Metal"
+  },
+  {
+    "name": "Fearless Records",
+    "parent_company": "Concord Music Group",
+    "distribution": "Concord",
+    "key_contact": "Andy Serrao",
+    "contact_title": "President"
+  },
+  {
+    "name": "Sumerian Records",
+    "parent_company": "Independent",
+    "distribution": "Virgin Music (UMG)",
+    "key_contact": "Ash Avildsen",
+    "contact_title": "Founder/CEO"
+  },
+  {
+    "name": "Epitaph Records",
+    "parent_company": "Independent",
+    "distribution": "Self-distributed",
+    "key_contact": "Brett Gurewitz",
+    "contact_title": "Founder/CEO"
+  },
+  {
+    "name": "Pure Noise Records",
+    "parent_company": "Independent",
+    "distribution": "Orchard/ADA",
+    "key_contact": "Jake Round",
+    "contact_title": "Founder/Owner"
+  },
+  {
+    "name": "UNFD",
+    "parent_company": "UNIFIED Music Group",
+    "distribution": "FUGA",
+    "key_contact": "Jaddan Comerford",
+    "contact_title": "CEO"
+  },
+  {
+    "name": "Metal Blade Records",
+    "parent_company": "Independent",
+    "distribution": "RED (Sony) / Warner",
+    "key_contact": "Brian Slagel",
+    "contact_title": "Founder/CEO"
+  },
+  {
+    "name": "Closed Casket Activities",
+    "parent_company": "Independent",
+    "distribution": "Deathwish",
+    "key_contact": "Justin Louden",
+    "contact_title": "Founder"
+  },
+  {
+    "name": "Arising Empire",
+    "parent_company": "Independent",
+    "distribution": "Kontor New Media",
+    "key_contact": null,
+    "contact_title": null
+  },
+  {
+    "name": "Solid State",
+    "parent_company": "Independent",
+    "distribution": "RED (Sony)",
+    "key_contact": "Greg Johnson",
+    "contact_title": "EVP A&R"
+  },
+  {
+    "name": "3DOT Recordings",
+    "parent_company": "Periphery (self-owned)",
+    "distribution": "MNRK/eOne",
+    "key_contact": null,
+    "contact_title": null
+  },
+  {
+    "name": "Pale Chord",
+    "parent_company": "Spiritbox imprint",
+    "distribution": "BMG (via Rise)",
+    "key_contact": null,
+    "contact_title": null
+  },
+  {
+    "name": "Equal Vision",
+    "parent_company": "Independent",
+    "distribution": "RED (Sony)",
+    "key_contact": "Steve Reddy",
+    "contact_title": "Owner"
+  }
+]

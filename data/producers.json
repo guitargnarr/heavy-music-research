@@ -1,0 +1,247 @@
+[
+  {
+    "name": "Drew Fulk",
+    "studio_name": "Various LA studios",
+    "location": "Los Angeles, CA",
+    "credits": [
+      "Knocked Loose",
+      "Motionless in White",
+      "BABYMETAL",
+      "Papa Roach",
+      "Whitechapel"
+    ],
+    "tier": 1,
+    "sonic_signature": "Versatile. Dense, radio-ready heaviness. 20+ #1 Billboard Rock Songs"
+  },
+  {
+    "name": "Will Putney",
+    "studio_name": "Graphic Nature Audio",
+    "location": "Kinnelon, NJ",
+    "credits": [
+      "Body Count",
+      "Knocked Loose",
+      "Fit for an Autopsy",
+      "Counterparts",
+      "Gojira"
+    ],
+    "tier": 1,
+    "sonic_signature": "Raw, aggressive, punishing low end"
+  },
+  {
+    "name": "Daniel Braunstein",
+    "studio_name": "The Hallway Studios",
+    "location": "Los Angeles, CA",
+    "credits": [
+      "Spiritbox",
+      "Erra",
+      "Dayseeker",
+      "Invent Animate",
+      "Fit For A King"
+    ],
+    "tier": 1,
+    "sonic_signature": "Clean, expansive, progressive metalcore. The Spiritbox sound"
+  },
+  {
+    "name": "Josh Schroeder",
+    "studio_name": "Private studio",
+    "location": "Midland, MI",
+    "credits": [
+      "Lorna Shore",
+      "Signs of the Swarm",
+      "Tallah"
+    ],
+    "tier": 1,
+    "sonic_signature": "Hyper-produced deathcore. Orchestral, cinematic"
+  },
+  {
+    "name": "Carson Slovak & Grant McFarland",
+    "studio_name": "Atrium Audio",
+    "location": "Lancaster, PA",
+    "credits": [
+      "August Burns Red",
+      "Rivers of Nihil",
+      "Polaris",
+      "Like Moths To Flames"
+    ],
+    "tier": 1,
+    "sonic_signature": "Tight, punchy, technically precise. The ABR sound"
+  },
+  {
+    "name": "Josh Wilbur",
+    "studio_name": null,
+    "location": "California",
+    "credits": [
+      "Lamb of God",
+      "Korn",
+      "Trivium",
+      "Gojira",
+      "Megadeth"
+    ],
+    "tier": 1,
+    "sonic_signature": "Arena-ready groove metal. Big, polished, powerful"
+  },
+  {
+    "name": "Carl Bown",
+    "studio_name": "Treehouse Studio",
+    "location": "Derbyshire, UK",
+    "credits": [
+      "Sleep Token",
+      "Bullet for My Valentine"
+    ],
+    "tier": 1,
+    "sonic_signature": "Dynamic, atmospheric, genre-blending"
+  },
+  {
+    "name": "Adam Getgood",
+    "studio_name": null,
+    "location": "UK",
+    "credits": [
+      "Periphery",
+      "Sleep Token",
+      "Architects",
+      "Animals As Leaders"
+    ],
+    "tier": 1,
+    "sonic_signature": "Pristine prog-metal clarity. Co-founder GetGood Drums"
+  },
+  {
+    "name": "Randy LeBoeuf",
+    "studio_name": null,
+    "location": "Des Moines area",
+    "credits": [
+      "Kublai Khan TX",
+      "The Acacia Strain"
+    ],
+    "tier": 2,
+    "sonic_signature": "Raw, no-frills hardcore"
+  },
+  {
+    "name": "Andrew Wade",
+    "studio_name": null,
+    "location": null,
+    "credits": [
+      "A Day To Remember",
+      "Wage War"
+    ],
+    "tier": 2,
+    "sonic_signature": "Pop-punk meets metalcore polish. 3B+ cumulative streams"
+  },
+  {
+    "name": "Kurt Ballou",
+    "studio_name": "GodCity Studio",
+    "location": "Salem, MA",
+    "credits": [
+      "Converge",
+      "High on Fire",
+      "Nails",
+      "Code Orange"
+    ],
+    "tier": 2,
+    "sonic_signature": "Gold standard for hardcore punk production"
+  },
+  {
+    "name": "Jamie King",
+    "studio_name": "Basement Recording",
+    "location": "Winston-Salem, NC",
+    "credits": [
+      "Between the Buried and Me"
+    ],
+    "tier": 2,
+    "sonic_signature": "Longest-running producer-band relationship in metal"
+  },
+  {
+    "name": "Mark Lewis",
+    "studio_name": null,
+    "location": "Nashville",
+    "credits": [
+      "Whitechapel",
+      "Cannibal Corpse",
+      "Trivium"
+    ],
+    "tier": 2,
+    "sonic_signature": "Florida death metal production modernized"
+  },
+  {
+    "name": "Taylor Larson",
+    "studio_name": "Oceanic Recording",
+    "location": "Bethesda, MD",
+    "credits": [
+      "Periphery",
+      "Veil of Maya"
+    ],
+    "tier": 2,
+    "sonic_signature": null
+  },
+  {
+    "name": "Zakk Cervini",
+    "studio_name": null,
+    "location": "Los Angeles",
+    "credits": [
+      "Bad Omens",
+      "Poppy",
+      "Dayseeker"
+    ],
+    "tier": 2,
+    "sonic_signature": "Genre-blending pop/metal crossover specialist"
+  },
+  {
+    "name": "Buster Odeholm",
+    "studio_name": null,
+    "location": "Sweden",
+    "credits": [
+      "Thrown",
+      "Humanity's Last Breath",
+      "Vildhjarta"
+    ],
+    "tier": 2,
+    "sonic_signature": "Swedish. Musician-producer model in action"
+  },
+  {
+    "name": "Misha Mansoor",
+    "studio_name": null,
+    "location": null,
+    "credits": [
+      "Periphery",
+      "Animals As Leaders"
+    ],
+    "tier": 2,
+    "sonic_signature": "Godfather of djent. Co-founder GetGood Drums"
+  },
+  {
+    "name": "Matt Goldman",
+    "studio_name": null,
+    "location": null,
+    "credits": [
+      "Underoath",
+      "The Chariot",
+      "As Cities Burn"
+    ],
+    "tier": 2,
+    "sonic_signature": "Raw, organic sound. Defined early 2000s metalcore"
+  },
+  {
+    "name": "Adam Dutkiewicz",
+    "studio_name": null,
+    "location": null,
+    "credits": [
+      "As I Lay Dying",
+      "Underoath",
+      "All That Remains",
+      "Parkway Drive"
+    ],
+    "tier": 2,
+    "sonic_signature": "Killswitch Engage guitarist. Punchy, aggressive. Defined 2000s metalcore"
+  },
+  {
+    "name": "Taylor Young",
+    "studio_name": "The Pit Studio",
+    "location": "Van Nuys, CA",
+    "credits": [
+      "God's Hate",
+      "Nails",
+      "Xibalba"
+    ],
+    "tier": 2,
+    "sonic_signature": "Hardcore/powerviolence specialist"
+  }
+]

@@ -3,13 +3,19 @@ Metalcore Index API -- FastAPI application.
 Serves pre-computed artist scores, network graph data, and dashboard endpoints.
 """
 import os
+import sys
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from database import Base, engine
-from routers import health, artists, scores, network
+# Ensure project root is on path (for pipeline imports in seed endpoint)
+_project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if _project_root not in sys.path:
+    sys.path.insert(0, _project_root)
+
+from database import Base, engine  # noqa: E402
+from routers import health, artists, scores, network, seed  # noqa: E402
 
 
 @asynccontextmanager
@@ -40,6 +46,7 @@ app.include_router(health.router)
 app.include_router(artists.router)
 app.include_router(scores.router)
 app.include_router(network.router)
+app.include_router(seed.router)
 
 
 if __name__ == "__main__":

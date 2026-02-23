@@ -35,8 +35,7 @@ web/.vercel/
 .DS_Store
 Thumbs.db
 
-# Data files (generated)
-data/*.json
+# Data files (keep seed JSONs, ignore CSVs)
 data/*.csv
 
 # Render
