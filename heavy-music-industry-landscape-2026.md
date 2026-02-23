@@ -151,6 +151,8 @@ INDEPENDENT (No Major Parent)
 | **Robert Kampf** | Founder/CEO | Century Media | Under Sony since 2015. Lorna Shore's label. Retained creative independence |
 | **Jaddan Comerford** | CEO | UNIFIED/UNFD | Australian independent. ERRA, Northlane, Thornhill. Full-service ecosystem |
 | **Gerardo Martinez** | GM, Americas | Nuclear Blast | Signed Slayer. International metal powerhouse |
+| **Monte Conner** | A&R | Nuclear Blast | Legendary A&R career spanning decades. Previously at Roadrunner (signed Slipknot, Trivium). Renewed focus on artist development |
+| **Francesca Caldara** | A&R | UNFD | Shaping UNFD's future roster. Focus on digital discovery and international artist development |
 | **Justin Louden** | Founder | Closed Casket Activities | Underground incubator. Bands graduate from CCA to bigger labels |
 | **Mike Easterlin** | President | Roadrunner + FBR | Controls both Roadrunner (metal) and Fueled By Ramen (pop crossover) within Warner |
 | **Brett Gurewitz** | Founder/CEO | Epitaph | One of the last truly independent, self-distributing labels. Architects, Parkway Drive |
@@ -448,13 +450,31 @@ Self-production examples: Bilmuri (Johnny Franck does everything), Bad Omens (No
 
 ### Streaming Economics
 
-- Average Spotify per-stream rate: $0.003-$0.005
-- 1 million streams = ~$3,000-$5,000 gross
+**Per-Platform Payout Rates (2024)**
+
+| Platform | Average Payout Per Stream (USD) |
+|----------|-------------------------------|
+| Qobuz | $0.022 |
+| Napster | $0.019-$0.021 |
+| Tidal | $0.013 |
+| Apple Music | $0.0056-$0.0078 |
+| Spotify | $0.00437 |
+| Amazon Music | $0.00402 |
+| YouTube Music | $0.0007-$0.0012 |
+
+*Source: LALAL.AI, 2024. Figures represent total payout to rights holders. Artist share is significantly smaller after label, publisher, and distributor cuts.*
+
+- 1 million Spotify streams = ~$3,000-$5,000 gross
 - After label split (typically 50-80% to label on traditional deals), artist sees $600-$2,500 per million streams
 - **Playlist ecosystem matters more than raw numbers:** Editorial playlists (New Metal Tracks, Metalcore, All New Metal) are curated by Spotify staff. Algorithmic playlists (Discover Weekly, Release Radar) driven by listener behavior
 - **YouTube:** Ad revenue averages $1-3 per 1,000 views. Guitar playthroughs and reaction videos generate significant secondary content revenue
 
 ### Social Media Playbook (What Works in Metal)
+
+**Spiritbox's Dropbox Tour Archive:**
+- Spiritbox pioneered a fan engagement tactic: a shared Dropbox folder serving as a living, high-resolution photo/video archive from every tour stop
+- Fans contribute and access a "digital time capsule" -- fosters community and organic sharing beyond traditional social media limitations
+- Low-cost, high-engagement strategy that any band could replicate
 
 **TikTok:**
 - Short-form riff clips and breakdown moments drive virality
@@ -496,6 +516,25 @@ Self-production examples: Bilmuri (Johnny Franck does everything), Bad Omens (No
 | Publishing | 5-10% | Songwriting royalties. Increasingly important |
 | VIP/Meet & Greet | 5-10% | $60-200 per package. Can match or exceed nightly guarantee |
 | YouTube/Content | 1-5% | Higher for content-creator musicians (Bilmuri, Nik Nocturnal) |
+
+### Merchandise Companies & Deal Structures
+
+| Company | Model | Notes |
+|---------|-------|-------|
+| **Impericon** | High-volume D2C | German-based online department store for metal/hardcore merch. Massive catalog, direct-to-consumer |
+| **MerchNow** | Pre-orders & limited editions | Focuses on limited-edition vinyl and exclusive items. Collector's market, urgency-driven |
+| **Kings Road Merch** | Full-service | Builds/manages custom webstores, handles tour supply and retail distribution for diverse roster |
+| **Nightshift Merch** | Artist-friendly collab | Popular with modern metalcore bands. Known for high-quality designs and artist collaboration |
+
+Merch deals typically fall into two categories:
+- **Royalty-based:** Merch company handles everything (design, production, fulfillment), pays band 15-30% of revenue
+- **Direct-to-artist:** Band buys product upfront, keeps larger share of profit, but assumes financial risk and logistics
+
+### Specialized Music PR Firms
+
+Two firms dominate metal/hardcore PR campaigns:
+- **Atom Splitter PR** -- Specialized in heavy music press campaigns. Critical for album launch cycles
+- **Hold Tight PR** -- Heavy music PR. Handles press outreach, review coordination, interview placement
 
 ### The Bilmuri Model (Fully Independent)
 
@@ -590,6 +629,12 @@ Johnny Franck (ex-Attack Attack!) operates without a traditional label or manage
 | **Lambgoat** | Staff | Various | Founded 1999. The OG hardcore/metal aggregator |
 | **Loudwire** | Staff | Various | Townsquare Media. High-traffic rock/metal news |
 | **Blabbermouth** | Staff | Various | Legacy metal news site. High SEO authority |
+
+### PR Firms
+
+Album launches and press cycles in heavy music are typically handled by specialized PR firms:
+- **Atom Splitter PR** -- Dominant in metal/hardcore press campaigns. Handles review placements, interview coordination, premiere exclusives
+- **Hold Tight PR** -- Heavy music specialist. Press outreach for album cycles, tour announcements, festival coverage
 
 ### Podcasts
 
@@ -786,6 +831,24 @@ Danny Wimmer Presents' flagship festival is in Louisville. This is a direct geog
 - Demonstrate audience (even small). Content with their products
 - Be genuinely useful: review their gear, create demo content, participate in their community
 - Long game. Endorsement relationships take years
+
+### Project Concept: "The Metalcore Index" (AI-Powered Industry Dashboard)
+
+A public-facing web application that demonstrates multi-hyphenate value while providing genuine utility to the industry:
+
+**Core features:**
+- **Artist Momentum Tracker:** AI-analyzed Spotify API data (monthly listeners, playlist adds), social engagement growth rates, YouTube view velocity -- combined into a "momentum score" for emerging bands
+- **Producer & Label Network Visualizer:** Interactive graph (D3.js) mapping connections between bands, producers, and labels. Click a producer to see their full discography and band network
+- **Touring & Festival Database:** Filterable database of upcoming tours and festival lineups with venue data
+- **Industry News Aggregator:** AI-curated feed from Metal Injection, MetalSucks, Loudwire, Lambgoat, BrooklynVegan
+
+**Why this works as an outreach tool:**
+- You're giving, not asking. A&R reps, managers, and journalists would find this genuinely useful for discovery
+- Content derived from the Index creates natural outreach opportunities ("Your band [X] is showing momentum -- wrote a short piece highlighting their growth")
+- Showcases web dev, AI, data analysis, and scene knowledge simultaneously
+- Functions as a living portfolio piece and digital business card
+
+**Stack:** React/Vite + TailwindCSS + Python data pipeline + Spotify/YouTube APIs
 
 ### What NOT to Do
 
