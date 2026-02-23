@@ -1,4 +1,5 @@
 import { useEffect, useState, useRef, useCallback } from "react";
+import { useSearchParams } from "react-router-dom";
 import ForceGraph2D from "react-force-graph-2d";
 import { getNetworkGraph } from "../api/client";
 import type { NetworkGraph } from "../types";
@@ -12,10 +13,12 @@ const NODE_COLORS: Record<string, string> = {
 };
 
 export function NetworkPage() {
+  const [searchParams] = useSearchParams();
+  const initialCenter = searchParams.get("center") ?? "";
   const [graph, setGraph] = useState<NetworkGraph | null>(null);
   const [loading, setLoading] = useState(true);
-  const [center, setCenter] = useState("");
-  const [searchInput, setSearchInput] = useState("");
+  const [center, setCenter] = useState(initialCenter);
+  const [searchInput, setSearchInput] = useState(initialCenter);
   const containerRef = useRef<HTMLDivElement>(null);
   const [dimensions, setDimensions] = useState({ width: 800, height: 600 });
 
