@@ -24,9 +24,10 @@ if "sslmode=" in DATABASE_URL:
     DATABASE_URL = re.sub(r"[\?&]sslmode=[^&]*", "", DATABASE_URL)
     DATABASE_URL = DATABASE_URL.replace("?&", "?").rstrip("?")
 
-# SQLite for local development
+# SQLite for local development (absolute path so it works from any CWD)
 if not DATABASE_URL:
-    DATABASE_URL = "sqlite:///./metalcore_index.db"
+    _db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "metalcore_index.db")
+    DATABASE_URL = f"sqlite:///{_db_path}"
     engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
 else:
     ssl_context = ssl.create_default_context()

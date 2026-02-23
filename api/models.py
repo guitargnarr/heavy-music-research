@@ -98,7 +98,8 @@ class Relationship(Base):
     source_id = Column(String(200), nullable=False)
     target_type = Column(String(50), nullable=False)
     target_id = Column(String(200), nullable=False)
-    relationship_type = Column(String(100), nullable=False)  # signed_to, produced_by, managed_by, booked_by
+    # signed_to, produced_by, managed_by, booked_by
+    relationship_type = Column(String(100), nullable=False)
 
     __table_args__ = (
         UniqueConstraint(

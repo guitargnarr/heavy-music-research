@@ -485,15 +485,24 @@ def seed_producers():
             "name": "Drew Fulk",
             "studio_name": "Various LA studios",
             "location": "Los Angeles, CA",
-            "credits": ["Knocked Loose", "Motionless in White", "BABYMETAL", "Papa Roach", "Whitechapel"],
+            "credits": [
+                "Knocked Loose", "Motionless in White", "BABYMETAL",
+                "Papa Roach", "Whitechapel",
+            ],
             "tier": 1,
-            "sonic_signature": "Versatile. Dense, radio-ready heaviness. 20+ #1 Billboard Rock Songs",
+            "sonic_signature": (
+                "Versatile. Dense, radio-ready heaviness."
+                " 20+ #1 Billboard Rock Songs"
+            ),
         },
         {
             "name": "Will Putney",
             "studio_name": "Graphic Nature Audio",
             "location": "Kinnelon, NJ",
-            "credits": ["Body Count", "Knocked Loose", "Fit for an Autopsy", "Counterparts", "Gojira"],
+            "credits": [
+                "Body Count", "Knocked Loose",
+                "Fit for an Autopsy", "Counterparts", "Gojira",
+            ],
             "tier": 1,
             "sonic_signature": "Raw, aggressive, punishing low end",
         },
@@ -632,7 +641,10 @@ def seed_producers():
             "location": None,
             "credits": ["As I Lay Dying", "Underoath", "All That Remains", "Parkway Drive"],
             "tier": 2,
-            "sonic_signature": "Killswitch Engage guitarist. Punchy, aggressive. Defined 2000s metalcore",
+            "sonic_signature": (
+                "Killswitch Engage guitarist. Punchy, aggressive."
+                " Defined 2000s metalcore"
+            ),
         },
         {
             "name": "Taylor Young",
@@ -782,7 +794,10 @@ def seed_relationships(artists, producers):
     seen = set()
     unique = []
     for r in relationships:
-        key = (r["source_type"], r["source_id"], r["target_type"], r["target_id"], r["relationship_type"])
+        key = (
+            r["source_type"], r["source_id"], r["target_type"],
+            r["target_id"], r["relationship_type"],
+        )
         if key not in seen:
             seen.add(key)
             unique.append(r)
