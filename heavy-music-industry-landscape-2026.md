@@ -657,8 +657,8 @@ Johnny Franck (ex-Attack Attack!) operates without a traditional label or manage
 
 - **Age:** 18-34 primary. Gen Z (18-25) is the fastest-growing segment
 - **Gender:** Historically 65-70% male, but shifting. Sleep Token and Spiritbox audiences skew more gender-balanced (estimated 45-50% female for Sleep Token)
-- **Geography:** U.S. is largest market, followed by UK, Germany, Australia, Canada, Brazil, Japan
-- **Education:** Above-average educational attainment (multiple studies confirm metalheads have higher IQs and educational achievement than average)
+- **Geography:** U.S. is largest market, followed by UK, Germany, Australia, Canada, Brazil, Japan. Notably passionate city-level scenes: Athens (Greece), Sao Paulo (Brazil), Italy broadly
+- **Education:** Above-average educational attainment. Hellfest study: only 2.2% had less than high school, 3.4% held doctorates -- wide range but skews educated (Guibert & Guibert, 2016)
 - **Income:** Middle-class skew. Disposable income dedicated disproportionately to music (merch, concerts, vinyl)
 - **Urban/suburban:** Metal fans are primarily suburban and small-city, not strictly urban
 
@@ -733,6 +733,7 @@ Johnny Franck (ex-Attack Attack!) operates without a traditional label or manage
 | **Loudwire** | Staff | Various | Townsquare Media. High-traffic rock/metal news |
 | **Blabbermouth** | Staff | Various | Legacy metal news site. High SEO authority |
 | **Alternative Press** | Staff | Various | Founded 1985. Key publication for alt/punk/post-hardcore/metalcore. Known for breaking new bands, youth culture focus |
+| **Decibel Magazine** | Staff | Various | Respected print/digital publication. Deep underground coverage, trusted by serious metal fans |
 
 ### PR Firms
 
