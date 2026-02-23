@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-surface text-gray-100 antialiased;
+    margin: 0;
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  .grade-a {
+    @apply bg-green-600/20 text-green-400 border border-green-600/30;
+  }
+  .grade-b {
+    @apply bg-blue-600/20 text-blue-400 border border-blue-600/30;
+  }
+  .grade-c {
+    @apply bg-amber-600/20 text-amber-400 border border-amber-600/30;
+  }
+  .grade-d {
+    @apply bg-red-600/20 text-red-400 border border-red-600/30;
+  }
+}
