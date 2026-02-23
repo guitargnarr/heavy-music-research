@@ -399,10 +399,10 @@ How support slots are determined:
 | Producer | Studio | Location | Key Credits | Sonic Signature |
 |----------|--------|----------|-------------|-----------------|
 | **Drew Fulk (WZRD BLD)** | Various LA studios | Los Angeles, CA | Knocked Loose (2024 Grammy nom), Motionless in White, Twenty One Pilots, BABYMETAL, Papa Roach | Versatile. Dense, radio-ready heaviness. 20+ #1 Billboard Rock Songs |
-| **Will Putney** | Graphic Nature Audio | Kinnelon, NJ | Body Count (Grammy win), Knocked Loose (prev albums), Fit for an Autopsy, Counterparts, Gojira | Raw, aggressive, punishing low end. The "modern heavy" sound |
+| **Will Putney** | Graphic Nature Audio | Kinnelon, NJ | Body Count (Grammy win), Knocked Loose (prev albums), Fit for an Autopsy, Counterparts, Gojira | Raw, aggressive, punishing low end. SSL Origin console, Amphion Two18 monitors, UA Apollo, Burl converters. Relocated from Belleville 2021 |
 | **Daniel Braunstein** | The Hallway Studios | Los Angeles, CA | Spiritbox (all releases), Erra (Cure 2024), Dayseeker, Invent Animate, Fit For A King (upcoming) | Clean, expansive, progressive metalcore. The "Spiritbox sound" |
 | **Josh Schroeder** | Private studio | Midland, MI | Lorna Shore (all Will Ramos-era), Signs of the Swarm, Tallah | Hyper-produced deathcore. Orchestral, cinematic. Does everything (produce/engineer/mix/master) |
-| **Carson Slovak & Grant McFarland** | Atrium Audio | Lititz, PA | August Burns Red (Grammy nom), Rivers of Nihil, Polaris, Like Moths To Flames | Tight, punchy, technically precise. The ABR sound |
+| **Carson Slovak & Grant McFarland** | Atrium Audio | Lancaster, PA | August Burns Red (Grammy nom), Rivers of Nihil, Polaris, Like Moths To Flames | Tight, punchy, technically precise. The ABR sound |
 | **Josh Wilbur** | California | California | Lamb of God (every album since 2009), Korn, Trivium, Gojira, Megadeth | Arena-ready groove metal. Big, polished, powerful |
 | **Carl Bown** | Treehouse Studio | Derbyshire, UK | Sleep Token (Even in Arcadia -- #1 Billboard Hot 100 Producers chart), Bullet for My Valentine | Dynamic, atmospheric, genre-blending. R&B to djent within one track |
 | **Adam "Nolly" Getgood** | Various (UK) | UK | Periphery (all), Sleep Token (2025 addl production), Architects, Animals As Leaders | Pristine prog-metal clarity. Co-founder GetGood Drums |
@@ -420,6 +420,8 @@ How support slots are determined:
 | **Zakk Cervini** | Bad Omens, Poppy, Dayseeker (mixer) | LA. Genre-blending pop/metal crossover specialist |
 | **Buster Odeholm** | Thrown (as drummer AND producer), Humanity's Last Breath, Vildhjarta | Swedish. The musician-producer model in action |
 | **Misha Mansoor** | Periphery (all), Animals As Leaders | Godfather of djent. Co-founder GetGood Drums |
+| **Matt Goldman** | Underoath, The Chariot, As Cities Burn, Haste the Day, TDWP | Raw, organic sound. Defined early 2000s metalcore. Lets imperfections shine through |
+| **Adam Dutkiewicz (Adam D)** | As I Lay Dying, Underoath, All That Remains, TDWP, Parkway Drive | Killswitch Engage guitarist. Punchy, aggressive. Defined 2000s metalcore alongside Goldman |
 
 ### Who Produced What (Recent Albums)
 
@@ -456,6 +458,11 @@ How support slots are determined:
 | Independent/Emerging | $10,000-$30,000 | Small indie label, mid-tier producer |
 | Mid-Level Signed | $30,000-$75,000 | SharpTone, UNFD-level bands with name producers |
 | Major/Premium | $75,000-$200,000+ | Century Media, Epitaph, Fearless releases |
+| EP (5-track, tracks only) | ~$2,300 | Baseline without mixing/mastering/producer fees |
+
+**Producer compensation:** Flat fee OR points (3-4% of wholesale price per record sold). Top producers command both.
+
+**Typical timeline:** Tracking (2-8 weeks) + post-production (2-8 weeks) = 6-8 months start-to-release including label scheduling.
 
 ### The Self-Production Revolution
 
