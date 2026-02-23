@@ -358,7 +358,7 @@ How support slots are determined:
 
 ### Merch Economics
 
-- Venue merch cuts: 10-32% of gross sales
+- Venue merch cuts: 10-40% of gross sales (most common 20-35%, some venues as high as 40%)
 - After venue cut (25%), sales tax (8%), and management (15%), artist retains ~43% of gross merch profits before production costs
 - Industry average merch spend per head: $10.29 (2025, atVenu)
 - T-shirts: $25-35 | Hoodies: $45-60 | Vinyl: $20-40 | Hats: $25-30
@@ -619,8 +619,8 @@ Sync fees are negotiated case-by-case. A major film/TV placement can generate $5
 | Company | Model | Notes |
 |---------|-------|-------|
 | **Impericon** | High-volume D2C | German-based online department store for metal/hardcore merch. Massive catalog, direct-to-consumer |
-| **MerchNow** | Pre-orders & limited editions | Focuses on limited-edition vinyl and exclusive items. Collector's market, urgency-driven |
-| **Kings Road Merch** | Full-service | Builds/manages custom webstores, handles tour supply and retail distribution for diverse roster |
+| **MerchNow** | Pre-orders & limited editions | Limited-edition vinyl, exclusive items. Roster: Coheed and Cambria, The Fall of Troy, Misery Signals |
+| **Kings Road Merch** | Full-service | Custom webstores, tour supply, retail distribution. Roster: Bad Religion, Cannibal Corpse, Dropkick Murphys |
 | **Nightshift Merch** | Artist-friendly collab | Popular with modern metalcore bands. Known for high-quality designs and artist collaboration |
 
 Merch deals typically fall into two categories:
