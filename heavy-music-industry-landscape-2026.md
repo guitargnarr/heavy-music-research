@@ -219,6 +219,7 @@ INDEPENDENT (No Major Parent)
 
 **5B Artists + Media** -- Cory Brennan (Founder/CEO)
 - The dominant management company in heavy music at scale
+- **Offices:** Los Angeles, Brooklyn, London, Birmingham (UK)
 - **Roster:** Slipknot, Megadeth, Lamb of God, Trivium, Knocked Loose, Turnstile, Gatecreeper, Terror, Deafheaven, Harm's Way, SeeYouSpaceCowboy, MSPAINT, Undeath
 - **Key staff:** Justin Arcangel, Bob Johnsen (partners), James Vitalo (hardcore division)
 - **Structure:** Vertically integrated -- management, record label, film, festival production (Knotfest), talent agency, digital marketing
@@ -242,6 +243,7 @@ INDEPENDENT (No Major Parent)
 **Future History Management** -- Ryan Richards
 - **Roster:** Sleep Token
 - Steered Sleep Token to #1 in both UK and US. Multiple Grammy nominations. Philosophy: "let the art lead"
+- **Jameson Roper** appointed Partner & President of US Operations (December 2025) -- signals major US expansion push
 - Has given interviews to Music Week, Music Business Worldwide
 
 **Raw Power Management** -- Craig Jennings & Matt Ash (UK)
@@ -278,14 +280,19 @@ INDEPENDENT (No Major Parent)
 - **Metal roster:** Spiritbox, Lorna Shore
 - **Key person:** Nick Storch (Head of Global Artist Development)
 
+**Creative Artists Agency (CAA)** -- Global powerhouse
+- **Metal/rock roster:** AC/DC, Aerosmith, A Day To Remember, Alice In Chains, Avenged Sevenfold, Deftones, Iron Maiden, Korn, Rammstein, Rob Zombie, Slipknot, System of a Down
+
 **Specialized agencies:** Avocado Booking (EU, Born of Osiris), Heavy Talent (NA), District 19 (EU extreme metal), Distilled Entertainment (NA rock/metal)
+
+*Note: Agency affiliations shift frequently. Some sources list Red Light/Culture Wave handling Spiritbox booking alongside management. Nick Storch appears at multiple agencies (IAG, UTA). Verify current representation before outreach.*
 
 ### Booking Agent Map by Band
 
 | Band | Agency | Agent(s) |
 |------|--------|----------|
 | Knocked Loose | Wasserman | Jake Zimmerman, Fred Zahedinia (NA), Jesse Fayne (EU/UK) |
-| Spiritbox | IAG | Sharon R. (worldwide excl NA), Nick Storch (NA) |
+| Spiritbox | IAG / Red Light* | Sharon Richardson (worldwide excl NA), Nick Storch (NA) |
 | Sleep Token | UTA | Nick Storch (NA), Paul Ryan (EU/UK/Asia/AUS) |
 | Periphery | UTA | Nick Storch, Michael A. |
 | Lamb of God | Wasserman | Tom Taaffe, Paul Ryan (intl) |
