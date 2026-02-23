@@ -152,11 +152,35 @@ INDEPENDENT (No Major Parent)
 | **Jaddan Comerford** | CEO | UNIFIED/UNFD | Australian independent. ERRA, Northlane, Thornhill. Full-service ecosystem |
 | **Gerardo Martinez** | GM, Americas | Nuclear Blast | Signed Slayer. International metal powerhouse |
 | **Monte Conner** | A&R | Nuclear Blast | Legendary A&R career spanning decades. Previously at Roadrunner (signed Slipknot, Trivium). Renewed focus on artist development |
-| **Francesca Caldara** | A&R | UNFD | Shaping UNFD's future roster. Focus on digital discovery and international artist development |
+| **Francesca Caldara** | Senior A&R Manager | UNFD | Shaping UNFD's future roster. Focus on digital discovery and international artist development |
 | **Justin Louden** | Founder | Closed Casket Activities | Underground incubator. Bands graduate from CCA to bigger labels |
 | **Mike Easterlin** | President | Roadrunner + FBR | Controls both Roadrunner (metal) and Fueled By Ramen (pop crossover) within Warner |
 | **Brett Gurewitz** | Founder/CEO | Epitaph | One of the last truly independent, self-distributing labels. Architects, Parkway Drive |
 | **Scott Givens** | SVP, Rock & Metal | MNRK Heavy | Built MNRK's rock/metal roster since 2006. Acquired Prosthetic Records |
+
+### A&R Contacts by Label (Extended)
+
+| Name | Title | Label | Notes |
+|------|-------|-------|-------|
+| **Tracy Vera** | President | Metal Blade | Day-to-day operations under Slagel |
+| **Ryan Williams** | A&R, Social Media, New Media | Metal Blade | Dual A&R + digital role |
+| **Andreas Reissnauer** | Head of Promotion, A&R (Europe) | Metal Blade | European operations |
+| **Markus Staiger** | Founder | Nuclear Blast | Founded 1987. Built into global metal powerhouse before Believe acquisition |
+| **Marcus Hammer** | Managing Director | Nuclear Blast | Operational leadership |
+| **Nathan Barley Phillips** | Head of A&R, Europe | Nuclear Blast + SharpTone | Dual role across both labels. Key gatekeeper for European signings |
+| **Shawn Keith** | Co-Founder SharpTone / Fmr Head of A&R NA | Nuclear Blast + SharpTone | Built SharpTone from scratch. Discovered Post Profit via social media |
+| **Greg Johnson** | EVP, A&R | Solid State | Long-tenure A&R for Christian metal's most important label |
+| **Justin McCain** | A&R/Licensing | Sumerian | Works under Ash Avildsen. Handles both signings and sync/licensing |
+| **Griffin Finucane Severson** | A&R & Project Manager | Pure Noise | Day-to-day A&R under Jake Round. Open to demo submissions |
+| **Andy Serrao** | President | Fearless | Runs label under Concord parent. Prioritizes bands with existing momentum |
+| **Jonathan Rego** | A&R | Fearless | Active scouting for metalcore/alt-metal crossover |
+| **Cody Demavivas** | A&R | Fearless | |
+| **Steve Reddy** | Owner | Equal Vision | Partnered with Kill Iconic Records (Donovan Melero/Hail The Sun) in 2025 |
+| **Dan Sandshaw** | GM/A&R | Equal Vision | General management + A&R duties |
+| **Stephanie Vaughan** | A&R | Equal Vision | |
+| **Yarden Refaely** | A&R Associate | Epitaph | Entry point for demo submissions at Epitaph |
+| **Mike Gitter** | VP of A&R | Century Media | Industry veteran. Known for deep underground immersion and artist development |
+| **Ben Patashnik** | Senior Strategy Manager | UNFD | Works alongside Francesca Caldara on roster strategy |
 
 ### Deal Structures
 
