@@ -196,35 +196,40 @@ def assign_segment_tag(
     industry_signal: float,
     previous_composite: float | None,
     label_name: str | None,
+    producer_tier: int | None = None,
 ) -> str:
     """Assign a segment tag based on score patterns."""
-    # Breakout Candidate: High trajectory, lower industry signal (not yet signed big)
-    if trajectory >= 70 and industry_signal < 50:
+    # Breakout Candidate: High trajectory, lower industry signal
+    if trajectory >= 65 and industry_signal < 50:
         return "Breakout Candidate"
 
-    # Established Ascender: High composite AND rising trajectory
-    if composite >= 70 and trajectory >= 65:
+    # Established Ascender: High composite AND high trajectory
+    if composite >= 70 and trajectory >= 60:
         return "Established Ascender"
 
+    # Producer Bump: Strong producer connection boosting industry signal
+    if producer_tier == 1 and industry_signal >= 60 and composite < 70:
+        return "Producer Bump"
+
     # Established Stable: High composite, moderate trajectory
-    if composite >= 60 and 40 <= trajectory < 65:
+    if composite >= 60 and 40 <= trajectory < 60:
         return "Established Stable"
 
-    # Label-Ready: Good engagement + trajectory, no major label
-    if trajectory >= 55 and not label_name:
+    # Label-Ready: Good trajectory, no major label backing
+    if trajectory >= 50 and not label_name:
         return "Label-Ready"
-
-    # Sleeping Giant: Low trajectory but high industry signal
-    if trajectory < 35 and industry_signal >= 60:
-        return "Sleeping Giant"
 
     # At Risk: Declining trajectory with previous data
     if previous_composite is not None and composite < previous_composite - 10:
         return "At Risk"
 
-    # Algorithmic Lift: Moderate trajectory spike
-    if trajectory >= 60 and composite < 50:
+    # Algorithmic Lift: High trajectory but weak industry infrastructure
+    if trajectory >= 55 and industry_signal < 40:
         return "Algorithmic Lift"
+
+    # Sleeping Giant: Low trajectory but strong industry backing
+    if trajectory < 45 and industry_signal >= 50:
+        return "Sleeping Giant"
 
     # Default
     if composite >= 40:

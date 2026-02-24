@@ -21,7 +21,9 @@ from scoring.engine import (
     compute_composite,
     assign_grade,
     assign_segment_tag,
+    _fuzzy_lookup,
 )
+from scoring.weights import PRODUCER_TIERS
 from pipeline.spotify_collector import simulate_spotify_data
 from pipeline.musicbrainz_collector import simulate_release_data
 
@@ -169,7 +171,7 @@ def seed_database(
 
         # Trajectory from popularity baseline
         pop = current_snap.spotify_popularity or 0 if current_snap else 0
-        trajectory = 20 + (pop * 0.6)
+        trajectory = 20 + (pop * 0.75)
 
         # Industry signal
         producer_name = _get_producer(artist.name, db)
@@ -204,12 +206,19 @@ def seed_database(
             trajectory, industry_signal, engagement, release_positioning
         )
         grade = assign_grade(composite)
+
+        # Determine producer tier for segment tagging
+        prod_tier = None
+        if producer_name:
+            prod_tier = _fuzzy_lookup(producer_name, PRODUCER_TIERS)
+
         segment_tag = assign_segment_tag(
             composite=composite,
             trajectory=trajectory,
             industry_signal=industry_signal,
             previous_composite=None,
             label_name=artist.current_label,
+            producer_tier=prod_tier,
         )
 
         db.add(Score(

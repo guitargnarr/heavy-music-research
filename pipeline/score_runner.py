@@ -110,8 +110,8 @@ def run_scores(simulate: bool = False):
             # First snapshot with no previous: use popularity as baseline
             if current_snap and not previous_snap:
                 pop = current_snap.spotify_popularity or 0
-                # Map raw popularity to trajectory: 0=20, 50=50, 100=80
-                trajectory = 20 + (pop * 0.6)
+                # Map raw popularity to trajectory: 0=20, 50=57.5, 80=80
+                trajectory = 20 + (pop * 0.75)
 
             # --- Industry Signal (30%) ---
             # Get producer from relationships
