@@ -1,7 +1,6 @@
 """Event endpoints for the Metalcore Index API."""
 import logging
 import os
-from collections import defaultdict
 from datetime import date, timedelta
 from typing import Optional
 

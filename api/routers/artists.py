@@ -7,7 +7,7 @@ from fastapi import APIRouter, Depends, Query
 from sqlalchemy.orm import Session
 
 from database import get_db
-from models import Artist, Event, Label, Relationship, Score
+from models import Artist, Label, Score
 from schemas import (
     DashboardArtist,
     DashboardResponse,

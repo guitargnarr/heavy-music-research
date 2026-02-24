@@ -206,11 +206,9 @@ def simulate_bandsintown_events(
             fest_name, city, region, country = _FESTIVALS[fest_idx]
             venue_name = fest_name
             event_name = fest_name
-            lineup_pos = "headliner" if is_big else "support"
         else:
             fest_name = None
             event_name = f"{artist_name} live"
-            lineup_pos = None
 
         events.append(BandsintownEventData(
             artist_name=artist_name,
