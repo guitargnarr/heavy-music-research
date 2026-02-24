@@ -249,6 +249,112 @@ def seed_database(
     return {"status": "seeded", "counts": final_counts}
 
 
+@router.post("/api/rescore")
+def rescore_all(
+    db: Session = Depends(get_db),
+    _auth=Depends(_verify_secret),
+):
+    """Recalculate all scores using the current scoring engine.
+    Does NOT wipe the DB -- just updates score rows in-place."""
+    artists = db.query(Artist).all()
+    if not artists:
+        return {"status": "skipped", "message": "No artists in DB"}
+
+    today = date.today()
+    updated = 0
+
+    for artist in artists:
+        snapshots = (
+            db.query(ArtistSnapshot)
+            .filter(ArtistSnapshot.artist_id == artist.spotify_id)
+            .order_by(ArtistSnapshot.snapshot_date.desc())
+            .limit(2)
+            .all()
+        )
+        current_snap = snapshots[0] if snapshots else None
+
+        pop = current_snap.spotify_popularity or 0 if current_snap else 0
+        trajectory = 20 + (pop * 0.75)
+
+        producer_name = _get_producer(artist.name, db)
+        industry_signal = compute_industry_signal(
+            label_name=artist.current_label,
+            producer_name=producer_name,
+            agency_name=artist.booking_agency,
+            management_name=artist.current_management_co,
+        )
+
+        sp_sim = simulate_spotify_data(artist.name, artist.spotify_id)
+        track_pops = sp_sim.top_track_popularities
+        yt_vel = None
+        if current_snap and current_snap.youtube_recent_views:
+            views = current_snap.youtube_recent_views
+            comments = current_snap.youtube_comment_count or 0
+            if views > 0:
+                yt_vel = (comments / views) * 1000
+        engagement = compute_engagement(
+            track_popularity_distribution=track_pops,
+            youtube_comment_velocity=yt_vel,
+        )
+
+        rel_data = simulate_release_data(artist.name)
+        release_positioning = compute_release_positioning(
+            rel_data.months_since_release
+        )
+
+        composite = compute_composite(
+            trajectory, industry_signal, engagement, release_positioning
+        )
+        grade = assign_grade(composite)
+
+        prod_tier = None
+        if producer_name:
+            prod_tier = _fuzzy_lookup(producer_name, PRODUCER_TIERS)
+
+        segment_tag = assign_segment_tag(
+            composite=composite,
+            trajectory=trajectory,
+            industry_signal=industry_signal,
+            previous_composite=None,
+            label_name=artist.current_label,
+            producer_tier=prod_tier,
+        )
+
+        # Update existing score or create new one
+        existing = (
+            db.query(Score)
+            .filter(Score.artist_id == artist.spotify_id)
+            .order_by(Score.score_date.desc())
+            .first()
+        )
+        if existing:
+            existing.trajectory = round(trajectory, 2)
+            existing.industry_signal = round(industry_signal, 2)
+            existing.engagement = round(engagement, 2)
+            existing.release_positioning = round(release_positioning, 2)
+            existing.composite = round(composite, 2)
+            existing.grade = grade
+            existing.segment_tag = segment_tag
+            existing.score_date = today
+        else:
+            db.add(Score(
+                artist_id=artist.spotify_id,
+                score_date=today,
+                trajectory=round(trajectory, 2),
+                industry_signal=round(industry_signal, 2),
+                engagement=round(engagement, 2),
+                release_positioning=round(release_positioning, 2),
+                composite=round(composite, 2),
+                grade=grade,
+                segment_tag=segment_tag,
+            ))
+        updated += 1
+
+    db.commit()
+    logger.info("Rescore complete: %d artists updated", updated)
+    return {"status": "rescored", "artists_updated": updated}
+
+
 def _get_producer(artist_name: str, db) -> str | None:
     rel = (
         db.query(Relationship)
