@@ -40,6 +40,8 @@ LABEL_TIERS: dict[str, int] = {
     "Spinefarm Records": 1,
     "Rise Records": 1,
     "Nuclear Blast": 1,
+    "Fueled by Ramen": 1,
+    "InsideOutMusic": 1,  # Sony Music prog label
     # Strong independent (Tier 2)
     "Pure Noise Records": 2,
     "Sumerian Records": 2,
@@ -56,6 +58,8 @@ LABEL_TIERS: dict[str, int] = {
     "Closed Casket Activities": 3,
     "3DOT Recordings": 3,
     "Pale Chord": 2,  # Imprint but Rise/BMG distributed
+    "Blue Grape Music": 2,  # Ex-Roadrunner execs, ADA/Warner distributed
+    "Solid State Records": 2,  # Alias for Solid State
 }
 
 # --- Producer Tiers (from Section 8: Producers & Engineers) ---
