@@ -612,5 +612,343 @@
       "industrial"
     ],
     "spotify_id": "placeholder_048"
+  },
+  {
+    "name": "Eidola",
+    "current_label": "3DOT Recordings",
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "post-hardcore",
+      "progressive rock"
+    ],
+    "spotify_id": "placeholder_049"
+  },
+  {
+    "name": "Sleeping With Sirens",
+    "current_label": "Sumerian Records",
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": "UTA",
+    "genres": [
+      "post-hardcore",
+      "pop rock"
+    ],
+    "spotify_id": "placeholder_050"
+  },
+  {
+    "name": "Pierce the Veil",
+    "current_label": "Fearless Records",
+    "distribution": "Concord Music Group",
+    "current_manager": null,
+    "current_management_co": "Opera Ghost Management",
+    "booking_agency": "CAA",
+    "genres": [
+      "post-hardcore",
+      "pop punk"
+    ],
+    "spotify_id": "placeholder_051"
+  },
+  {
+    "name": "Avenged Sevenfold",
+    "current_label": "Warner Records",
+    "distribution": "Warner Music Group",
+    "current_manager": null,
+    "current_management_co": "Velvet Hammer Music & Management Group",
+    "booking_agency": null,
+    "genres": [
+      "heavy metal",
+      "hard rock"
+    ],
+    "spotify_id": "placeholder_052"
+  },
+  {
+    "name": "Parkway Drive",
+    "current_label": "Epitaph Records",
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": "Destroy All Lines",
+    "booking_agency": "Destroy All Lines",
+    "genres": [
+      "metalcore",
+      "heavy metal"
+    ],
+    "spotify_id": "placeholder_053"
+  },
+  {
+    "name": "Thrice",
+    "current_label": "Epitaph Records",
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "post-hardcore",
+      "alternative rock"
+    ],
+    "spotify_id": "placeholder_054"
+  },
+  {
+    "name": "Atreyu",
+    "current_label": "Spinefarm Records",
+    "distribution": "Universal Music Group",
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "metalcore",
+      "heavy metal"
+    ],
+    "spotify_id": "placeholder_055"
+  },
+  {
+    "name": "Bullet for My Valentine",
+    "current_label": "Spinefarm Records",
+    "distribution": "Universal Music Group",
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "metalcore",
+      "heavy metal"
+    ],
+    "spotify_id": "placeholder_056"
+  },
+  {
+    "name": "Killswitch Engage",
+    "current_label": "Metal Blade Records",
+    "distribution": "Sony Music (RED)",
+    "current_manager": "Vaughn Lewis",
+    "current_management_co": null,
+    "booking_agency": "UTA",
+    "genres": [
+      "metalcore",
+      "melodic metalcore"
+    ],
+    "spotify_id": "placeholder_057"
+  },
+  {
+    "name": "The Word Alive",
+    "current_label": "Thriller Records",
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "metalcore",
+      "post-hardcore"
+    ],
+    "spotify_id": "placeholder_058"
+  },
+  {
+    "name": "Greyhaven",
+    "current_label": "Solid State Records",
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "post-hardcore",
+      "mathcore"
+    ],
+    "spotify_id": "placeholder_059"
+  },
+  {
+    "name": "Falling in Reverse",
+    "current_label": "Epitaph Records",
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "post-hardcore",
+      "hard rock"
+    ],
+    "spotify_id": "placeholder_060"
+  },
+  {
+    "name": "Babymetal",
+    "current_label": "Capitol Records",
+    "distribution": "Universal Music Group",
+    "current_manager": null,
+    "current_management_co": "5B Artist Management",
+    "booking_agency": "CAA",
+    "genres": [
+      "kawaii metal",
+      "heavy metal"
+    ],
+    "spotify_id": "placeholder_061"
+  },
+  {
+    "name": "Nothing More",
+    "current_label": "Better Noise Music",
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "hard rock",
+      "alternative metal"
+    ],
+    "spotify_id": "placeholder_062"
+  },
+  {
+    "name": "Halestorm",
+    "current_label": "Atlantic Records",
+    "distribution": "Warner Music Group",
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "hard rock",
+      "heavy metal"
+    ],
+    "spotify_id": "placeholder_063"
+  },
+  {
+    "name": "Saosin",
+    "current_label": "Epitaph Records",
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "post-hardcore",
+      "alternative rock"
+    ],
+    "spotify_id": "placeholder_064"
+  },
+  {
+    "name": "Spite",
+    "current_label": "Rise Records",
+    "distribution": "BMG",
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "deathcore",
+      "death metal"
+    ],
+    "spotify_id": "placeholder_065"
+  },
+  {
+    "name": "In This Moment",
+    "current_label": "Better Noise Music",
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "alternative metal",
+      "gothic metal"
+    ],
+    "spotify_id": "placeholder_066"
+  },
+  {
+    "name": "My Chemical Romance",
+    "current_label": "Warner Records",
+    "distribution": "Warner Music Group",
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": "Wasserman",
+    "genres": [
+      "alternative rock",
+      "pop punk"
+    ],
+    "spotify_id": "placeholder_067"
+  },
+  {
+    "name": "Taking Back Sunday",
+    "current_label": "Fantasy Records",
+    "distribution": "Concord Music Group",
+    "current_manager": "Jillian Newman",
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "alternative rock",
+      "emo"
+    ],
+    "spotify_id": "placeholder_068"
+  },
+  {
+    "name": "Coheed and Cambria",
+    "current_label": "Roadrunner Records",
+    "distribution": "Warner Music Group",
+    "current_manager": "Blaze James",
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "progressive rock",
+      "post-hardcore"
+    ],
+    "spotify_id": "placeholder_069"
+  },
+  {
+    "name": "Make Them Suffer",
+    "current_label": "SharpTone Records",
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "metalcore",
+      "deathcore"
+    ],
+    "spotify_id": "placeholder_070"
+  },
+  {
+    "name": "Cane Hill",
+    "current_label": "Out of Line Music",
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "nu metal",
+      "alternative metal"
+    ],
+    "spotify_id": "placeholder_071"
+  },
+  {
+    "name": "Volumes",
+    "current_label": "Fearless Records",
+    "distribution": "Concord Music Group",
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "progressive metalcore",
+      "djent"
+    ],
+    "spotify_id": "placeholder_072"
+  },
+  {
+    "name": "The Used",
+    "current_label": "Anger Music Group / Hopeless Records",
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": "Big Noise",
+    "booking_agency": null,
+    "genres": [
+      "post-hardcore",
+      "emo"
+    ],
+    "spotify_id": "placeholder_073"
+  },
+  {
+    "name": "Soil",
+    "current_label": "Cleopatra Records / Pavement Entertainment",
+    "distribution": null,
+    "current_manager": null,
+    "current_management_co": null,
+    "booking_agency": null,
+    "genres": [
+      "nu metal",
+      "alternative metal"
+    ],
+    "spotify_id": "placeholder_074"
   }
 ]

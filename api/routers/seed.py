@@ -258,13 +258,15 @@ def rescore_all(
     Also refreshes artist metadata (label, agency, management) from
     the data files. Does NOT wipe the DB."""
     artists = db.query(Artist).all()
-    if not artists:
-        return {"status": "skipped", "message": "No artists in DB"}
 
-    # Refresh artist metadata from data files
+    # Refresh artist metadata and insert new artists from data files
     artists_data = _load_json("artists.json")
     name_to_data = {a["name"]: a for a in artists_data}
+    existing_names = {a.name for a in artists}
     metadata_updated = 0
+    artists_added = 0
+
+    # Update existing artist metadata
     for artist in artists:
         src = name_to_data.get(artist.name)
         if not src:
@@ -281,7 +283,48 @@ def rescore_all(
             changed = True
         if changed:
             metadata_updated += 1
+
+    # Insert new artists not yet in DB
+    for a in artists_data:
+        if a["name"] in existing_names:
+            continue
+        new_artist = Artist(
+            spotify_id=a["spotify_id"],
+            name=a["name"],
+            genres=json.dumps(a.get("genres", [])),
+            image_url=None,
+            current_label=a.get("current_label"),
+            current_manager=a.get("current_manager"),
+            current_management_co=a.get("current_management_co"),
+            booking_agency=a.get("booking_agency"),
+            active=True,
+        )
+        db.add(new_artist)
+        artists_added += 1
+
+        # Create simulated snapshot for new artist
+        sp_data = simulate_spotify_data(a["name"], a["spotify_id"])
+        yt_data = None
+        try:
+            from pipeline.youtube_collector import simulate_youtube_data
+            yt_data = simulate_youtube_data(a["name"], "")
+        except Exception:
+            pass
+        db.add(ArtistSnapshot(
+            artist_id=a["spotify_id"],
+            snapshot_date=date.today(),
+            spotify_popularity=sp_data.popularity,
+            spotify_followers=sp_data.followers,
+            youtube_subscribers=yt_data.subscriber_count if yt_data else None,
+            youtube_total_views=yt_data.total_views if yt_data else None,
+            youtube_recent_views=yt_data.recent_video_views if yt_data else None,
+            youtube_comment_count=yt_data.recent_comment_count if yt_data else None,
+        ))
+
     db.flush()
+
+    # Re-query to include newly added artists
+    artists = db.query(Artist).all()
 
     today = date.today()
     updated = 0
@@ -374,8 +417,13 @@ def rescore_all(
         updated += 1
 
     db.commit()
-    logger.info("Rescore complete: %d artists scored, %d metadata refreshed", updated, metadata_updated)
-    return {"status": "rescored", "artists_updated": updated, "metadata_refreshed": metadata_updated}
+    logger.info("Rescore complete: %d scored, %d metadata refreshed, %d new artists", updated, metadata_updated, artists_added)
+    return {
+        "status": "rescored",
+        "artists_updated": updated,
+        "metadata_refreshed": metadata_updated,
+        "artists_added": artists_added,
+    }
 
 
 def _get_producer(artist_name: str, db) -> str | None:

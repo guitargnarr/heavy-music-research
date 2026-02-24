@@ -42,6 +42,9 @@ LABEL_TIERS: dict[str, int] = {
     "Nuclear Blast": 1,
     "Fueled by Ramen": 1,
     "InsideOutMusic": 1,  # Sony Music prog label
+    "Warner Records": 1,
+    "Capitol Records": 1,
+    "Atlantic Records": 1,
     # Strong independent (Tier 2)
     "Pure Noise Records": 2,
     "Sumerian Records": 2,
@@ -60,6 +63,14 @@ LABEL_TIERS: dict[str, int] = {
     "Pale Chord": 2,  # Imprint but Rise/BMG distributed
     "Blue Grape Music": 2,  # Ex-Roadrunner execs, ADA/Warner distributed
     "Solid State Records": 2,  # Alias for Solid State
+    "Better Noise Music": 2,
+    "Fantasy Records": 2,  # Concord distributed
+    "Hopeless Records": 2,
+    # Independent / small (Tier 3)
+    "Thriller Records": 3,
+    "Out of Line Music": 3,
+    "Cleopatra Records": 3,
+    "Anger Music Group": 3,
 }
 
 # --- Producer Tiers (from Section 8: Producers & Engineers) ---
@@ -118,6 +129,11 @@ MANAGEMENT_TIERS: dict[str, int] = {
     "Alternate Side": 2,
     "BravoArtist": 2,
     "Intromental Management": 2,
+    "Velvet Hammer": 1,  # A7X, major-tier management
+    "Opera Ghost Management": 2,
+    "Destroy All Lines": 2,  # AU/NZ powerhouse
+    "Big Noise": 2,
+    "5B Artist Management": 1,  # Alias for 5B Artists + Media
 }
 
 # --- Grade Thresholds ---
