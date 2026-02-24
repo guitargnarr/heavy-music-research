@@ -1132,5 +1132,306 @@
     "target_type": "producer",
     "target_id": "John Feldmann",
     "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Knocked Loose",
+    "target_type": "artist",
+    "target_id": "Whitechapel",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Knocked Loose",
+    "target_type": "artist",
+    "target_id": "Make Them Suffer",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Make Them Suffer",
+    "target_type": "artist",
+    "target_id": "Whitechapel",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Erra",
+    "target_type": "artist",
+    "target_id": "Spiritbox",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Dayseeker",
+    "target_type": "artist",
+    "target_id": "Spiritbox",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit For A King",
+    "target_type": "artist",
+    "target_id": "Spiritbox",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Spiritbox",
+    "target_type": "artist",
+    "target_id": "The Ghost Inside",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Dayseeker",
+    "target_type": "artist",
+    "target_id": "Erra",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Erra",
+    "target_type": "artist",
+    "target_id": "Fit For A King",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Erra",
+    "target_type": "artist",
+    "target_id": "The Ghost Inside",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Dayseeker",
+    "target_type": "artist",
+    "target_id": "Fit For A King",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Dayseeker",
+    "target_type": "artist",
+    "target_id": "The Ghost Inside",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit For A King",
+    "target_type": "artist",
+    "target_id": "The Ghost Inside",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bullet for My Valentine",
+    "target_type": "artist",
+    "target_id": "Sleep Token",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Periphery",
+    "target_type": "artist",
+    "target_id": "Sleep Token",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "artist",
+    "target_id": "Wage War",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bad Omens",
+    "target_type": "artist",
+    "target_id": "Bring Me the Horizon",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bad Omens",
+    "target_type": "artist",
+    "target_id": "Coheed and Cambria",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bring Me the Horizon",
+    "target_type": "artist",
+    "target_id": "Coheed and Cambria",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Ice Nine Kills",
+    "target_type": "artist",
+    "target_id": "Knocked Loose",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Knocked Loose",
+    "target_type": "artist",
+    "target_id": "Motionless In White",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit For A King",
+    "target_type": "artist",
+    "target_id": "Knocked Loose",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Knocked Loose",
+    "target_type": "artist",
+    "target_id": "We Came As Romans",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "artist",
+    "target_id": "Knocked Loose",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Ice Nine Kills",
+    "target_type": "artist",
+    "target_id": "Motionless In White",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit For A King",
+    "target_type": "artist",
+    "target_id": "Ice Nine Kills",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Ice Nine Kills",
+    "target_type": "artist",
+    "target_id": "We Came As Romans",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "artist",
+    "target_id": "Ice Nine Kills",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit For A King",
+    "target_type": "artist",
+    "target_id": "Motionless In White",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Motionless In White",
+    "target_type": "artist",
+    "target_id": "We Came As Romans",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "artist",
+    "target_id": "Motionless In White",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit For A King",
+    "target_type": "artist",
+    "target_id": "We Came As Romans",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "artist",
+    "target_id": "Fit For A King",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "artist",
+    "target_id": "We Came As Romans",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit For A King",
+    "target_type": "artist",
+    "target_id": "Veil of Maya",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "After The Burial",
+    "target_type": "artist",
+    "target_id": "Counterparts",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "artist",
+    "target_id": "Counterparts",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Counterparts",
+    "target_type": "artist",
+    "target_id": "Northlane",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "artist",
+    "target_id": "After The Burial",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "After The Burial",
+    "target_type": "artist",
+    "target_id": "Northlane",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "artist",
+    "target_id": "Northlane",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "August Burns Red",
+    "target_type": "artist",
+    "target_id": "Like Moths To Flames",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Falling in Reverse",
+    "target_type": "artist",
+    "target_id": "The Ghost Inside",
+    "relationship_type": "shared_producer"
   }
 ]
