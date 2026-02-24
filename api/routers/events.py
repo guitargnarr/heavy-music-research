@@ -105,58 +105,62 @@ def refresh_events(
     _auth=Depends(_verify_secret),
 ):
     """Collect fresh event data. Uses real APIs if available, simulated otherwise."""
+    import traceback
+
     try:
         from pipeline.bandsintown_collector import (
             BandsintownCollector,
             simulate_bandsintown_events,
         )
-    except ImportError as exc:
-        logger.error("Failed to import bandsintown_collector: %s", exc)
-        raise HTTPException(status_code=500, detail=f"Import error: {exc}")
 
-    collector = BandsintownCollector()
-    artists = db.query(Artist).filter(Artist.active.is_(True)).all()
+        collector = BandsintownCollector()
+        artists = db.query(Artist).filter(Artist.active.is_(True)).all()
 
-    # Clear future events (keep historical)
-    db.query(Event).filter(
-        Event.event_date >= date.today()
-    ).delete(synchronize_session="fetch")
-    db.flush()
+        # Clear future events (keep historical)
+        db.query(Event).filter(
+            Event.event_date >= date.today()
+        ).delete(synchronize_session="fetch")
+        db.flush()
 
-    total_events = 0
-    errors = []
-    for artist in artists:
-        try:
-            if collector.is_available:
-                raw_events = collector.get_upcoming_events(artist.name)
-            else:
-                raw_events = simulate_bandsintown_events(artist.name)
+        total_events = 0
+        errors = []
+        for artist in artists:
+            try:
+                if collector.is_available:
+                    raw_events = collector.get_upcoming_events(artist.name)
+                else:
+                    raw_events = simulate_bandsintown_events(artist.name)
 
-            for e in raw_events:
-                db.add(Event(
-                    artist_id=artist.spotify_id,
-                    event_name=e.event_name,
-                    venue_name=e.venue_name,
-                    city=e.city,
-                    region=e.region,
-                    country=e.country,
-                    event_date=e.event_date,
-                    event_type=e.event_type,
-                    bandsintown_id=e.bandsintown_id,
-                    ticket_url=e.ticket_url,
-                    festival_name=e.festival_name,
-                ))
-                total_events += 1
-        except Exception as exc:
-            errors.append(f"{artist.name}: {exc}")
-            logger.error("Event collection error for %s: %s", artist.name, exc)
+                for e in raw_events:
+                    db.add(Event(
+                        artist_id=artist.spotify_id,
+                        event_name=e.event_name,
+                        venue_name=e.venue_name,
+                        city=e.city,
+                        region=e.region,
+                        country=e.country,
+                        event_date=e.event_date,
+                        event_type=e.event_type,
+                        bandsintown_id=e.bandsintown_id,
+                        ticket_url=e.ticket_url,
+                        festival_name=e.festival_name,
+                    ))
+                    total_events += 1
+            except Exception as exc:
+                db.rollback()
+                errors.append(f"{artist.name}: {exc}")
+                logger.error("Event error for %s: %s", artist.name, exc)
 
-    db.commit()
-    logger.info("Refreshed events: %d events for %d artists", total_events, len(artists))
-    return {
-        "status": "refreshed",
-        "artists_processed": len(artists),
-        "events_added": total_events,
-        "source": "bandsintown" if collector.is_available else "simulated",
-        "errors": errors[:10] if errors else [],
-    }
+        db.commit()
+        logger.info("Refreshed events: %d events for %d artists", total_events, len(artists))
+        return {
+            "status": "refreshed",
+            "artists_processed": len(artists),
+            "events_added": total_events,
+            "source": "bandsintown" if collector.is_available else "simulated",
+            "errors": errors[:10] if errors else [],
+        }
+    except Exception as exc:
+        tb = traceback.format_exc()
+        logger.error("Refresh failed: %s\n%s", exc, tb)
+        raise HTTPException(status_code=500, detail=f"{type(exc).__name__}: {exc}")
