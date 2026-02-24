@@ -544,5 +544,593 @@
     "target_type": "agency",
     "target_id": "CAA",
     "relationship_type": "booked_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Knocked Loose",
+    "target_type": "producer",
+    "target_id": "WZRD BLD",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Spiritbox",
+    "target_type": "producer",
+    "target_id": "Mike Stringer",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Whitechapel",
+    "target_type": "producer",
+    "target_id": "Zach Householder",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bilmuri",
+    "target_type": "producer",
+    "target_id": "Johnny Franck",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bilmuri",
+    "target_type": "producer",
+    "target_id": "Will Carlson",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Thrown",
+    "target_type": "producer",
+    "target_id": "Tommy Tägtgren",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Lorna Shore",
+    "target_type": "producer",
+    "target_id": "Adam De Micco",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Wage War",
+    "target_type": "producer",
+    "target_id": "Andrew Wade",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Wage War",
+    "target_type": "producer",
+    "target_id": "Cody Quistad",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Veil of Maya",
+    "target_type": "producer",
+    "target_id": "Zach Jones",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Slaughter to Prevail",
+    "target_type": "producer",
+    "target_id": "Egor Krotov",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Drain",
+    "target_type": "producer",
+    "target_id": "King Coffey",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Counterparts",
+    "target_type": "producer",
+    "target_id": "Tommy Vasta",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Counterparts",
+    "target_type": "producer",
+    "target_id": "Will Putney",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Ice Nine Kills",
+    "target_type": "producer",
+    "target_id": "WZRD BLD",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Ice Nine Kills",
+    "target_type": "producer",
+    "target_id": "Morgoth beatz",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Motionless In White",
+    "target_type": "producer",
+    "target_id": "Justin Deblieck",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Motionless In White",
+    "target_type": "producer",
+    "target_id": "WZRD BLD",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "August Burns Red",
+    "target_type": "producer",
+    "target_id": "Carson Slovak",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "August Burns Red",
+    "target_type": "producer",
+    "target_id": "Grant McFarland",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Invent Animate",
+    "target_type": "producer",
+    "target_id": "Landon Tewers",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Polaris",
+    "target_type": "producer",
+    "target_id": "Neil Landstrumm",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit For A King",
+    "target_type": "producer",
+    "target_id": "Brandon Ebel",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit For A King",
+    "target_type": "producer",
+    "target_id": "Zach Jones",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit For A King",
+    "target_type": "producer",
+    "target_id": "WZRD BLD",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Dance Gavin Dance",
+    "target_type": "producer",
+    "target_id": "Will Swan",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "We Came As Romans",
+    "target_type": "producer",
+    "target_id": "Nick Sampson",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "We Came As Romans",
+    "target_type": "producer",
+    "target_id": "WZRD BLD",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "After The Burial",
+    "target_type": "producer",
+    "target_id": "Will Putney",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Brand Of Sacrifice",
+    "target_type": "producer",
+    "target_id": "Michael Leo Valeri",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Brand Of Sacrifice",
+    "target_type": "producer",
+    "target_id": "Kyle Anderson",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Like Moths To Flames",
+    "target_type": "producer",
+    "target_id": "Cody Cavanaugh",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Like Moths To Flames",
+    "target_type": "producer",
+    "target_id": "Zach Pishney",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Like Moths To Flames",
+    "target_type": "producer",
+    "target_id": "Carson Slovak",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Like Moths To Flames",
+    "target_type": "producer",
+    "target_id": "Grant McFarland",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Like Moths To Flames",
+    "target_type": "producer",
+    "target_id": "Ariana Nazari",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "producer",
+    "target_id": "Colin Brittain",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "producer",
+    "target_id": "WZRD BLD",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "producer",
+    "target_id": "Dan Book",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "producer",
+    "target_id": "Jeremy McKinnon",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "producer",
+    "target_id": "Mike Green",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "producer",
+    "target_id": "Will Putney",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "producer",
+    "target_id": "Brian Ranney",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "producer",
+    "target_id": "John Hudson",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Northlane",
+    "target_type": "producer",
+    "target_id": "Will Putney",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bring Me the Horizon",
+    "target_type": "producer",
+    "target_id": "Daniel Lancaster",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bring Me the Horizon",
+    "target_type": "producer",
+    "target_id": "Zakk Cervini",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bring Me the Horizon",
+    "target_type": "producer",
+    "target_id": "Oliver Sykes",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "The Ghost Inside",
+    "target_type": "producer",
+    "target_id": "Daniel Braunstein",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "The Ghost Inside",
+    "target_type": "producer",
+    "target_id": "Jon Eberhard",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "The Ghost Inside",
+    "target_type": "producer",
+    "target_id": "Tyler Smyth",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Eidola",
+    "target_type": "producer",
+    "target_id": "Ian Cooperstein",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Eidola",
+    "target_type": "producer",
+    "target_id": "Mike Sahm",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Sleeping With Sirens",
+    "target_type": "producer",
+    "target_id": "Andrew Baylis",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Pierce the Veil",
+    "target_type": "producer",
+    "target_id": "Dan Korneff",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Parkway Drive",
+    "target_type": "producer",
+    "target_id": "George Hadjichristou",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Thrice",
+    "target_type": "producer",
+    "target_id": "Scott Evans",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Atreyu",
+    "target_type": "producer",
+    "target_id": "Matt Pauling",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bullet for My Valentine",
+    "target_type": "producer",
+    "target_id": "Carl Bown",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Killswitch Engage",
+    "target_type": "producer",
+    "target_id": "Adam Dutkiewicz",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Falling in Reverse",
+    "target_type": "producer",
+    "target_id": "Ronnie Radke",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Falling in Reverse",
+    "target_type": "producer",
+    "target_id": "Tyler Smyth",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Falling in Reverse",
+    "target_type": "producer",
+    "target_id": "Charles Massabo",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Babymetal",
+    "target_type": "producer",
+    "target_id": "Manuel Renner",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Babymetal",
+    "target_type": "producer",
+    "target_id": "Daniel Haniß",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Babymetal",
+    "target_type": "producer",
+    "target_id": "Kevin Ratajczak",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Babymetal",
+    "target_type": "producer",
+    "target_id": "Kobametal",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Babymetal",
+    "target_type": "producer",
+    "target_id": "Nico Sallach",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Babymetal",
+    "target_type": "producer",
+    "target_id": "Pascal Schillo",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Saosin",
+    "target_type": "producer",
+    "target_id": "Will Yip",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "In This Moment",
+    "target_type": "producer",
+    "target_id": "Kane Churko",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "In This Moment",
+    "target_type": "producer",
+    "target_id": "Kevin Churko",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "My Chemical Romance",
+    "target_type": "producer",
+    "target_id": "Doug McKean",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "My Chemical Romance",
+    "target_type": "producer",
+    "target_id": "Gerard Way",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "My Chemical Romance",
+    "target_type": "producer",
+    "target_id": "Ray Toro",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Taking Back Sunday",
+    "target_type": "producer",
+    "target_id": "Jillian Newman",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Taking Back Sunday",
+    "target_type": "producer",
+    "target_id": "Tushar Apte",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Coheed and Cambria",
+    "target_type": "producer",
+    "target_id": "Claudio Sanchez",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Coheed and Cambria",
+    "target_type": "producer",
+    "target_id": "Zakk Cervini",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Make Them Suffer",
+    "target_type": "producer",
+    "target_id": "Jeff Dunne",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Make Them Suffer",
+    "target_type": "producer",
+    "target_id": "Drew Fulk",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "The Used",
+    "target_type": "producer",
+    "target_id": "Dylan McLean",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "The Used",
+    "target_type": "producer",
+    "target_id": "Scot Stewart",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "The Used",
+    "target_type": "producer",
+    "target_id": "John Feldmann",
+    "relationship_type": "produced_by"
   }
 ]

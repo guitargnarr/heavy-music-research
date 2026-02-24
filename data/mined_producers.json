@@ -1,0 +1,614 @@
+[
+  {
+    "artist_name": "Knocked Loose",
+    "album": "Hive Mind",
+    "year": 2026,
+    "producer": "Knocked Loose, WZRD BLD",
+    "engineer": null,
+    "mixer": "Jeff Dunne (2), WZRD BLD",
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Spiritbox",
+    "album": "Tsunami Sea",
+    "year": 2025,
+    "producer": "Daniel Braunstein, Mike Stringer (2)",
+    "engineer": null,
+    "mixer": null,
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Sleep Token",
+    "album": "Even in Arcadia",
+    "year": 2025,
+    "producer": null,
+    "engineer": null,
+    "mixer": null,
+    "source": "musicbrainz"
+  },
+  {
+    "artist_name": "Periphery",
+    "album": "Periphery V: Djent Is Not a Genre",
+    "year": 2023,
+    "producer": null,
+    "engineer": null,
+    "mixer": null,
+    "source": "musicbrainz"
+  },
+  {
+    "artist_name": "Lamb of God",
+    "album": "Ashes Of The Wake: Live In Richmond, VA",
+    "year": 2024,
+    "producer": "Lamb Of God",
+    "engineer": "Ben Greenberg",
+    "mixer": "Josh Wilbur",
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Whitechapel",
+    "album": "Hymns in Dissonance",
+    "year": 2025,
+    "producer": "Zach Householder",
+    "engineer": "Zach Householder",
+    "mixer": "WZRD BLD",
+    "source": "musicbrainz"
+  },
+  {
+    "artist_name": "Kublai Khan TX",
+    "album": "Absolute",
+    "year": 2019,
+    "producer": "Randy LeBoeuf",
+    "engineer": null,
+    "mixer": null,
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Born of Osiris",
+    "album": "The Eternal Reign",
+    "year": 2017,
+    "producer": null,
+    "engineer": "Max Klein (2)",
+    "mixer": "Nick Sampson (2)",
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Bilmuri",
+    "album": "Goblin Hours",
+    "year": 2022,
+    "producer": "Johnny Franck, Will Carlson",
+    "engineer": null,
+    "mixer": null,
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Thrown",
+    "album": "The Suicidal Kings Occult",
+    "year": 2007,
+    "producer": "Thrown, Tommy Tägtgren",
+    "engineer": null,
+    "mixer": null,
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Lorna Shore",
+    "album": "I Feel The Everblack Festering Within Me",
+    "year": 2025,
+    "producer": "Adam De Micco, Josh Schroeder, Lorna Shore",
+    "engineer": "Josh Schroeder",
+    "mixer": "Josh Schroeder",
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Architects",
+    "album": "Border Wars Episodes I & II",
+    "year": 2017,
+    "producer": null,
+    "engineer": "Dave Gaumé, Joel Nanos",
+    "mixer": "John Seymour, Ray Toro",
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Wage War",
+    "album": "The Stripped Sessions",
+    "year": 2023,
+    "producer": "Andrew Wade, Cody Quistad",
+    "engineer": null,
+    "mixer": null,
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Veil of Maya",
+    "album": "[M]other",
+    "year": 2023,
+    "producer": "Zach Jones (3)",
+    "engineer": "Jordon Beal",
+    "mixer": null,
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Animals As Leaders",
+    "album": "Parrhesia",
+    "year": 2022,
+    "producer": null,
+    "engineer": "Francesco Cameli",
+    "mixer": "Javier Reyes (2), Nick Morzov",
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Dayseeker",
+    "album": "Creature In The Black Night",
+    "year": 2025,
+    "producer": "Daniel Braunstein",
+    "engineer": null,
+    "mixer": "Zakk Cervini",
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Slaughter to Prevail",
+    "album": "Russian Grizzly In America",
+    "year": 2025,
+    "producer": "Egor Krotov",
+    "engineer": null,
+    "mixer": "Egor Krotov",
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Drain",
+    "album": "Off Speed And In There",
+    "year": 1996,
+    "producer": "King Coffey",
+    "engineer": null,
+    "mixer": null,
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Fit for an Autopsy",
+    "album": "Oh What the Future Holds",
+    "year": 2022,
+    "producer": null,
+    "engineer": null,
+    "mixer": null,
+    "source": "musicbrainz"
+  },
+  {
+    "artist_name": "Counterparts",
+    "album": "Heaven Let Them Die",
+    "year": 2024,
+    "producer": "Tommy Vasta, Will Putney",
+    "engineer": "Steve Seid",
+    "mixer": null,
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Ice Nine Kills",
+    "album": "A Work Of Art",
+    "year": 2025,
+    "producer": "WZRD BLD, Morgoth beatz",
+    "engineer": "WZRD BLD",
+    "mixer": "Julian Garguilo, Zakk Cervini",
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Motionless In White",
+    "album": "Scoring The End Of The World",
+    "year": 2022,
+    "producer": "Justin Deblieck, WZRD BLD",
+    "engineer": null,
+    "mixer": null,
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Trivium",
+    "album": "What the Dead Men Say",
+    "year": 2020,
+    "producer": null,
+    "engineer": null,
+    "mixer": null,
+    "source": "musicbrainz"
+  },
+  {
+    "artist_name": "August Burns Red",
+    "album": "Exhumed",
+    "year": 2024,
+    "producer": "Carson Slovak, Grant McFarland (2)",
+    "engineer": null,
+    "mixer": null,
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Loathe",
+    "album": "I Let It In and It Took Everything",
+    "year": 2020,
+    "producer": null,
+    "engineer": null,
+    "mixer": null,
+    "source": "musicbrainz"
+  },
+  {
+    "artist_name": "Invent Animate",
+    "album": "Heavener",
+    "year": 2023,
+    "producer": "Landon Tewers, Invent, Animate",
+    "engineer": null,
+    "mixer": "Daniel Braunstein",
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Polaris",
+    "album": "Spread The Web",
+    "year": 1997,
+    "producer": "Neil Landstrumm",
+    "engineer": null,
+    "mixer": null,
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Silent Planet",
+    "album": "SUPERBLOOM",
+    "year": 2023,
+    "producer": null,
+    "engineer": null,
+    "mixer": null,
+    "source": "musicbrainz"
+  },
+  {
+    "artist_name": "Fit For A King",
+    "album": "The Hell We Create",
+    "year": 2022,
+    "producer": "Brandon Ebel, Zach Jones (3), WZRD BLD",
+    "engineer": "Daniel Gailey",
+    "mixer": "Jeff Dunne (2)",
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Dance Gavin Dance",
+    "album": "Artificial Selection",
+    "year": 2018,
+    "producer": "Will Swan",
+    "engineer": null,
+    "mixer": null,
+    "source": "musicbrainz"
+  },
+  {
+    "artist_name": "We Came As Romans",
+    "album": "Cold Like War",
+    "year": 2017,
+    "producer": "Nick Sampson (2), WZRD BLD",
+    "engineer": "Joseph Hall (3), Josh Strock, Max Klein (2)",
+    "mixer": "Jeff Dunne (2)",
+    "source": "discogs"
+  },
+  {
+    "artist_name": "After The Burial",
+    "album": "Embrace The Infinity",
+    "year": 2023,
+    "producer": "Will Putney",
+    "engineer": "Steve Seid",
+    "mixer": null,
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Brand Of Sacrifice",
+    "album": "God Hand",
+    "year": 2019,
+    "producer": "Michael Leo Valeri, Kyle Anderson (3)",
+    "engineer": null,
+    "mixer": null,
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Currents",
+    "album": "Currents / Albatros",
+    "year": 2012,
+    "producer": null,
+    "engineer": null,
+    "mixer": "Jean-Etienne Collin Marcoux",
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Like Moths To Flames",
+    "album": "The Cycles Of Trying To Cope",
+    "year": 2024,
+    "producer": "Cody Cavanaugh, Zach Pishney, Carson Slovak, Grant McFarland (2), Ariana Nazari",
+    "engineer": null,
+    "mixer": null,
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Rivers of Nihil",
+    "album": "Where Owls Know My Name",
+    "year": 2018,
+    "producer": null,
+    "engineer": null,
+    "mixer": null,
+    "source": "musicbrainz"
+  },
+  {
+    "artist_name": "Between the Buried and Me",
+    "album": "Automata I",
+    "year": 2018,
+    "producer": "Jamie King",
+    "engineer": null,
+    "mixer": null,
+    "source": "musicbrainz"
+  },
+  {
+    "artist_name": "A Day To Remember",
+    "album": "You're Welcome",
+    "year": 2021,
+    "producer": "Colin Brittain, WZRD BLD, Dan Book, Jeremy McKinnon, Mike Green (3), Will Putney, Brian Ranney, John Hudson (3)",
+    "engineer": null,
+    "mixer": "Alex Tumay, Colin Brittain, Dan Lancaster, Josh Wilbur, Neal Avron, Tom Lord-Alge, Rhys May, Scott Skrzynski",
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Underoath",
+    "album": "Voyeurist: Digital Ghost",
+    "year": 2023,
+    "producer": null,
+    "engineer": null,
+    "mixer": null,
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Northlane",
+    "album": "Miasma",
+    "year": 2024,
+    "producer": "Will Putney",
+    "engineer": null,
+    "mixer": null,
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Bring Me the Horizon",
+    "album": "Kool-Aid ",
+    "year": 2024,
+    "producer": "Daniel Lancaster, Zakk Cervini, Oliver Sykes",
+    "engineer": "Phil Gornell",
+    "mixer": "Julian Gargiulo",
+    "source": "discogs"
+  },
+  {
+    "artist_name": "The Ghost Inside",
+    "album": "Searching For Solace",
+    "year": 2024,
+    "producer": "Daniel Braunstein, Jon Eberhard, Tyler Smyth",
+    "engineer": "Daniel Braunstein, Jesse Field",
+    "mixer": "Julian Garguilo, Nik Trekov, Zakk Cervini",
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Converge",
+    "album": "Love Is Not Enough ",
+    "year": 2026,
+    "producer": null,
+    "engineer": "Zach Weeks",
+    "mixer": "Kurt Ballou",
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Eidola",
+    "album": "Eviscerate",
+    "year": 2024,
+    "producer": "Ian Cooperstein, Mike Sahm",
+    "engineer": null,
+    "mixer": null,
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Sleeping With Sirens",
+    "album": "Complete Collapse",
+    "year": 2022,
+    "producer": "Andrew Baylis",
+    "engineer": null,
+    "mixer": null,
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Pierce the Veil",
+    "album": "Karma Police",
+    "year": 2024,
+    "producer": "Dan Korneff",
+    "engineer": "Christian Cummings",
+    "mixer": "Adam Hawkins",
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Avenged Sevenfold",
+    "album": "The Stage",
+    "year": 2016,
+    "producer": null,
+    "engineer": "Jeff Fitzpatrick, Alex Pavone, Michael Peterson, Wesley Seidman, Morgan Stratton",
+    "mixer": null,
+    "source": "musicbrainz"
+  },
+  {
+    "artist_name": "Parkway Drive",
+    "album": "Glitch",
+    "year": 2022,
+    "producer": "George Hadjichristou",
+    "engineer": "Dean Hadjichristou",
+    "mixer": "Zakk Cervini",
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Thrice",
+    "album": "Horizons/West",
+    "year": 2025,
+    "producer": "Scott Evans",
+    "engineer": "Teppei Teranishi",
+    "mixer": null,
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Atreyu",
+    "album": "The Pronoia Sessions (Revised And Reimagined)",
+    "year": 2024,
+    "producer": "Matt Pauling",
+    "engineer": null,
+    "mixer": "Matt Pauling",
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Bullet for My Valentine",
+    "album": "Venom",
+    "year": 2015,
+    "producer": "Carl Bown",
+    "engineer": null,
+    "mixer": "Colin Richardson",
+    "source": "musicbrainz"
+  },
+  {
+    "artist_name": "Killswitch Engage",
+    "album": "Atonement",
+    "year": 2019,
+    "producer": "Adam Dutkiewicz",
+    "engineer": null,
+    "mixer": "Andy Sneap",
+    "source": "discogs"
+  },
+  {
+    "artist_name": "The Word Alive",
+    "album": "Hard Reset",
+    "year": 2023,
+    "producer": null,
+    "engineer": null,
+    "mixer": null,
+    "source": "musicbrainz"
+  },
+  {
+    "artist_name": "Greyhaven",
+    "album": "This Bright and Beautiful World",
+    "year": 2022,
+    "producer": null,
+    "engineer": null,
+    "mixer": null,
+    "source": "musicbrainz"
+  },
+  {
+    "artist_name": "Falling in Reverse",
+    "album": "God Is A Weapon",
+    "year": 2025,
+    "producer": "Ronnie Radke, Tyler Smyth, Charles Massabo",
+    "engineer": null,
+    "mixer": null,
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Babymetal",
+    "album": "Ratatata",
+    "year": 2024,
+    "producer": "Manuel Renner, Daniel Haniß, Kevin Ratajczak, Kobametal, Nico Sallach, Pascal Schillo",
+    "engineer": "Babymetal, Electric Callboy",
+    "mixer": "Daniel Haniß",
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Nothing More",
+    "album": "SPIRITS",
+    "year": 2022,
+    "producer": null,
+    "engineer": null,
+    "mixer": null,
+    "source": "musicbrainz"
+  },
+  {
+    "artist_name": "Halestorm",
+    "album": "Back From the Dead",
+    "year": 2022,
+    "producer": null,
+    "engineer": null,
+    "mixer": null,
+    "source": "musicbrainz"
+  },
+  {
+    "artist_name": "Saosin",
+    "album": "Along The Shadow",
+    "year": 2016,
+    "producer": "Saosin, Will Yip",
+    "engineer": null,
+    "mixer": "Beau Burchell",
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Spite",
+    "album": "Singles",
+    "year": 1997,
+    "producer": null,
+    "engineer": "Martin Nichols",
+    "mixer": null,
+    "source": "discogs"
+  },
+  {
+    "artist_name": "In This Moment",
+    "album": "Mother",
+    "year": 2020,
+    "producer": "Kane Churko, Kevin Churko",
+    "engineer": "Kevin Sankel, Randy Weitzel, Tristan Hardin",
+    "mixer": "Kevin Churko",
+    "source": "discogs"
+  },
+  {
+    "artist_name": "My Chemical Romance",
+    "album": "The Foundations Of Decay",
+    "year": 2022,
+    "producer": "Doug McKean, Gerard Way, Ray Toro",
+    "engineer": null,
+    "mixer": "Rich Costey, Jeff Citron",
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Taking Back Sunday",
+    "album": "152",
+    "year": 2023,
+    "producer": "Jillian Newman, Tushar Apte",
+    "engineer": "Adam Lazzara, John Nolan (5), Mark O'Connell, Shaun Cooper",
+    "mixer": "Neal Avron",
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Coheed and Cambria",
+    "album": "Vaxis II: A Window Of The Waking Mind",
+    "year": 2022,
+    "producer": "Claudio Sanchez, Zakk Cervini",
+    "engineer": "Jon Lundin (2), Nik Trekov, Coheed And Cambria, Zakk Cervini, Sean Paul Pillsworth",
+    "mixer": "Zakk Cervini, Nik Trekov",
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Make Them Suffer",
+    "album": "How To Survive A Funeral",
+    "year": 2020,
+    "producer": "Jeff Dunne (2), Drew Fulk",
+    "engineer": null,
+    "mixer": null,
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Cane Hill",
+    "album": "Live From The Bible Belt",
+    "year": 2018,
+    "producer": null,
+    "engineer": "William Moesta (2)",
+    "mixer": "George Collings",
+    "source": "discogs"
+  },
+  {
+    "artist_name": "Volumes",
+    "album": "Mirror Touch",
+    "year": 2025,
+    "producer": null,
+    "engineer": null,
+    "mixer": null,
+    "source": "musicbrainz"
+  },
+  {
+    "artist_name": "The Used",
+    "album": "Heartwork",
+    "year": 2020,
+    "producer": "Dylan McLean, Scot Stewart, John Feldmann",
+    "engineer": "Jacob Magness, Josh Thornberry, Michael Bono",
+    "mixer": "John Feldmann, Scot Stewart",
+    "source": "discogs"
+  }
+]

@@ -323,6 +323,43 @@ def rescore_all(
 
     db.flush()
 
+    # Refresh producers from data file
+    producers_data = _load_json("producers.json")
+    existing_producers = {p.name for p in db.query(Producer).all()}
+    producers_added = 0
+    for p in producers_data:
+        if p["name"] not in existing_producers:
+            db.add(Producer(
+                name=p["name"],
+                studio_name=p.get("studio_name"),
+                location=p.get("location"),
+                credits=json.dumps(p.get("credits", [])),
+                tier=p.get("tier"),
+                sonic_signature=p.get("sonic_signature"),
+            ))
+            producers_added += 1
+    db.flush()
+
+    # Refresh relationships from data file
+    rels_data = _load_json("relationships.json")
+    existing_rels = {
+        (r.source_id, r.target_id, r.relationship_type)
+        for r in db.query(Relationship).all()
+    }
+    rels_added = 0
+    for r in rels_data:
+        key = (r["source_id"], r["target_id"], r["relationship_type"])
+        if key not in existing_rels:
+            db.add(Relationship(
+                source_type=r["source_type"],
+                source_id=r["source_id"],
+                target_type=r["target_type"],
+                target_id=r["target_id"],
+                relationship_type=r["relationship_type"],
+            ))
+            rels_added += 1
+    db.flush()
+
     # Re-query to include newly added artists
     artists = db.query(Artist).all()
 
@@ -417,12 +454,15 @@ def rescore_all(
         updated += 1
 
     db.commit()
-    logger.info("Rescore complete: %d scored, %d metadata refreshed, %d new artists", updated, metadata_updated, artists_added)
+    logger.info("Rescore complete: %d scored, %d metadata refreshed, %d new artists, %d producers, %d rels",
+                updated, metadata_updated, artists_added, producers_added, rels_added)
     return {
         "status": "rescored",
         "artists_updated": updated,
         "metadata_refreshed": metadata_updated,
         "artists_added": artists_added,
+        "producers_added": producers_added,
+        "relationships_added": rels_added,
     }
 
 
