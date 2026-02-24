@@ -116,11 +116,12 @@ def refresh_events(
         collector = BandsintownCollector()
         artists = db.query(Artist).filter(Artist.active.is_(True)).all()
 
-        # Clear future events (keep historical)
-        db.query(Event).filter(
+        # Clear ALL future events first and commit separately
+        deleted = db.query(Event).filter(
             Event.event_date >= date.today()
         ).delete(synchronize_session="fetch")
-        db.flush()
+        db.commit()
+        logger.info("Cleared %d future events", deleted)
 
         total_events = 0
         errors = []
@@ -146,6 +147,7 @@ def refresh_events(
                         festival_name=e.festival_name,
                     ))
                     total_events += 1
+                db.flush()
             except Exception as exc:
                 db.rollback()
                 errors.append(f"{artist.name}: {exc}")
