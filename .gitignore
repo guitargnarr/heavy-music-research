@@ -40,3 +40,6 @@ data/*.csv
 
 # Render
 api/.render/
+
+# MCP config (contains API keys)
+.mcp.json
