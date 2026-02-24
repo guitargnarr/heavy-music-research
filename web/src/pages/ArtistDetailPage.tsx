@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import { ArrowLeft, Network, ExternalLink } from "lucide-react";
+import { ArrowLeft, Network, ExternalLink, MapPin, Ticket } from "lucide-react";
 import {
   AreaChart,
   Area,
@@ -169,9 +169,20 @@ export function ArtistDetailPage() {
             Industry Info
           </h2>
           <InfoRow label="Label" value={artist.current_label} />
+          {artist.label_contact && (
+            <>
+              {artist.label_contact.key_contact && (
+                <InfoRow
+                  label="A&R Contact"
+                  value={`${artist.label_contact.key_contact}${artist.label_contact.contact_title ? ` (${artist.label_contact.contact_title})` : ""}`}
+                />
+              )}
+            </>
+          )}
           <InfoRow label="Management" value={artist.current_management_co} />
           <InfoRow label="Manager" value={artist.current_manager} />
-          <InfoRow label="Booking" value={artist.booking_agency} />
+          <InfoRow label="Booking Agency" value={artist.booking_agency} />
+          <InfoRow label="Booking Agent" value={artist.booking_agent} />
           {artist.spotify_id && !artist.spotify_id.startsWith("placeholder") && (
             <a
               href={`https://open.spotify.com/artist/${artist.spotify_id}`}
@@ -267,6 +278,60 @@ export function ArtistDetailPage() {
               value={artist.snapshots[0].youtube_comment_count}
               format="compact"
             />
+          </div>
+        </div>
+      )}
+
+      {artist.upcoming_events && artist.upcoming_events.length > 0 && (
+        <div className="bg-surface-raised border border-surface-border rounded-xl p-5">
+          <h2 className="text-sm font-semibold text-gray-300 uppercase tracking-wider mb-4">
+            Upcoming Shows ({artist.upcoming_events.length})
+          </h2>
+          <div className="space-y-2">
+            {artist.upcoming_events.map((event) => (
+              <div
+                key={event.id}
+                className="flex items-center justify-between gap-3 px-3 py-2.5 rounded-lg bg-surface-overlay/50 hover:bg-surface-overlay transition-colors"
+              >
+                <div className="flex items-center gap-3 min-w-0">
+                  <div className="text-center shrink-0 w-12">
+                    <div className="text-xs text-gray-500">
+                      {new Date(event.event_date + "T00:00:00").toLocaleDateString("en-US", { month: "short" })}
+                    </div>
+                    <div className="text-lg font-bold text-gray-200 leading-tight">
+                      {new Date(event.event_date + "T00:00:00").getDate()}
+                    </div>
+                  </div>
+                  <div className="min-w-0">
+                    <div className="flex items-center gap-2">
+                      <span className="text-sm font-medium text-gray-200 truncate">
+                        {event.venue_name ?? event.event_name}
+                      </span>
+                      {event.festival_name && (
+                        <span className="text-xs px-1.5 py-0.5 rounded bg-amber-500/15 text-amber-400 border border-amber-500/20 shrink-0">
+                          Festival
+                        </span>
+                      )}
+                    </div>
+                    <div className="flex items-center gap-1 text-xs text-gray-500 mt-0.5">
+                      <MapPin size={10} />
+                      {[event.city, event.region, event.country].filter(Boolean).join(", ")}
+                    </div>
+                  </div>
+                </div>
+                {event.ticket_url && (
+                  <a
+                    href={event.ticket_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1 text-xs text-brand-red-light hover:text-white shrink-0"
+                  >
+                    <Ticket size={12} />
+                    Tickets
+                  </a>
+                )}
+              </div>
+            ))}
           </div>
         </div>
       )}

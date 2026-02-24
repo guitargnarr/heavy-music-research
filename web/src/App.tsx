@@ -3,6 +3,7 @@ import { Layout } from "./components/layout/Layout";
 import { DashboardPage } from "./pages/DashboardPage";
 import { ArtistDetailPage } from "./pages/ArtistDetailPage";
 import { NetworkPage } from "./pages/NetworkPage";
+import { ToursPage } from "./pages/ToursPage";
 import { AboutPage } from "./pages/AboutPage";
 
 export default function App() {
@@ -13,6 +14,7 @@ export default function App() {
           <Route path="/" element={<DashboardPage />} />
           <Route path="/artist/:id" element={<ArtistDetailPage />} />
           <Route path="/network" element={<NetworkPage />} />
+          <Route path="/tours" element={<ToursPage />} />
           <Route path="/about" element={<AboutPage />} />
         </Route>
       </Routes>

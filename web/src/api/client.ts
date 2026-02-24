@@ -4,6 +4,8 @@ import type {
   ArtistDetail,
   NetworkGraph,
   ScoreRecord,
+  EventRecord,
+  FestivalSummary,
 } from "../types";
 
 const BASE = import.meta.env.VITE_API_URL ?? "";
@@ -72,4 +74,17 @@ export async function getNetworkGraph(
   if (center) params.center = center;
   if (depth) params.depth = depth;
   return fetchJSON(`/api/network/graph${toQueryString(params)}`);
+}
+
+export async function getUpcomingEvents(params: {
+  days?: number;
+  artist?: string;
+  festival_only?: boolean;
+  limit?: number;
+} = {}): Promise<EventRecord[]> {
+  return fetchJSON(`/api/events/upcoming${toQueryString(params as Record<string, unknown>)}`);
+}
+
+export async function getFestivals(): Promise<FestivalSummary[]> {
+  return fetchJSON("/api/events/festivals");
 }

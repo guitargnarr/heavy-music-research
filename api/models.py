@@ -1,6 +1,6 @@
 """
 SQLAlchemy models for Metalcore Index.
-6 tables: artists, artist_snapshots, scores, producers, relationships, labels
+7 tables: artists, artist_snapshots, scores, producers, relationships, labels, events
 """
 from sqlalchemy import (
     Column,
@@ -29,11 +29,14 @@ class Artist(Base):
     current_manager = Column(String(200), nullable=True)
     current_management_co = Column(String(200), nullable=True)
     booking_agency = Column(String(200), nullable=True)
+    booking_agent = Column(String(200), nullable=True)
+    bandsintown_id = Column(String(200), nullable=True)
     youtube_channel_id = Column(String(50), nullable=True)
     active = Column(Boolean, default=True)
 
     snapshots = relationship("ArtistSnapshot", back_populates="artist")
     scores = relationship("Score", back_populates="artist")
+    events = relationship("Event", back_populates="artist")
 
 
 class ArtistSnapshot(Base):
@@ -122,3 +125,31 @@ class Label(Base):
     distribution = Column(String(200), nullable=True)
     key_contact = Column(String(200), nullable=True)
     contact_title = Column(String(200), nullable=True)
+
+
+class Event(Base):
+    __tablename__ = "events"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    artist_id = Column(String(50), ForeignKey("artists.spotify_id"), nullable=False)
+    event_name = Column(String(500), nullable=False)
+    venue_name = Column(String(300), nullable=True)
+    city = Column(String(200), nullable=True)
+    region = Column(String(100), nullable=True)
+    country = Column(String(100), nullable=True)
+    event_date = Column(Date, nullable=False, index=True)
+    event_type = Column(String(50), default="concert")
+    bandsintown_id = Column(String(100), nullable=True)
+    ticketmaster_id = Column(String(100), nullable=True)
+    ticket_url = Column(String(500), nullable=True)
+    festival_name = Column(String(300), nullable=True)
+    lineup_position = Column(String(50), nullable=True)
+
+    __table_args__ = (
+        UniqueConstraint(
+            "artist_id", "event_date", "venue_name",
+            name="uq_artist_event",
+        ),
+    )
+
+    artist = relationship("Artist", back_populates="events")

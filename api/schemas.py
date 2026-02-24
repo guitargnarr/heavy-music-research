@@ -17,6 +17,7 @@ class ArtistBase(BaseModel):
     current_manager: Optional[str] = None
     current_management_co: Optional[str] = None
     booking_agency: Optional[str] = None
+    booking_agent: Optional[str] = None
     youtube_channel_id: Optional[str] = None
     active: bool = True
 
@@ -30,6 +31,8 @@ class ArtistResponse(ArtistBase):
 class ArtistDetail(ArtistBase):
     snapshots: list["SnapshotResponse"] = []
     scores: list["ScoreResponse"] = []
+    upcoming_events: list["EventResponse"] = []
+    label_contact: Optional["LabelContactInfo"] = None
 
     model_config = {"from_attributes": True}
 
@@ -143,3 +146,46 @@ class DashboardResponse(BaseModel):
     artists: list[DashboardArtist]
     total: int
     universe_size: int
+
+
+# --- Events ---
+
+class EventResponse(BaseModel):
+    id: int
+    event_name: str
+    venue_name: Optional[str] = None
+    city: Optional[str] = None
+    region: Optional[str] = None
+    country: Optional[str] = None
+    event_date: date
+    event_type: str = "concert"
+    ticket_url: Optional[str] = None
+    festival_name: Optional[str] = None
+    lineup_position: Optional[str] = None
+
+    model_config = {"from_attributes": True}
+
+
+class FestivalSummary(BaseModel):
+    festival_name: str
+    start_date: date
+    end_date: Optional[date] = None
+    location: str
+    artists: list[str]
+
+
+class LabelContactInfo(BaseModel):
+    label_name: str
+    key_contact: Optional[str] = None
+    contact_title: Optional[str] = None
+
+
+class DashboardParams(BaseModel):
+    sort_by: Optional[str] = None
+    sort_dir: Optional[str] = None
+    grade: Optional[str] = None
+    segment: Optional[str] = None
+    label: Optional[str] = None
+    search: Optional[str] = None
+    limit: int = 100
+    offset: int = 0

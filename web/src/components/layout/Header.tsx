@@ -1,9 +1,10 @@
 import { Link, useLocation } from "react-router-dom";
-import { BarChart3, Network, Info } from "lucide-react";
+import { BarChart3, Network, Calendar, Info } from "lucide-react";
 
 const navItems = [
   { to: "/", label: "Dashboard", icon: BarChart3 },
   { to: "/network", label: "Network", icon: Network },
+  { to: "/tours", label: "Tours", icon: Calendar },
   { to: "/about", label: "About", icon: Info },
 ];
 

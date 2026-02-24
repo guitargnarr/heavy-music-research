@@ -1,15 +1,18 @@
 """Artist endpoints for the Metalcore Index API."""
 import json
+from datetime import date
 from typing import Optional
 
 from fastapi import APIRouter, Depends, Query
 from sqlalchemy.orm import Session
 
 from database import get_db
-from models import Artist, Score
+from models import Artist, Event, Label, Relationship, Score
 from schemas import (
     DashboardArtist,
     DashboardResponse,
+    EventResponse,
+    LabelContactInfo,
     ScoreResponse,
     SnapshotResponse,
 )
@@ -123,6 +126,32 @@ def get_artist(spotify_id: str, db: Session = Depends(get_db)):
         for s in sorted(artist.scores, key=lambda s: s.score_date)
     ]
 
+    # Upcoming events
+    upcoming_events = [
+        EventResponse.model_validate(e)
+        for e in sorted(artist.events, key=lambda e: e.event_date)
+        if e.event_date >= date.today()
+    ]
+
+    # Label contact info (via Relationship + Label tables)
+    label_contact = None
+    if artist.current_label:
+        label = db.query(Label).filter(
+            Label.name == artist.current_label
+        ).first()
+        if not label:
+            # Try partial match for compound labels like "Epic Records / Nuclear Blast"
+            first_label = artist.current_label.split("/")[0].strip()
+            label = db.query(Label).filter(
+                Label.name == first_label
+            ).first()
+        if label and (label.key_contact or label.contact_title):
+            label_contact = LabelContactInfo(
+                label_name=label.name,
+                key_contact=label.key_contact,
+                contact_title=label.contact_title,
+            )
+
     return {
         "spotify_id": artist.spotify_id,
         "name": artist.name,
@@ -132,8 +161,11 @@ def get_artist(spotify_id: str, db: Session = Depends(get_db)):
         "current_manager": artist.current_manager,
         "current_management_co": artist.current_management_co,
         "booking_agency": artist.booking_agency,
+        "booking_agent": artist.booking_agent,
         "youtube_channel_id": artist.youtube_channel_id,
         "active": artist.active,
         "snapshots": snapshots,
         "scores": scores,
+        "upcoming_events": upcoming_events,
+        "label_contact": label_contact,
     }

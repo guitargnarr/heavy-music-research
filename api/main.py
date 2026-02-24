@@ -15,7 +15,7 @@ if _project_root not in sys.path:
     sys.path.insert(0, _project_root)
 
 from database import Base, engine  # noqa: E402
-from routers import health, artists, scores, network, seed  # noqa: E402
+from routers import health, artists, scores, network, seed, events  # noqa: E402
 
 
 @asynccontextmanager
@@ -47,6 +47,7 @@ app.include_router(artists.router)
 app.include_router(scores.router)
 app.include_router(network.router)
 app.include_router(seed.router)
+app.include_router(events.router)
 
 
 if __name__ == "__main__":

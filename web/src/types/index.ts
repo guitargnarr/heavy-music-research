@@ -52,6 +52,34 @@ export interface ScoreRecord {
   segment_tag: SegmentTag;
 }
 
+export interface EventRecord {
+  id: number;
+  event_name: string;
+  venue_name: string | null;
+  city: string | null;
+  region: string | null;
+  country: string | null;
+  event_date: string;
+  event_type: "concert" | "festival";
+  ticket_url: string | null;
+  festival_name: string | null;
+  lineup_position: string | null;
+}
+
+export interface LabelContact {
+  label_name: string;
+  key_contact: string | null;
+  contact_title: string | null;
+}
+
+export interface FestivalSummary {
+  festival_name: string;
+  start_date: string;
+  end_date: string | null;
+  location: string;
+  artists: string[];
+}
+
 export interface ArtistDetail {
   spotify_id: string;
   name: string;
@@ -61,10 +89,13 @@ export interface ArtistDetail {
   current_manager: string | null;
   current_management_co: string | null;
   booking_agency: string | null;
+  booking_agent: string | null;
   youtube_channel_id: string | null;
   active: boolean;
   snapshots: Snapshot[];
   scores: ScoreRecord[];
+  upcoming_events: EventRecord[];
+  label_contact: LabelContact | null;
 }
 
 export interface NetworkNode {
