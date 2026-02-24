@@ -10,7 +10,7 @@ const gradeClass: Record<Grade, string> = {
 export function GradeBadge({ grade }: { grade: Grade }) {
   return (
     <span
-      className={`inline-flex items-center justify-center w-8 h-8 rounded-md text-sm font-bold ${gradeClass[grade]}`}
+      className={`inline-flex items-center justify-center w-7 h-7 rounded-full text-xs font-mono font-semibold ${gradeClass[grade]}`}
     >
       {grade}
     </span>

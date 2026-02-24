@@ -16,12 +16,12 @@ export function ScoreBar({ label, value, max = 100 }: ScoreBarProps) {
   return (
     <div className="space-y-1">
       <div className="flex justify-between text-xs">
-        <span className="text-gray-400">{label}</span>
-        <span className="font-mono text-gray-300">{value.toFixed(0)}</span>
+        <span className="text-steel">{label}</span>
+        <span className="font-mono font-medium text-gray-300">{value.toFixed(0)}</span>
       </div>
       <div className="h-1.5 bg-surface-border rounded-full overflow-hidden">
         <div
-          className={`h-full rounded-full ${barColor(value)}`}
+          className={`h-full rounded-full animate-bar-fill origin-left ${barColor(value)}`}
           style={{ width: `${pct}%` }}
         />
       </div>

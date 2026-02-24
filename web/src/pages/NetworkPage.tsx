@@ -137,13 +137,13 @@ export function NetworkPage() {
     <div className="space-y-4">
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
         <div>
-          <h1 className="text-2xl font-bold">Network Visualizer</h1>
-          <p className="text-sm text-gray-500 mt-0.5">
+          <h1 className="text-2xl font-display font-bold tracking-tight">Network Visualizer</h1>
+          <p className="text-xs text-steel font-mono mt-0.5">
             {graph
               ? `${graph.nodes.length} nodes, ${graph.links.length} connections`
               : "Loading..."}
             {center && (
-              <span className="text-brand-red-light ml-1">
+              <span className="text-accent ml-1">
                 centered on {center}
               </span>
             )}
@@ -156,11 +156,11 @@ export function NetworkPage() {
             placeholder="Center on artist..."
             value={searchInput}
             onChange={(e) => setSearchInput(e.target.value)}
-            className="px-3 py-2 bg-surface-raised border border-surface-border rounded-lg text-sm text-gray-200 placeholder:text-gray-500 focus:outline-none focus:ring-1 focus:ring-brand-red/50 w-48"
+            className="px-3 py-2 bg-surface-raised border border-surface-border rounded-lg text-sm text-gray-200 placeholder:text-steel focus:outline-none focus:ring-1 focus:ring-accent/50 w-48"
           />
           <button
             type="submit"
-            className="px-3 py-2 bg-brand-red text-white text-sm font-medium rounded-lg hover:bg-brand-red-dark transition-colors"
+            className="px-3 py-2 bg-accent text-white text-sm font-medium rounded-lg hover:bg-brand-red-dark transition-colors"
           >
             Focus
           </button>
@@ -171,7 +171,7 @@ export function NetworkPage() {
                 setCenter("");
                 setSearchInput("");
               }}
-              className="px-3 py-2 bg-surface-overlay text-gray-300 text-sm rounded-lg hover:bg-surface-border transition-colors"
+              className="px-3 py-2 bg-surface-raised border border-surface-border text-steel text-sm rounded-lg hover:text-gray-200 transition-colors"
             >
               Reset
             </button>
@@ -224,7 +224,7 @@ export function NetworkPage() {
       <div className="relative">
         <div
           ref={containerRef}
-          className="bg-surface-raised border border-surface-border rounded-xl overflow-hidden"
+          className="border border-surface-border rounded-xl overflow-hidden"
           style={{ height: "calc(100vh - 280px)", minHeight: 500 }}
         >
           {loading ? (
@@ -238,7 +238,7 @@ export function NetworkPage() {
               graphData={graphData}
               width={dimensions.width}
               height={dimensions.height}
-              backgroundColor="#1a1a1a"
+              backgroundColor="#05060a"
               onNodeClick={(node) => handleNodeClick(node as GraphNode)}
               onNodeHover={(node) =>
                 setHoveredNode(node ? (node as GraphNode).id : null)
@@ -276,7 +276,7 @@ export function NetworkPage() {
 
                 // Score text inside artist nodes
                 if (type === "artist" && node.score && globalScale > 0.5) {
-                  ctx.font = `bold ${Math.max(8 / globalScale, 3)}px Inter, sans-serif`;
+                  ctx.font = `bold ${Math.max(8 / globalScale, 3)}px DM Sans, sans-serif`;
                   ctx.textAlign = "center";
                   ctx.textBaseline = "middle";
                   ctx.fillStyle = "rgba(255,255,255,0.9)";
@@ -292,7 +292,7 @@ export function NetworkPage() {
                   const fontSize = highlighted
                     ? Math.max(12 / globalScale, 4)
                     : Math.max(10 / globalScale, 3);
-                  ctx.font = `${highlighted ? "bold " : ""}${fontSize}px Inter, sans-serif`;
+                  ctx.font = `${highlighted ? "bold " : ""}${fontSize}px DM Sans, sans-serif`;
                   ctx.textAlign = "center";
                   ctx.textBaseline = "top";
                   ctx.fillStyle = dimmed
@@ -347,7 +347,7 @@ export function NetworkPage() {
                 const mx = (src.x + tgt.x) / 2;
                 const my = ((src.y ?? 0) + (tgt.y ?? 0)) / 2;
 
-                ctx.font = `${Math.max(7 / globalScale, 2)}px Inter, sans-serif`;
+                ctx.font = `${Math.max(7 / globalScale, 2)}px DM Sans, sans-serif`;
                 ctx.textAlign = "center";
                 ctx.textBaseline = "middle";
                 ctx.fillStyle = "rgba(255,255,255,0.25)";
@@ -361,7 +361,7 @@ export function NetworkPage() {
         </div>
 
         {selectedNode && (
-          <div className="absolute top-3 right-3 w-64 bg-surface-raised/95 backdrop-blur-sm border border-surface-border rounded-xl p-4 shadow-xl">
+          <div className="absolute top-3 right-3 w-64 card p-4">
             <div className="flex items-start justify-between mb-3">
               <div>
                 <div

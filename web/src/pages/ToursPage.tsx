@@ -56,8 +56,8 @@ export function ToursPage() {
 
   if (loading) {
     return (
-      <div className="flex flex-col items-center justify-center py-20 gap-3 text-gray-500">
-        <div className="w-6 h-6 border-2 border-gray-600 border-t-brand-red rounded-full animate-spin" />
+      <div className="flex flex-col items-center justify-center py-20 gap-3 text-steel">
+        <div className="w-6 h-6 border-2 border-surface-border border-t-accent rounded-full animate-spin" />
         Loading tour data...
       </div>
     );
@@ -66,7 +66,7 @@ export function ToursPage() {
   if (error) {
     return (
       <div className="flex flex-col items-center text-center py-20 gap-3">
-        <p className="text-gray-400">{error}</p>
+        <p className="text-steel">{error}</p>
       </div>
     );
   }
@@ -75,8 +75,8 @@ export function ToursPage() {
     <div className="space-y-6">
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
         <div>
-          <h1 className="text-2xl font-bold">Tours & Festivals</h1>
-          <p className="text-sm text-gray-500 mt-1">
+          <h1 className="text-2xl font-display font-bold tracking-tight">Tours & Festivals</h1>
+          <p className="text-xs text-steel mt-1 font-mono">
             {events.length} upcoming shows across {new Set(events.map((e) => e.event_name)).size} events
           </p>
         </div>
@@ -84,22 +84,22 @@ export function ToursPage() {
           <div className="relative flex-1 sm:w-64">
             <Search
               size={16}
-              className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500"
+              className="absolute left-3 top-1/2 -translate-y-1/2 text-steel"
             />
             <input
               type="text"
               placeholder="Search events, venues, cities..."
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              className="w-full pl-9 pr-3 py-2 bg-surface-raised border border-surface-border rounded-lg text-sm text-gray-200 placeholder:text-gray-500 focus:outline-none focus:ring-1 focus:ring-brand-red/50 focus:border-brand-red/50"
+              className="w-full pl-9 pr-3 py-2 bg-surface-raised border border-surface-border rounded-lg text-sm text-gray-200 placeholder:text-steel focus:outline-none focus:ring-1 focus:ring-accent/50"
             />
           </div>
           <button
             onClick={() => setFestivalOnly((f) => !f)}
-            className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium border transition-colors ${
+            className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
               festivalOnly
-                ? "bg-amber-500/10 text-amber-400 border-amber-500/30"
-                : "bg-surface-raised text-gray-400 border-surface-border hover:text-gray-200"
+                ? "bg-accent/10 text-accent border border-accent/30"
+                : "bg-surface-raised text-steel hover:text-gray-200 border border-surface-border"
             }`}
           >
             <Calendar size={14} />
@@ -110,28 +110,28 @@ export function ToursPage() {
 
       {festivals.length > 0 && !search && !festivalOnly && (
         <div>
-          <h2 className="text-sm font-semibold text-gray-300 uppercase tracking-wider mb-3">
+          <h2 className="text-[10px] font-medium text-steel uppercase tracking-widest mb-3">
             Festival Appearances
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
             {festivals.slice(0, 6).map((f) => (
               <div
                 key={f.festival_name}
-                className="bg-surface-raised border border-surface-border rounded-xl p-4 space-y-2"
+                className="card p-4 space-y-2 border-t-2 border-t-accent"
               >
                 <div className="flex items-start justify-between gap-2">
-                  <h3 className="font-semibold text-gray-200 text-sm">
+                  <h3 className="font-display font-semibold text-gray-200 text-sm">
                     {f.festival_name}
                   </h3>
-                  <span className="text-xs px-1.5 py-0.5 rounded bg-amber-500/15 text-amber-400 border border-amber-500/20 shrink-0">
-                    {f.artists.length} artists
+                  <span className="text-lg font-mono font-semibold text-accent shrink-0">
+                    {f.artists.length}
                   </span>
                 </div>
-                <div className="flex items-center gap-1 text-xs text-gray-500">
+                <div className="flex items-center gap-1 text-xs text-steel">
                   <MapPin size={10} />
                   {f.location}
                 </div>
-                <div className="flex items-center gap-1 text-xs text-gray-500">
+                <div className="flex items-center gap-1 text-xs text-steel font-mono">
                   <Calendar size={10} />
                   {new Date(f.start_date + "T00:00:00").toLocaleDateString("en-US", {
                     month: "short",
@@ -151,13 +151,13 @@ export function ToursPage() {
                   {f.artists.slice(0, 5).map((name) => (
                     <span
                       key={name}
-                      className="text-xs px-1.5 py-0.5 rounded bg-surface-overlay text-gray-400 border border-surface-border"
+                      className="text-[10px] px-1.5 py-0.5 rounded border border-surface-border text-steel"
                     >
                       {name}
                     </span>
                   ))}
                   {f.artists.length > 5 && (
-                    <span className="text-xs text-gray-600">
+                    <span className="text-[10px] text-steel/50">
                       +{f.artists.length - 5} more
                     </span>
                   )}
@@ -170,7 +170,7 @@ export function ToursPage() {
 
       <div>
         {groupedByMonth.length === 0 ? (
-          <div className="text-center py-12 text-gray-500">
+          <div className="text-center py-12 text-steel">
             No events found
           </div>
         ) : (
@@ -183,30 +183,30 @@ export function ToursPage() {
 
             return (
               <div key={monthKey} className="mb-6">
-                <h2 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-2 sticky top-14 bg-surface-base/95 backdrop-blur-sm py-2 z-10">
+                <h2 className="text-[10px] font-medium text-steel uppercase tracking-widest mb-2 sticky top-14 bg-void/95 backdrop-blur-sm py-2 z-10 flex items-center gap-2">
                   {monthLabel}
-                  <span className="text-gray-600 ml-2 font-normal">
-                    ({monthEvents.length} shows)
+                  <span className="text-steel/40 font-mono">
+                    {monthEvents.length}
                   </span>
                 </h2>
-                <div className="bg-surface-raised border border-surface-border rounded-xl overflow-hidden">
+                <div className="card overflow-hidden">
                   {monthEvents.map((event, idx) => (
                     <div
                       key={event.id}
                       className={`flex items-center justify-between gap-3 px-4 py-3 ${
                         idx !== monthEvents.length - 1
-                          ? "border-b border-surface-border/50"
+                          ? "border-b border-surface-border/30"
                           : ""
-                      } hover:bg-surface-overlay/50 transition-colors`}
+                      } hover:bg-surface-overlay/80 transition-all group accent-border-hover`}
                     >
                       <div className="flex items-center gap-4 min-w-0">
                         <div className="text-center shrink-0 w-10">
-                          <div className="text-xs text-gray-500">
+                          <div className="text-[10px] text-steel font-mono uppercase">
                             {new Date(event.event_date + "T00:00:00").toLocaleDateString("en-US", {
                               weekday: "short",
                             })}
                           </div>
-                          <div className="text-lg font-bold text-gray-200 leading-tight">
+                          <div className="text-lg font-mono font-semibold text-gray-200 leading-tight">
                             {new Date(event.event_date + "T00:00:00").getDate()}
                           </div>
                         </div>
@@ -216,12 +216,12 @@ export function ToursPage() {
                               {event.event_name}
                             </span>
                             {event.festival_name && (
-                              <span className="text-xs px-1.5 py-0.5 rounded bg-amber-500/15 text-amber-400 border border-amber-500/20 shrink-0">
+                              <span className="text-[10px] px-1.5 py-0.5 rounded border border-accent/30 text-accent shrink-0 uppercase tracking-wider">
                                 Festival
                               </span>
                             )}
                           </div>
-                          <div className="flex items-center gap-3 text-xs text-gray-500 mt-0.5">
+                          <div className="flex items-center gap-3 text-xs text-steel mt-0.5">
                             {event.venue_name && (
                               <span>{event.venue_name}</span>
                             )}
@@ -240,7 +240,7 @@ export function ToursPage() {
                             href={event.ticket_url}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="flex items-center gap-1 text-xs text-brand-red-light hover:text-white"
+                            className="flex items-center gap-1 text-xs text-accent hover:text-white"
                           >
                             <Ticket size={12} />
                             Tickets

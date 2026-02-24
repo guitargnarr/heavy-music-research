@@ -29,17 +29,17 @@ export function ScoreRadar({
   return (
     <ResponsiveContainer width="100%" height={200}>
       <RadarChart data={data} cx="50%" cy="50%" outerRadius="70%">
-        <PolarGrid stroke="#333" />
+        <PolarGrid stroke="#1e2024" />
         <PolarAngleAxis
           dataKey="dim"
-          tick={{ fill: "#9ca3af", fontSize: 11 }}
+          tick={{ fill: "#8a8f98", fontSize: 11, fontFamily: "IBM Plex Mono" }}
         />
         <Radar
           dataKey="value"
           stroke="#dc2626"
           fill="#dc2626"
-          fillOpacity={0.15}
-          strokeWidth={2}
+          fillOpacity={0.12}
+          strokeWidth={1.5}
         />
       </RadarChart>
     </ResponsiveContainer>

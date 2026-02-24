@@ -33,8 +33,8 @@ export function ArtistDetailPage() {
 
   if (loading) {
     return (
-      <div className="flex flex-col items-center justify-center py-20 gap-3 text-gray-500">
-        <div className="w-6 h-6 border-2 border-gray-600 border-t-brand-red rounded-full animate-spin" />
+      <div className="flex flex-col items-center justify-center py-20 gap-3 text-steel">
+        <div className="w-6 h-6 border-2 border-surface-border border-t-accent rounded-full animate-spin" />
         Loading artist...
       </div>
     );
@@ -43,12 +43,12 @@ export function ArtistDetailPage() {
   if (error || !artist) {
     return (
       <div className="flex flex-col items-center text-center py-20 gap-3">
-        <p className="text-gray-400">
+        <p className="text-steel">
           {error ?? "Artist not found"}
         </p>
         <Link
           to="/"
-          className="px-4 py-2 bg-brand-red text-white text-sm font-medium rounded-lg hover:bg-brand-red-dark transition-colors"
+          className="px-4 py-2 bg-accent text-white text-sm font-medium rounded-lg hover:bg-brand-red-dark transition-colors"
         >
           Back to dashboard
         </Link>
@@ -68,70 +68,81 @@ export function ArtistDetailPage() {
 
   return (
     <div className="space-y-6">
+      {/* Breadcrumb */}
       <div className="flex items-center gap-3">
         <Link
           to="/"
-          className="inline-flex items-center gap-1 text-sm text-gray-400 hover:text-gray-200 transition-colors"
+          className="inline-flex items-center gap-1 text-sm text-steel hover:text-gray-200 transition-colors"
         >
           <ArrowLeft size={16} />
           Dashboard
         </Link>
-        <span className="text-gray-600">/</span>
+        <span className="text-surface-border">/</span>
         <span className="text-sm text-gray-300">{artist.name}</span>
       </div>
 
-      <div className="flex flex-col sm:flex-row items-start gap-5">
+      {/* Hero */}
+      <div className="relative overflow-hidden rounded-xl">
         {artist.image_url && (
-          <img
-            src={artist.image_url}
-            alt={artist.name}
-            className="w-24 h-24 rounded-xl object-cover border border-surface-border"
+          <div
+            className="absolute inset-0 opacity-[0.07] blur-3xl scale-125"
+            style={{ backgroundImage: `url(${artist.image_url})`, backgroundSize: "cover", backgroundPosition: "center" }}
           />
         )}
-        <div className="flex-1">
-          <div className="flex items-start justify-between gap-4">
-            <div>
-              <h1 className="text-3xl font-bold">{artist.name}</h1>
-              <div className="flex flex-wrap items-center gap-2 mt-2">
-                {latestScore && (
-                  <>
-                    <GradeBadge grade={latestScore.grade} />
-                    <SegmentTag tag={latestScore.segment_tag} />
-                    <span className="text-sm font-mono text-gray-400">
-                      {latestScore.composite.toFixed(1)}
-                    </span>
-                  </>
-                )}
-              </div>
-            </div>
-            <Link
-              to={`/network?center=${encodeURIComponent(artist.name)}`}
-              className="flex items-center gap-1.5 px-3 py-2 bg-surface-overlay border border-surface-border rounded-lg text-sm text-gray-300 hover:text-white hover:border-gray-500 transition-colors"
-            >
-              <Network size={14} />
-              Network
-            </Link>
-          </div>
-
-          {artist.genres.length > 0 && (
-            <div className="flex flex-wrap gap-1.5 mt-3">
-              {artist.genres.map((g) => (
-                <span
-                  key={g}
-                  className="text-xs px-2 py-0.5 rounded-md bg-surface-overlay text-gray-400 border border-surface-border"
-                >
-                  {g}
-                </span>
-              ))}
-            </div>
+        <div className="relative flex flex-col sm:flex-row items-start gap-5 p-1">
+          {artist.image_url && (
+            <img
+              src={artist.image_url}
+              alt={artist.name}
+              className="w-24 h-24 rounded-lg object-cover border border-surface-border"
+            />
           )}
+          <div className="flex-1">
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <h1 className="text-3xl font-display font-bold tracking-tight">{artist.name}</h1>
+                <div className="flex flex-wrap items-center gap-2 mt-2">
+                  {latestScore && (
+                    <>
+                      <GradeBadge grade={latestScore.grade} />
+                      <SegmentTag tag={latestScore.segment_tag} />
+                      <span className="text-sm font-mono text-steel">
+                        {latestScore.composite.toFixed(1)}
+                      </span>
+                    </>
+                  )}
+                </div>
+              </div>
+              <Link
+                to={`/network?center=${encodeURIComponent(artist.name)}`}
+                className="flex items-center gap-1.5 px-3 py-2 bg-surface-raised border border-surface-border rounded-lg text-sm text-steel hover:text-white transition-colors"
+              >
+                <Network size={14} />
+                Network
+              </Link>
+            </div>
+
+            {artist.genres.length > 0 && (
+              <div className="flex flex-wrap gap-1.5 mt-3">
+                {artist.genres.map((g) => (
+                  <span
+                    key={g}
+                    className="text-[10px] px-2 py-0.5 rounded border border-surface-border text-steel uppercase tracking-wider"
+                  >
+                    {g}
+                  </span>
+                ))}
+              </div>
+            )}
+          </div>
         </div>
       </div>
 
+      {/* Cards grid */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {latestScore && (
-          <div className="bg-surface-raised border border-surface-border rounded-xl p-5 space-y-3">
-            <h2 className="text-sm font-semibold text-gray-300 uppercase tracking-wider">
+          <div className="card p-5 space-y-3">
+            <h2 className="text-[10px] font-medium text-steel uppercase tracking-widest">
               Score Breakdown
             </h2>
             <ScoreBar label="Trajectory (40%)" value={latestScore.trajectory} />
@@ -151,8 +162,8 @@ export function ArtistDetailPage() {
         )}
 
         {latestScore && (
-          <div className="bg-surface-raised border border-surface-border rounded-xl p-5">
-            <h2 className="text-sm font-semibold text-gray-300 uppercase tracking-wider mb-2">
+          <div className="card p-5">
+            <h2 className="text-[10px] font-medium text-steel uppercase tracking-widest mb-2">
               Score Profile
             </h2>
             <ScoreRadar
@@ -164,8 +175,8 @@ export function ArtistDetailPage() {
           </div>
         )}
 
-        <div className="bg-surface-raised border border-surface-border rounded-xl p-5 space-y-3">
-          <h2 className="text-sm font-semibold text-gray-300 uppercase tracking-wider">
+        <div className="card p-5 space-y-3">
+          <h2 className="text-[10px] font-medium text-steel uppercase tracking-widest">
             Industry Info
           </h2>
           <InfoRow label="Label" value={artist.current_label} />
@@ -197,9 +208,10 @@ export function ArtistDetailPage() {
         </div>
       </div>
 
+      {/* Score history */}
       {scoreHistory.length > 1 && (
-        <div className="bg-surface-raised border border-surface-border rounded-xl p-5">
-          <h2 className="text-sm font-semibold text-gray-300 uppercase tracking-wider mb-4">
+        <div className="card p-5">
+          <h2 className="text-[10px] font-medium text-steel uppercase tracking-widest mb-4">
             Score History
           </h2>
           <ResponsiveContainer width="100%" height={250}>
@@ -212,40 +224,42 @@ export function ArtistDetailPage() {
               </defs>
               <XAxis
                 dataKey="date"
-                tick={{ fill: "#6b7280", fontSize: 11 }}
+                tick={{ fill: "#8a8f98", fontSize: 11, fontFamily: "IBM Plex Mono" }}
                 tickLine={false}
                 axisLine={false}
               />
               <YAxis
                 domain={[0, 100]}
-                tick={{ fill: "#6b7280", fontSize: 11 }}
+                tick={{ fill: "#8a8f98", fontSize: 11, fontFamily: "IBM Plex Mono" }}
                 tickLine={false}
                 axisLine={false}
               />
               <Tooltip
                 contentStyle={{
-                  backgroundColor: "#1a1a1a",
-                  border: "1px solid #333",
+                  backgroundColor: "#0d0e10",
+                  border: "1px solid #1e2024",
                   borderRadius: "8px",
                   fontSize: "12px",
+                  fontFamily: "IBM Plex Mono",
                 }}
-                labelStyle={{ color: "#9ca3af" }}
+                labelStyle={{ color: "#8a8f98" }}
               />
               <Area
                 type="monotone"
                 dataKey="composite"
                 stroke="#dc2626"
                 fill="url(#compositeGrad)"
-                strokeWidth={2}
+                strokeWidth={1.5}
               />
             </AreaChart>
           </ResponsiveContainer>
         </div>
       )}
 
+      {/* Snapshots */}
       {artist.snapshots.length > 0 && (
-        <div className="bg-surface-raised border border-surface-border rounded-xl p-5">
-          <h2 className="text-sm font-semibold text-gray-300 uppercase tracking-wider mb-3">
+        <div className="card p-5">
+          <h2 className="text-[10px] font-medium text-steel uppercase tracking-widest mb-3">
             Latest Snapshot
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
@@ -282,23 +296,27 @@ export function ArtistDetailPage() {
         </div>
       )}
 
+      {/* Upcoming Shows */}
       {artist.upcoming_events && artist.upcoming_events.length > 0 && (
-        <div className="bg-surface-raised border border-surface-border rounded-xl p-5">
-          <h2 className="text-sm font-semibold text-gray-300 uppercase tracking-wider mb-4">
+        <div className="card p-5">
+          <h2 className="text-[10px] font-medium text-steel uppercase tracking-widest mb-4">
             Upcoming Shows ({artist.upcoming_events.length})
           </h2>
-          <div className="space-y-2">
+          <div className="relative pl-6 border-l border-surface-border space-y-0">
             {artist.upcoming_events.map((event) => (
               <div
                 key={event.id}
-                className="flex items-center justify-between gap-3 px-3 py-2.5 rounded-lg bg-surface-overlay/50 hover:bg-surface-overlay transition-colors"
+                className="relative flex items-center justify-between gap-3 py-3 group"
               >
-                <div className="flex items-center gap-3 min-w-0">
+                {/* Timeline dot */}
+                <div className="absolute -left-[25px] w-2 h-2 rounded-full bg-surface-border group-hover:bg-accent transition-colors" />
+
+                <div className="flex items-center gap-4 min-w-0">
                   <div className="text-center shrink-0 w-12">
-                    <div className="text-xs text-gray-500">
+                    <div className="text-[10px] text-steel uppercase tracking-wider font-mono">
                       {new Date(event.event_date + "T00:00:00").toLocaleDateString("en-US", { month: "short" })}
                     </div>
-                    <div className="text-lg font-bold text-gray-200 leading-tight">
+                    <div className="text-lg font-mono font-semibold text-gray-200 leading-tight">
                       {new Date(event.event_date + "T00:00:00").getDate()}
                     </div>
                   </div>
@@ -308,12 +326,12 @@ export function ArtistDetailPage() {
                         {event.venue_name ?? event.event_name}
                       </span>
                       {event.festival_name && (
-                        <span className="text-xs px-1.5 py-0.5 rounded bg-amber-500/15 text-amber-400 border border-amber-500/20 shrink-0">
+                        <span className="text-[10px] px-1.5 py-0.5 rounded border border-accent/30 text-accent shrink-0 uppercase tracking-wider">
                           Festival
                         </span>
                       )}
                     </div>
-                    <div className="flex items-center gap-1 text-xs text-gray-500 mt-0.5">
+                    <div className="flex items-center gap-1 text-xs text-steel mt-0.5">
                       <MapPin size={10} />
                       {[event.city, event.region, event.country].filter(Boolean).join(", ")}
                     </div>
@@ -324,7 +342,7 @@ export function ArtistDetailPage() {
                     href={event.ticket_url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-1 text-xs text-brand-red-light hover:text-white shrink-0"
+                    className="flex items-center gap-1 text-xs text-accent hover:text-white shrink-0"
                   >
                     <Ticket size={12} />
                     Tickets
@@ -348,8 +366,8 @@ function InfoRow({
 }) {
   return (
     <div className="flex justify-between text-sm gap-2">
-      <span className="text-gray-500 shrink-0">{label}</span>
-      <span className="text-gray-300 text-right truncate">
+      <span className="text-steel shrink-0">{label}</span>
+      <span className="text-gray-300 text-right truncate font-mono text-xs">
         {value ?? "Unknown"}
       </span>
     </div>
@@ -374,10 +392,10 @@ function StatCard({
 
   return (
     <div className="text-center">
-      <div className="text-xl font-bold font-mono text-gray-100">
+      <div className="text-xl font-semibold font-mono text-gray-100">
         {display}
       </div>
-      <div className="text-xs text-gray-500 mt-0.5">{label}</div>
+      <div className="text-[10px] text-steel mt-0.5 uppercase tracking-wider">{label}</div>
     </div>
   );
 }
