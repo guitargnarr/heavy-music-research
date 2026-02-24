@@ -33,19 +33,22 @@ export function ArtistDetailPage() {
 
   if (loading) {
     return (
-      <div className="flex items-center justify-center py-20 text-gray-500">
-        Loading...
+      <div className="flex flex-col items-center justify-center py-20 gap-3 text-gray-500">
+        <div className="w-6 h-6 border-2 border-gray-600 border-t-brand-red rounded-full animate-spin" />
+        Loading artist...
       </div>
     );
   }
 
   if (error || !artist) {
     return (
-      <div className="text-center py-20">
-        <p className="text-red-400">{error ?? "Artist not found"}</p>
+      <div className="flex flex-col items-center text-center py-20 gap-3">
+        <p className="text-gray-400">
+          {error ?? "Artist not found"}
+        </p>
         <Link
           to="/"
-          className="text-brand-red-light hover:underline text-sm mt-2 inline-block"
+          className="px-4 py-2 bg-brand-red text-white text-sm font-medium rounded-lg hover:bg-brand-red-dark transition-colors"
         >
           Back to dashboard
         </Link>

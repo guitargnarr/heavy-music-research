@@ -40,6 +40,7 @@ export function DashboardPage() {
   const [allArtists, setAllArtists] = useState<DashboardArtist[]>([]);
   const [total, setTotal] = useState(0);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
   const [search, setSearch] = useState("");
   const [gradeFilter, setGradeFilter] = useState<Grade | "">("");
   const [segmentFilter, setSegmentFilter] = useState<SegType | "">("");
@@ -50,6 +51,7 @@ export function DashboardPage() {
 
   const fetchData = useCallback(async () => {
     setLoading(true);
+    setError(null);
     try {
       const data = await getDashboard({
         sort_by: sortBy,
@@ -64,6 +66,9 @@ export function DashboardPage() {
       setTotal(data.total);
     } catch (err) {
       console.error("Failed to fetch dashboard:", err);
+      setError(
+        "Could not reach the API. The server may be waking up from a cold start -- try refreshing in a few seconds."
+      );
     } finally {
       setLoading(false);
     }
@@ -294,7 +299,27 @@ export function DashboardPage() {
                     colSpan={10}
                     className="px-4 py-12 text-center text-gray-500"
                   >
-                    Loading...
+                    <div className="flex flex-col items-center gap-2">
+                      <div className="w-5 h-5 border-2 border-gray-600 border-t-brand-red rounded-full animate-spin" />
+                      <span>Loading dashboard...</span>
+                    </div>
+                  </td>
+                </tr>
+              ) : error ? (
+                <tr>
+                  <td
+                    colSpan={10}
+                    className="px-4 py-12 text-center"
+                  >
+                    <div className="flex flex-col items-center gap-3">
+                      <p className="text-gray-400">{error}</p>
+                      <button
+                        onClick={fetchData}
+                        className="px-4 py-2 bg-brand-red text-white text-sm font-medium rounded-lg hover:bg-brand-red-dark transition-colors"
+                      >
+                        Retry
+                      </button>
+                    </div>
                   </td>
                 </tr>
               ) : allArtists.length === 0 ? (
@@ -333,16 +358,16 @@ export function DashboardPage() {
                       <CompositeBar value={a.composite} grade={a.grade} />
                     </td>
                     <td className="px-3 py-3 text-right font-mono text-gray-400 hidden md:table-cell">
-                      {a.trajectory.toFixed(0)}
+                      {a.trajectory?.toFixed(0) ?? "—"}
                     </td>
                     <td className="px-3 py-3 text-right font-mono text-gray-400 hidden md:table-cell">
-                      {a.industry_signal.toFixed(0)}
+                      {a.industry_signal?.toFixed(0) ?? "—"}
                     </td>
                     <td className="px-3 py-3 text-right font-mono text-gray-400 hidden lg:table-cell">
-                      {a.engagement.toFixed(0)}
+                      {a.engagement?.toFixed(0) ?? "—"}
                     </td>
                     <td className="px-3 py-3 text-right font-mono text-gray-400 hidden lg:table-cell">
-                      {a.release_positioning.toFixed(0)}
+                      {a.release_positioning?.toFixed(0) ?? "—"}
                     </td>
                     <td className="px-3 py-3 text-gray-500 text-xs hidden xl:table-cell max-w-[150px] truncate">
                       {a.current_label ?? "Unsigned"}

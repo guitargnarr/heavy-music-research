@@ -8,12 +8,31 @@ import type {
 
 const BASE = import.meta.env.VITE_API_URL ?? "";
 
-async function fetchJSON<T>(path: string): Promise<T> {
-  const res = await fetch(`${BASE}${path}`);
-  if (!res.ok) {
-    throw new Error(`API ${res.status}: ${res.statusText}`);
+async function fetchJSON<T>(path: string, retries = 2): Promise<T> {
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      const res = await fetch(`${BASE}${path}`);
+      if (res.status === 502 || res.status === 503) {
+        // Render cold start -- wait and retry
+        if (attempt < retries) {
+          await new Promise((r) => setTimeout(r, 3000 * (attempt + 1)));
+          continue;
+        }
+      }
+      if (!res.ok) {
+        throw new Error(`API ${res.status}: ${res.statusText}`);
+      }
+      return res.json();
+    } catch (err) {
+      if (attempt < retries && err instanceof TypeError) {
+        // Network error (service waking up) -- retry
+        await new Promise((r) => setTimeout(r, 3000 * (attempt + 1)));
+        continue;
+      }
+      throw err;
+    }
   }
-  return res.json();
+  throw new Error("API unavailable after retries");
 }
 
 function toQueryString(params: Record<string, unknown>): string {

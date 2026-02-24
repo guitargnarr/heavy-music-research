@@ -228,7 +228,8 @@ export function NetworkPage() {
           style={{ height: "calc(100vh - 280px)", minHeight: 500 }}
         >
           {loading ? (
-            <div className="flex items-center justify-center h-full text-gray-500">
+            <div className="flex flex-col items-center justify-center h-full gap-3 text-gray-500">
+              <div className="w-6 h-6 border-2 border-gray-600 border-t-brand-red rounded-full animate-spin" />
               Loading graph...
             </div>
           ) : (
