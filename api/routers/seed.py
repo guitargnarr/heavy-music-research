@@ -255,10 +255,33 @@ def rescore_all(
     _auth=Depends(_verify_secret),
 ):
     """Recalculate all scores using the current scoring engine.
-    Does NOT wipe the DB -- just updates score rows in-place."""
+    Also refreshes artist metadata (label, agency, management) from
+    the data files. Does NOT wipe the DB."""
     artists = db.query(Artist).all()
     if not artists:
         return {"status": "skipped", "message": "No artists in DB"}
+
+    # Refresh artist metadata from data files
+    artists_data = _load_json("artists.json")
+    name_to_data = {a["name"]: a for a in artists_data}
+    metadata_updated = 0
+    for artist in artists:
+        src = name_to_data.get(artist.name)
+        if not src:
+            continue
+        changed = False
+        if src.get("current_label") and artist.current_label != src["current_label"]:
+            artist.current_label = src["current_label"]
+            changed = True
+        if src.get("booking_agency") and artist.booking_agency != src["booking_agency"]:
+            artist.booking_agency = src["booking_agency"]
+            changed = True
+        if src.get("current_management_co") and artist.current_management_co != src["current_management_co"]:
+            artist.current_management_co = src["current_management_co"]
+            changed = True
+        if changed:
+            metadata_updated += 1
+    db.flush()
 
     today = date.today()
     updated = 0
@@ -351,8 +374,8 @@ def rescore_all(
         updated += 1
 
     db.commit()
-    logger.info("Rescore complete: %d artists updated", updated)
-    return {"status": "rescored", "artists_updated": updated}
+    logger.info("Rescore complete: %d artists scored, %d metadata refreshed", updated, metadata_updated)
+    return {"status": "rescored", "artists_updated": updated, "metadata_refreshed": metadata_updated}
 
 
 def _get_producer(artist_name: str, db) -> str | None:
