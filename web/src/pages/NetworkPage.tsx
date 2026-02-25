@@ -113,13 +113,6 @@ export function NetworkPage() {
     return () => obs.disconnect();
   }, []);
 
-  // Configure d3 forces for better spacing
-  useEffect(() => {
-    if (graphRef.current) {
-      graphRef.current.d3Force('charge').strength(-200);
-    }
-  }, [graphData]);
-
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     setCenter(searchInput);
@@ -185,6 +178,13 @@ export function NetworkPage() {
       })),
     };
   }, [graph, relFilters, artistOnly]);
+
+  // Configure d3 forces for better spacing
+  useEffect(() => {
+    if (graphRef.current) {
+      graphRef.current.d3Force('charge').strength(-200);
+    }
+  }, [graphData]);
 
   // Count visible links by type
   const linkCounts = useMemo(() => {
