@@ -113,6 +113,13 @@ export function NetworkPage() {
     return () => obs.disconnect();
   }, []);
 
+  // Configure d3 forces for better spacing
+  useEffect(() => {
+    if (graphRef.current) {
+      graphRef.current.d3Force('charge').strength(-200);
+    }
+  }, [graphData]);
+
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     setCenter(searchInput);
@@ -287,8 +294,6 @@ export function NetworkPage() {
               }`}
               style={{
                 backgroundColor: relFilters[rel] !== false ? `${LINK_COLORS[rel] ?? "#666"}22` : "transparent",
-                ringColor: LINK_COLORS[rel] ?? "#666",
-                borderColor: LINK_COLORS[rel] ?? "#666",
                 border: `1px solid ${relFilters[rel] !== false ? (LINK_COLORS[rel] ?? "#666") + "66" : "#2a2d3a"}`,
               }}
             >
@@ -516,8 +521,6 @@ export function NetworkPage() {
               d3AlphaDecay={0.015}
               d3VelocityDecay={0.25}
               cooldownTime={4000}
-              d3Force="charge"
-              d3ForceStrength={-200}
             />
           )}
         </div>
