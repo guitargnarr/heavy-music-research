@@ -607,10 +607,22 @@ export function NetworkPage() {
                 </button>
               )}
               <button
-                onClick={() => navigate("/")}
+                onClick={() => {
+                  if (selectedNode.type === "label") {
+                    navigate(`/?label=${encodeURIComponent(selectedNode.label)}`);
+                  } else if (selectedNode.type === "management" || selectedNode.type === "agency" || selectedNode.type === "producer") {
+                    navigate(`/?search=${encodeURIComponent(selectedNode.label)}`);
+                  } else {
+                    navigate("/");
+                  }
+                }}
                 className="px-2.5 py-1.5 bg-surface-overlay text-gray-300 text-xs rounded-lg border border-surface-border hover:bg-surface-border transition-colors"
               >
-                Dashboard
+                {selectedNode.type === "label"
+                  ? `${selectedNode.label} roster`
+                  : selectedNode.type === "artist"
+                  ? "Dashboard"
+                  : `Find artists`}
               </button>
             </div>
           </div>

@@ -1,5 +1,5 @@
 import { useEffect, useState, useCallback, useMemo } from "react";
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import {
   Search,
   ArrowUpDown,
@@ -37,17 +37,21 @@ const segments: SegType[] = [
 ];
 
 export function DashboardPage() {
+  const [searchParams] = useSearchParams();
+  const urlLabel = searchParams.get("label") ?? "";
+  const urlSearch = searchParams.get("search") ?? "";
+
   const [allArtists, setAllArtists] = useState<DashboardArtist[]>([]);
   const [total, setTotal] = useState(0);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [search, setSearch] = useState("");
+  const [search, setSearch] = useState(urlSearch);
   const [gradeFilter, setGradeFilter] = useState<Grade | "">("");
   const [segmentFilter, setSegmentFilter] = useState<SegType | "">("");
-  const [labelFilter, setLabelFilter] = useState("");
+  const [labelFilter, setLabelFilter] = useState(urlLabel);
   const [sortBy, setSortBy] = useState<SortField>("composite");
   const [sortDir, setSortDir] = useState<SortDir>("desc");
-  const [showFilters, setShowFilters] = useState(false);
+  const [showFilters, setShowFilters] = useState(!!urlLabel);
 
   const fetchData = useCallback(async () => {
     setLoading(true);
