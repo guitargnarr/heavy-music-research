@@ -584,7 +584,7 @@
     "source_type": "artist",
     "source_id": "Thrown",
     "target_type": "producer",
-    "target_id": "Tommy Tägtgren",
+    "target_id": "Tommy T\u00e4gtgren",
     "relationship_type": "produced_by"
   },
   {
@@ -997,7 +997,7 @@
     "source_type": "artist",
     "source_id": "Babymetal",
     "target_type": "producer",
-    "target_id": "Daniel Haniß",
+    "target_id": "Daniel Hani\u00df",
     "relationship_type": "produced_by"
   },
   {
@@ -1433,5 +1433,369 @@
     "target_type": "artist",
     "target_id": "The Ghost Inside",
     "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Wage War",
+    "target_type": "label",
+    "target_id": "Fearless Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Veil of Maya",
+    "target_type": "label",
+    "target_id": "Sumerian Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Slaughter to Prevail",
+    "target_type": "label",
+    "target_id": "Sumerian Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Drain",
+    "target_type": "label",
+    "target_id": "Epitaph Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Counterparts",
+    "target_type": "label",
+    "target_id": "Pure Noise Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "August Burns Red",
+    "target_type": "label",
+    "target_id": "Fearless Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Loathe",
+    "target_type": "label",
+    "target_id": "SharpTone Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Alpha Wolf",
+    "target_type": "label",
+    "target_id": "SharpTone Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Invent Animate",
+    "target_type": "label",
+    "target_id": "UNFD",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Polaris",
+    "target_type": "label",
+    "target_id": "SharpTone Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Silent Planet",
+    "target_type": "label",
+    "target_id": "Solid State Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit For A King",
+    "target_type": "label",
+    "target_id": "Solid State Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "We Came As Romans",
+    "target_type": "label",
+    "target_id": "SharpTone Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "After The Burial",
+    "target_type": "label",
+    "target_id": "Sumerian Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Brand Of Sacrifice",
+    "target_type": "label",
+    "target_id": "Nuclear Blast",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Currents",
+    "target_type": "label",
+    "target_id": "SharpTone Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Like Moths To Flames",
+    "target_type": "label",
+    "target_id": "UNFD",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Rivers of Nihil",
+    "target_type": "label",
+    "target_id": "Metal Blade Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Between the Buried and Me",
+    "target_type": "label",
+    "target_id": "InsideOutMusic",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "label",
+    "target_id": "Fueled by Ramen",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bring Me the Horizon",
+    "target_type": "label",
+    "target_id": "RCA Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "The Ghost Inside",
+    "target_type": "label",
+    "target_id": "Epitaph Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Converge",
+    "target_type": "label",
+    "target_id": "Epitaph Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Code Orange",
+    "target_type": "label",
+    "target_id": "Blue Grape Music",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Eidola",
+    "target_type": "label",
+    "target_id": "3DOT Recordings",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Sleeping With Sirens",
+    "target_type": "label",
+    "target_id": "Sumerian Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Pierce the Veil",
+    "target_type": "label",
+    "target_id": "Fearless Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Avenged Sevenfold",
+    "target_type": "label",
+    "target_id": "Warner Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Parkway Drive",
+    "target_type": "label",
+    "target_id": "Epitaph Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Thrice",
+    "target_type": "label",
+    "target_id": "Epitaph Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Atreyu",
+    "target_type": "label",
+    "target_id": "Spinefarm Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bullet for My Valentine",
+    "target_type": "label",
+    "target_id": "Spinefarm Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Killswitch Engage",
+    "target_type": "label",
+    "target_id": "Metal Blade Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "The Word Alive",
+    "target_type": "label",
+    "target_id": "Thriller Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Greyhaven",
+    "target_type": "label",
+    "target_id": "Solid State Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Falling in Reverse",
+    "target_type": "label",
+    "target_id": "Epitaph Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Babymetal",
+    "target_type": "label",
+    "target_id": "Capitol Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Nothing More",
+    "target_type": "label",
+    "target_id": "Better Noise Music",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Halestorm",
+    "target_type": "label",
+    "target_id": "Atlantic Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Saosin",
+    "target_type": "label",
+    "target_id": "Epitaph Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Spite",
+    "target_type": "label",
+    "target_id": "Rise Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "In This Moment",
+    "target_type": "label",
+    "target_id": "Better Noise Music",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "My Chemical Romance",
+    "target_type": "label",
+    "target_id": "Warner Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Taking Back Sunday",
+    "target_type": "label",
+    "target_id": "Fantasy Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Coheed and Cambria",
+    "target_type": "label",
+    "target_id": "Roadrunner Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Make Them Suffer",
+    "target_type": "label",
+    "target_id": "SharpTone Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Cane Hill",
+    "target_type": "label",
+    "target_id": "Out of Line Music",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Volumes",
+    "target_type": "label",
+    "target_id": "Fearless Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "The Used",
+    "target_type": "label",
+    "target_id": "Anger Music Group",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "The Used",
+    "target_type": "label",
+    "target_id": "Hopeless Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Soil",
+    "target_type": "label",
+    "target_id": "Cleopatra Records",
+    "relationship_type": "signed_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Soil",
+    "target_type": "label",
+    "target_id": "Pavement Entertainment",
+    "relationship_type": "signed_to"
   }
 ]
