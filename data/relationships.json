@@ -2259,5 +2259,495 @@
     "target_type": "agency",
     "target_id": "Sound Talent Group",
     "relationship_type": "booked_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Knocked Loose",
+    "target_type": "producer",
+    "target_id": "Jeff Dunne",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Whitechapel",
+    "target_type": "producer",
+    "target_id": "WZRD BLD",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Born of Osiris",
+    "target_type": "producer",
+    "target_id": "Nick Sampson",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Architects",
+    "target_type": "producer",
+    "target_id": "John Seymour",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Architects",
+    "target_type": "producer",
+    "target_id": "Ray Toro",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Animals As Leaders",
+    "target_type": "producer",
+    "target_id": "Javier Reyes",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Animals As Leaders",
+    "target_type": "producer",
+    "target_id": "Nick Morzov",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Dayseeker",
+    "target_type": "producer",
+    "target_id": "Zakk Cervini",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Ice Nine Kills",
+    "target_type": "producer",
+    "target_id": "Julian Garguilo",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Ice Nine Kills",
+    "target_type": "producer",
+    "target_id": "Zakk Cervini",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Motionless In White",
+    "target_type": "producer",
+    "target_id": "Justin deBlieck",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Invent Animate",
+    "target_type": "producer",
+    "target_id": "Daniel Braunstein",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit For A King",
+    "target_type": "producer",
+    "target_id": "Jeff Dunne",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "We Came As Romans",
+    "target_type": "producer",
+    "target_id": "Jeff Dunne",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Currents",
+    "target_type": "producer",
+    "target_id": "Jean-Etienne Collin Marcoux",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "producer",
+    "target_id": "Alex Tumay",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "producer",
+    "target_id": "Dan Lancaster",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "producer",
+    "target_id": "Josh Wilbur",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "producer",
+    "target_id": "Neal Avron",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "producer",
+    "target_id": "Tom Lord-Alge",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "producer",
+    "target_id": "Rhys May",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "producer",
+    "target_id": "Scott Skrzynski",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bring Me the Horizon",
+    "target_type": "producer",
+    "target_id": "Julian Gargiulo",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "The Ghost Inside",
+    "target_type": "producer",
+    "target_id": "Julian Garguilo",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "The Ghost Inside",
+    "target_type": "producer",
+    "target_id": "Nik Trekov",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "The Ghost Inside",
+    "target_type": "producer",
+    "target_id": "Zakk Cervini",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Converge",
+    "target_type": "producer",
+    "target_id": "Kurt Ballou",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Pierce the Veil",
+    "target_type": "producer",
+    "target_id": "Adam Hawkins",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Parkway Drive",
+    "target_type": "producer",
+    "target_id": "Zakk Cervini",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bullet for My Valentine",
+    "target_type": "producer",
+    "target_id": "Colin Richardson",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Killswitch Engage",
+    "target_type": "producer",
+    "target_id": "Andy Sneap",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Saosin",
+    "target_type": "producer",
+    "target_id": "Beau Burchell",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "My Chemical Romance",
+    "target_type": "producer",
+    "target_id": "Rich Costey",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "My Chemical Romance",
+    "target_type": "producer",
+    "target_id": "Jeff Citron",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Taking Back Sunday",
+    "target_type": "producer",
+    "target_id": "Neal Avron",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Coheed and Cambria",
+    "target_type": "producer",
+    "target_id": "Nik Trekov",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Cane Hill",
+    "target_type": "producer",
+    "target_id": "George Collings",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Spiritbox",
+    "target_type": "artist",
+    "target_id": "Invent Animate",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Erra",
+    "target_type": "artist",
+    "target_id": "Invent Animate",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Dayseeker",
+    "target_type": "artist",
+    "target_id": "Invent Animate",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit For A King",
+    "target_type": "artist",
+    "target_id": "Invent Animate",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "The Ghost Inside",
+    "target_type": "artist",
+    "target_id": "Invent Animate",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Lamb of God",
+    "target_type": "artist",
+    "target_id": "A Day To Remember",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bad Omens",
+    "target_type": "artist",
+    "target_id": "Dayseeker",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bad Omens",
+    "target_type": "artist",
+    "target_id": "Ice Nine Kills",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bad Omens",
+    "target_type": "artist",
+    "target_id": "The Ghost Inside",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bad Omens",
+    "target_type": "artist",
+    "target_id": "Parkway Drive",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bring Me the Horizon",
+    "target_type": "artist",
+    "target_id": "Dayseeker",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bring Me the Horizon",
+    "target_type": "artist",
+    "target_id": "Ice Nine Kills",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bring Me the Horizon",
+    "target_type": "artist",
+    "target_id": "The Ghost Inside",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bring Me the Horizon",
+    "target_type": "artist",
+    "target_id": "Parkway Drive",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Coheed and Cambria",
+    "target_type": "artist",
+    "target_id": "Dayseeker",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Coheed and Cambria",
+    "target_type": "artist",
+    "target_id": "Ice Nine Kills",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Coheed and Cambria",
+    "target_type": "artist",
+    "target_id": "The Ghost Inside",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Coheed and Cambria",
+    "target_type": "artist",
+    "target_id": "Parkway Drive",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Dayseeker",
+    "target_type": "artist",
+    "target_id": "Ice Nine Kills",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Dayseeker",
+    "target_type": "artist",
+    "target_id": "Parkway Drive",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Ice Nine Kills",
+    "target_type": "artist",
+    "target_id": "The Ghost Inside",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Ice Nine Kills",
+    "target_type": "artist",
+    "target_id": "Parkway Drive",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "The Ghost Inside",
+    "target_type": "artist",
+    "target_id": "Parkway Drive",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Ice Nine Kills",
+    "target_type": "artist",
+    "target_id": "Whitechapel",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Motionless In White",
+    "target_type": "artist",
+    "target_id": "Whitechapel",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit For A King",
+    "target_type": "artist",
+    "target_id": "Whitechapel",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "We Came As Romans",
+    "target_type": "artist",
+    "target_id": "Whitechapel",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "artist",
+    "target_id": "Whitechapel",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "We Came As Romans",
+    "target_type": "artist",
+    "target_id": "Born of Osiris",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "My Chemical Romance",
+    "target_type": "artist",
+    "target_id": "Architects",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Make Them Suffer",
+    "target_type": "artist",
+    "target_id": "Fit For A King",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Make Them Suffer",
+    "target_type": "artist",
+    "target_id": "We Came As Romans",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "artist",
+    "target_id": "Taking Back Sunday",
+    "relationship_type": "shared_producer"
   }
 ]
