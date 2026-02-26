@@ -69,7 +69,7 @@
     "distribution": "FUGA / Downtown Music",
     "current_manager": "Cory Hajde",
     "current_management_co": "Alternate Side / BravoArtist",
-    "booking_agency": null,
+    "booking_agency": "Sound Talent Group",
     "genres": [
       "progressive metalcore"
     ],
@@ -80,8 +80,8 @@
     "current_label": "Metal Blade Records",
     "distribution": "RED (Sony) / Warner",
     "current_manager": "Steve Davis, Vaughn Lewis",
-    "current_management_co": null,
-    "booking_agency": null,
+    "current_management_co": "Unchained Management",
+    "booking_agency": "IAG",
     "genres": [
       "deathcore"
     ],
@@ -93,7 +93,7 @@
     "distribution": "BMG",
     "current_manager": null,
     "current_management_co": null,
-    "booking_agency": null,
+    "booking_agency": "Sound Talent Group",
     "genres": [
       "metalcore",
       "hardcore"
@@ -143,8 +143,8 @@
     "current_label": "Century Media",
     "distribution": "Sony Music",
     "current_manager": null,
-    "current_management_co": null,
-    "booking_agency": null,
+    "current_management_co": "Unchained Management",
+    "booking_agency": "IAG",
     "genres": [
       "deathcore"
     ],
@@ -155,8 +155,8 @@
     "current_label": "Sumerian Records",
     "distribution": "Virgin Music (UMG)",
     "current_manager": null,
-    "current_management_co": null,
-    "booking_agency": null,
+    "current_management_co": "MDDN",
+    "booking_agency": "CAA",
     "genres": [
       "post-metalcore",
       "alt-metal"
@@ -169,7 +169,7 @@
     "distribution": "Warner Music Group",
     "current_manager": "James Vitalo",
     "current_management_co": "5B Artists + Media",
-    "booking_agency": null,
+    "booking_agency": "Wasserman",
     "genres": [
       "hardcore"
     ],
@@ -180,8 +180,8 @@
     "current_label": "Epitaph Records",
     "distribution": "Epitaph (self-distributed)",
     "current_manager": null,
-    "current_management_co": null,
-    "booking_agency": null,
+    "current_management_co": "MDDN",
+    "booking_agency": "CAA",
     "genres": [
       "metalcore"
     ],
@@ -205,7 +205,7 @@
     "distribution": "Virgin Music (UMG)",
     "current_manager": null,
     "current_management_co": "Outerloop Group",
-    "booking_agency": null,
+    "booking_agency": "UTA",
     "genres": [
       "progressive metalcore",
       "djent"
@@ -218,7 +218,7 @@
     "distribution": "Virgin Music (UMG)",
     "current_manager": null,
     "current_management_co": null,
-    "booking_agency": null,
+    "booking_agency": "Sound Talent Group",
     "genres": [
       "progressive metal",
       "djent"
@@ -230,7 +230,7 @@
     "current_label": "Spinefarm Records",
     "distribution": "Universal Music Group",
     "current_manager": null,
-    "current_management_co": null,
+    "current_management_co": "Alternate Side",
     "booking_agency": null,
     "genres": [
       "post-metalcore",
@@ -244,7 +244,7 @@
     "distribution": "Virgin Music (UMG)",
     "current_manager": null,
     "current_management_co": null,
-    "booking_agency": null,
+    "booking_agency": "IAG",
     "genres": [
       "deathcore"
     ],
@@ -268,7 +268,7 @@
     "distribution": "MNRK",
     "current_manager": null,
     "current_management_co": null,
-    "booking_agency": null,
+    "booking_agency": "Sound Talent Group",
     "genres": [
       "deathcore"
     ],
@@ -293,7 +293,7 @@
     "distribution": "Concord",
     "current_manager": null,
     "current_management_co": "Outerloop Group",
-    "booking_agency": null,
+    "booking_agency": "Sound Talent Group",
     "genres": [
       "metalcore"
     ],
@@ -305,7 +305,7 @@
     "distribution": "Warner Music Group",
     "current_manager": null,
     "current_management_co": null,
-    "booking_agency": null,
+    "booking_agency": "Wasserman",
     "genres": [
       "metalcore",
       "gothic metal"
@@ -317,8 +317,8 @@
     "current_label": "Roadrunner Records",
     "distribution": "Warner Music Group",
     "current_manager": null,
-    "current_management_co": null,
-    "booking_agency": null,
+    "current_management_co": "Rick Sales Entertainment Group",
+    "booking_agency": "IAG",
     "genres": [
       "groove metal",
       "progressive metal"
@@ -331,7 +331,7 @@
     "distribution": "Warner Music Group",
     "current_manager": null,
     "current_management_co": null,
-    "booking_agency": null,
+    "booking_agency": "Sound Talent Group",
     "genres": [
       "metalcore",
       "thrash metal"
@@ -344,7 +344,7 @@
     "distribution": "Concord",
     "current_manager": null,
     "current_management_co": null,
-    "booking_agency": null,
+    "booking_agency": "Wasserman",
     "genres": [
       "metalcore"
     ],
@@ -356,7 +356,7 @@
     "distribution": "Believe",
     "current_manager": null,
     "current_management_co": "Culture Wave",
-    "booking_agency": null,
+    "booking_agency": "Sound Talent Group",
     "genres": [
       "nu-metalcore",
       "alt-metal"
@@ -369,7 +369,7 @@
     "distribution": "Believe",
     "current_manager": null,
     "current_management_co": null,
-    "booking_agency": null,
+    "booking_agency": "Destroy All Lines",
     "genres": [
       "nu-metalcore"
     ],
@@ -380,8 +380,8 @@
     "current_label": "UNFD",
     "distribution": "FUGA",
     "current_manager": null,
-    "current_management_co": null,
-    "booking_agency": null,
+    "current_management_co": "SL Management",
+    "booking_agency": "Sound Talent Group",
     "genres": [
       "progressive metalcore"
     ],
@@ -393,7 +393,7 @@
     "distribution": "Believe",
     "current_manager": null,
     "current_management_co": "Culture Wave",
-    "booking_agency": null,
+    "booking_agency": "IAG",
     "genres": [
       "metalcore"
     ],
@@ -405,7 +405,7 @@
     "distribution": "Tooth & Nail / EMI CMG",
     "current_manager": "Cory Hajde",
     "current_management_co": "Alternate Side",
-    "booking_agency": null,
+    "booking_agency": "Sound Talent Group",
     "genres": [
       "metalcore"
     ],
@@ -417,7 +417,7 @@
     "distribution": "Tooth & Nail / EMI CMG",
     "current_manager": "Cory Hajde",
     "current_management_co": "Alternate Side",
-    "booking_agency": null,
+    "booking_agency": "Sound Talent Group",
     "genres": [
       "metalcore"
     ],
@@ -454,7 +454,7 @@
     "distribution": "Virgin Music (UMG)",
     "current_manager": null,
     "current_management_co": "Culture Wave",
-    "booking_agency": null,
+    "booking_agency": "Sound Talent Group",
     "genres": [
       "progressive metalcore",
       "djent"
@@ -491,7 +491,7 @@
     "distribution": "FUGA",
     "current_manager": null,
     "current_management_co": null,
-    "booking_agency": null,
+    "booking_agency": "Sound Talent Group",
     "genres": [
       "metalcore"
     ],
@@ -516,7 +516,7 @@
     "distribution": "Sony Music",
     "current_manager": null,
     "current_management_co": null,
-    "booking_agency": null,
+    "booking_agency": "Sound Talent Group",
     "genres": [
       "progressive metal"
     ],
@@ -540,8 +540,8 @@
     "current_label": "Fearless Records",
     "distribution": "Concord",
     "current_manager": null,
-    "current_management_co": null,
-    "booking_agency": null,
+    "current_management_co": "Force Media Management",
+    "booking_agency": "IAG",
     "genres": [
       "metalcore",
       "post-hardcore"
@@ -553,8 +553,8 @@
     "current_label": "UNFD",
     "distribution": "FUGA",
     "current_manager": null,
-    "current_management_co": null,
-    "booking_agency": null,
+    "current_management_co": "Immortal Music Group",
+    "booking_agency": "Wasserman",
     "genres": [
       "metalcore",
       "djent"
@@ -567,7 +567,7 @@
     "distribution": "Sony Music",
     "current_manager": null,
     "current_management_co": "Raw Power Management",
-    "booking_agency": null,
+    "booking_agency": "UTA",
     "genres": [
       "metalcore",
       "alt-metal"
@@ -580,7 +580,7 @@
     "distribution": "Epitaph",
     "current_manager": null,
     "current_management_co": "Fly South Music Group",
-    "booking_agency": null,
+    "booking_agency": "UTA",
     "genres": [
       "metalcore",
       "hardcore"
@@ -606,7 +606,7 @@
     "distribution": "ADA (Warner)",
     "current_manager": null,
     "current_management_co": null,
-    "booking_agency": null,
+    "booking_agency": "WME",
     "genres": [
       "hardcore",
       "industrial"
@@ -618,7 +618,7 @@
     "current_label": "3DOT Recordings",
     "distribution": null,
     "current_manager": null,
-    "current_management_co": null,
+    "current_management_co": "Scarim Management",
     "booking_agency": null,
     "genres": [
       "post-hardcore",
@@ -631,8 +631,8 @@
     "current_label": "Sumerian Records",
     "distribution": null,
     "current_manager": null,
-    "current_management_co": null,
-    "booking_agency": "UTA",
+    "current_management_co": "Fly South Music Group",
+    "booking_agency": "Sound Talent Group",
     "genres": [
       "post-hardcore",
       "pop rock"
@@ -658,7 +658,7 @@
     "distribution": "Warner Music Group",
     "current_manager": null,
     "current_management_co": "Velvet Hammer Music & Management Group",
-    "booking_agency": null,
+    "booking_agency": "CAA",
     "genres": [
       "heavy metal",
       "hard rock"
@@ -671,7 +671,7 @@
     "distribution": null,
     "current_manager": null,
     "current_management_co": "Destroy All Lines",
-    "booking_agency": "Destroy All Lines",
+    "booking_agency": "IAG",
     "genres": [
       "metalcore",
       "heavy metal"
@@ -683,7 +683,7 @@
     "current_label": "Epitaph Records",
     "distribution": null,
     "current_manager": null,
-    "current_management_co": null,
+    "current_management_co": "Relentless Artist Management",
     "booking_agency": null,
     "genres": [
       "post-hardcore",
@@ -709,8 +709,8 @@
     "current_label": "Spinefarm Records",
     "distribution": "Universal Music Group",
     "current_manager": null,
-    "current_management_co": null,
-    "booking_agency": null,
+    "current_management_co": "Raw Power Management",
+    "booking_agency": "CAA",
     "genres": [
       "metalcore",
       "heavy metal"
@@ -722,7 +722,7 @@
     "current_label": "Metal Blade Records",
     "distribution": "Sony Music (RED)",
     "current_manager": "Vaughn Lewis",
-    "current_management_co": null,
+    "current_management_co": "Unchained Management",
     "booking_agency": "UTA",
     "genres": [
       "metalcore",
@@ -749,7 +749,7 @@
     "distribution": null,
     "current_manager": null,
     "current_management_co": null,
-    "booking_agency": null,
+    "booking_agency": "Wasserman",
     "genres": [
       "post-hardcore",
       "mathcore"
@@ -762,7 +762,7 @@
     "distribution": null,
     "current_manager": null,
     "current_management_co": null,
-    "booking_agency": null,
+    "booking_agency": "IAG",
     "genres": [
       "post-hardcore",
       "hard rock"
@@ -787,7 +787,7 @@
     "current_label": "Better Noise Music",
     "distribution": null,
     "current_manager": null,
-    "current_management_co": null,
+    "current_management_co": "Shelter Music Group",
     "booking_agency": null,
     "genres": [
       "hard rock",
@@ -800,8 +800,8 @@
     "current_label": "Atlantic Records",
     "distribution": "Warner Music Group",
     "current_manager": null,
-    "current_management_co": null,
-    "booking_agency": null,
+    "current_management_co": "In De Goot Entertainment",
+    "booking_agency": "CAA",
     "genres": [
       "hard rock",
       "heavy metal"
@@ -839,7 +839,7 @@
     "current_label": "Better Noise Music",
     "distribution": null,
     "current_manager": null,
-    "current_management_co": null,
+    "current_management_co": "C3 Management",
     "booking_agency": null,
     "genres": [
       "alternative metal",
@@ -866,7 +866,7 @@
     "distribution": "Concord Music Group",
     "current_manager": "Jillian Newman",
     "current_management_co": null,
-    "booking_agency": null,
+    "booking_agency": "CAA",
     "genres": [
       "alternative rock",
       "emo"
@@ -878,8 +878,8 @@
     "current_label": "Roadrunner Records",
     "distribution": "Warner Music Group",
     "current_manager": "Blaze James",
-    "current_management_co": null,
-    "booking_agency": null,
+    "current_management_co": "The Fellowship",
+    "booking_agency": "WME",
     "genres": [
       "progressive rock",
       "post-hardcore"
@@ -891,8 +891,8 @@
     "current_label": "SharpTone Records",
     "distribution": null,
     "current_manager": null,
-    "current_management_co": null,
-    "booking_agency": null,
+    "current_management_co": "Immortal Music Group",
+    "booking_agency": "Wasserman",
     "genres": [
       "metalcore",
       "deathcore"
@@ -930,8 +930,8 @@
     "current_label": "Anger Music Group / Hopeless Records",
     "distribution": null,
     "current_manager": null,
-    "current_management_co": "Big Noise",
-    "booking_agency": null,
+    "current_management_co": "Anger Management Group",
+    "booking_agency": "CAA",
     "genres": [
       "post-hardcore",
       "emo"
