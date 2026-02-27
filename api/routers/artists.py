@@ -7,12 +7,14 @@ from fastapi import APIRouter, Depends, Query
 from sqlalchemy.orm import Session
 
 from database import get_db
-from models import Artist, Label, Score
+from models import Artist, Label, Producer, Relationship, Score
 from schemas import (
     DashboardArtist,
     DashboardResponse,
     EventResponse,
     LabelContactInfo,
+    ProducerCredit,
+    RelatedArtistBrief,
     ScoreResponse,
     SnapshotResponse,
 )
@@ -152,6 +154,47 @@ def get_artist(spotify_id: str, db: Session = Depends(get_db)):
                 contact_title=label.contact_title,
             )
 
+    # Producer credits from relationships
+    producers = []
+    prod_rels = db.query(Relationship).filter(
+        Relationship.source_id == artist.name,
+        Relationship.relationship_type == "produced_by",
+    ).all()
+    for pr in prod_rels:
+        prod = db.query(Producer).filter(Producer.name == pr.target_id).first()
+        producers.append(ProducerCredit(
+            name=pr.target_id,
+            studio=prod.studio_name if prod else None,
+        ))
+
+    # Related artists via shared_producer
+    related_artists = []
+    shared_rels = db.query(Relationship).filter(
+        (
+            (Relationship.source_id == artist.name)
+            | (Relationship.target_id == artist.name)
+        ),
+        Relationship.relationship_type == "shared_producer",
+    ).all()
+    seen_related = set()
+    for sr in shared_rels:
+        other_name = sr.target_id if sr.source_id == artist.name else sr.source_id
+        if other_name in seen_related:
+            continue
+        seen_related.add(other_name)
+        target_artist = db.query(Artist).filter(Artist.name == other_name).first()
+        if target_artist:
+            latest = db.query(Score).filter(
+                Score.artist_id == target_artist.spotify_id
+            ).order_by(Score.score_date.desc()).first()
+            related_artists.append(RelatedArtistBrief(
+                spotify_id=target_artist.spotify_id,
+                name=target_artist.name,
+                image_url=target_artist.image_url,
+                composite=latest.composite if latest else None,
+                grade=latest.grade if latest else None,
+            ))
+
     return {
         "spotify_id": artist.spotify_id,
         "name": artist.name,
@@ -168,4 +211,6 @@ def get_artist(spotify_id: str, db: Session = Depends(get_db)):
         "scores": scores,
         "upcoming_events": upcoming_events,
         "label_contact": label_contact,
+        "producers": producers,
+        "related_artists": related_artists,
     }
