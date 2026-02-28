@@ -68,11 +68,13 @@ export async function getScoreHistory(
 
 export async function getNetworkGraph(
   center?: string,
-  depth?: number
+  depth?: number,
+  top_n?: number
 ): Promise<NetworkGraph> {
   const params: Record<string, unknown> = {};
   if (center) params.center = center;
   if (depth) params.depth = depth;
+  if (top_n) params.top_n = top_n;
   return fetchJSON(`/api/network/graph${toQueryString(params)}`);
 }
 

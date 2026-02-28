@@ -15,6 +15,7 @@ router = APIRouter(prefix="/api/network", tags=["network"])
 def get_network_graph(
     center: Optional[str] = Query(None, description="Center node ID (spotify_id or name)"),
     depth: int = Query(1, ge=1, le=3, description="Traversal depth from center"),
+    top_n: Optional[int] = Query(None, ge=5, le=75, description="Show only top N artists by score"),
     db: Session = Depends(get_db),
 ):
     """Build network graph from relationships table."""
@@ -49,11 +50,12 @@ def get_network_graph(
             )
         )
 
-    # Enrich artist nodes with composite scores
+    # Enrich artist nodes with composite scores and spotify_id
     artists = db.query(Artist).all()
     for artist in artists:
         key = f"artist:{artist.name}"
         if key in nodes_map:
+            nodes_map[key].spotify_id = artist.spotify_id
             latest_score = (
                 db.query(Score)
                 .filter(Score.artist_id == artist.spotify_id)
@@ -62,6 +64,33 @@ def get_network_graph(
             )
             if latest_score:
                 nodes_map[key].score = latest_score.composite
+
+    # Filter to top N artists if specified and no center
+    if not center and top_n:
+        from sqlalchemy import func
+
+        top_scores = (
+            db.query(Score.artist_id, func.max(Score.composite).label("max_comp"))
+            .group_by(Score.artist_id)
+            .subquery()
+        )
+        top_artists = (
+            db.query(Artist.name)
+            .join(top_scores, Artist.spotify_id == top_scores.c.artist_id)
+            .order_by(top_scores.c.max_comp.desc().nullslast())
+            .limit(top_n)
+            .all()
+        )
+        top_names = {a.name for a in top_artists}
+        top_keys = {f"artist:{name}" for name in top_names}
+        # Include top artists + their direct connections
+        connected = set()
+        for link in links:
+            if link.source in top_keys or link.target in top_keys:
+                connected.add(link.source)
+                connected.add(link.target)
+        nodes_map = {k: v for k, v in nodes_map.items() if k in connected}
+        links = [lnk for lnk in links if lnk.source in connected and lnk.target in connected]
 
     # Filter by center node if specified
     if center:

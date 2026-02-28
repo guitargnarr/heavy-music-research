@@ -37,21 +37,35 @@ const segments: SegType[] = [
 ];
 
 export function DashboardPage() {
-  const [searchParams] = useSearchParams();
-  const urlLabel = searchParams.get("label") ?? "";
-  const urlSearch = searchParams.get("search") ?? "";
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  // Derive all filter state from URL
+  const search = searchParams.get("q") ?? searchParams.get("search") ?? "";
+  const gradeFilter = (searchParams.get("grade") ?? "") as Grade | "";
+  const segmentFilter = (searchParams.get("segment") ?? "") as SegType | "";
+  const labelFilter = searchParams.get("label") ?? "";
+  const sortBy = (searchParams.get("sort") ?? "composite") as SortField;
+  const sortDir = (searchParams.get("dir") ?? "desc") as SortDir;
+
+  const setParam = (key: string, value: string) => {
+    setSearchParams((prev) => {
+      const next = new URLSearchParams(prev);
+      // Clean up legacy "search" param
+      next.delete("search");
+      if (value) {
+        next.set(key, value);
+      } else {
+        next.delete(key);
+      }
+      return next;
+    }, { replace: true });
+  };
 
   const [allArtists, setAllArtists] = useState<DashboardArtist[]>([]);
   const [total, setTotal] = useState(0);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [search, setSearch] = useState(urlSearch);
-  const [gradeFilter, setGradeFilter] = useState<Grade | "">("");
-  const [segmentFilter, setSegmentFilter] = useState<SegType | "">("");
-  const [labelFilter, setLabelFilter] = useState(urlLabel);
-  const [sortBy, setSortBy] = useState<SortField>("composite");
-  const [sortDir, setSortDir] = useState<SortDir>("desc");
-  const [showFilters, setShowFilters] = useState(!!urlLabel);
+  const [showFilters, setShowFilters] = useState(!!labelFilter || !!gradeFilter || !!segmentFilter);
 
   const fetchData = useCallback(async () => {
     setLoading(true);
@@ -97,12 +111,17 @@ export function DashboardPage() {
     (labelFilter ? 1 : 0);
 
   const toggleSort = (field: SortField) => {
-    if (sortBy === field) {
-      setSortDir((d) => (d === "desc" ? "asc" : "desc"));
-    } else {
-      setSortBy(field);
-      setSortDir("desc");
-    }
+    setSearchParams((prev) => {
+      const next = new URLSearchParams(prev);
+      next.delete("search");
+      if (sortBy === field) {
+        next.set("dir", sortDir === "desc" ? "asc" : "desc");
+      } else {
+        next.set("sort", field);
+        next.set("dir", "desc");
+      }
+      return next;
+    }, { replace: true });
   };
 
   const SortIcon = ({ field }: { field: SortField }) => {
@@ -133,7 +152,7 @@ export function DashboardPage() {
                 type="text"
                 placeholder="Search artists..."
                 value={search}
-                onChange={(e) => setSearch(e.target.value)}
+                onChange={(e) => setParam("q", e.target.value)}
                 className="w-full pl-9 pr-3 py-2 bg-surface-raised border border-surface-border rounded-lg text-sm text-gray-200 placeholder:text-steel focus:outline-none focus:ring-1 focus:ring-accent/50"
               />
             </div>
@@ -160,7 +179,7 @@ export function DashboardPage() {
           <div className="flex flex-wrap items-center gap-2 card px-4 py-3">
             <select
               value={gradeFilter}
-              onChange={(e) => setGradeFilter(e.target.value as Grade | "")}
+              onChange={(e) => setParam("grade", e.target.value)}
               className="bg-surface-overlay border border-surface-border rounded-lg px-3 py-1.5 text-sm text-gray-300 focus:outline-none focus:ring-1 focus:ring-accent/50"
             >
               <option value="">All Grades</option>
@@ -172,7 +191,7 @@ export function DashboardPage() {
             </select>
             <select
               value={segmentFilter}
-              onChange={(e) => setSegmentFilter(e.target.value as SegType | "")}
+              onChange={(e) => setParam("segment", e.target.value)}
               className="bg-surface-overlay border border-surface-border rounded-lg px-3 py-1.5 text-sm text-gray-300 focus:outline-none focus:ring-1 focus:ring-accent/50"
             >
               <option value="">All Segments</option>
@@ -184,7 +203,7 @@ export function DashboardPage() {
             </select>
             <select
               value={labelFilter}
-              onChange={(e) => setLabelFilter(e.target.value)}
+              onChange={(e) => setParam("label", e.target.value)}
               className="bg-surface-overlay border border-surface-border rounded-lg px-3 py-1.5 text-sm text-gray-300 focus:outline-none focus:ring-1 focus:ring-accent/50"
             >
               <option value="">All Labels</option>
@@ -197,9 +216,14 @@ export function DashboardPage() {
             {activeFilterCount > 0 && (
               <button
                 onClick={() => {
-                  setGradeFilter("");
-                  setSegmentFilter("");
-                  setLabelFilter("");
+                  setSearchParams((prev) => {
+                    const next = new URLSearchParams(prev);
+                    next.delete("grade");
+                    next.delete("segment");
+                    next.delete("label");
+                    next.delete("search");
+                    return next;
+                  }, { replace: true });
                 }}
                 className="text-xs text-steel hover:text-gray-300 transition-colors"
               >
@@ -214,19 +238,19 @@ export function DashboardPage() {
             {gradeFilter && (
               <FilterChip
                 label={`Grade ${gradeFilter}`}
-                onRemove={() => setGradeFilter("")}
+                onRemove={() => setParam("grade", "")}
               />
             )}
             {segmentFilter && (
               <FilterChip
                 label={segmentFilter}
-                onRemove={() => setSegmentFilter("")}
+                onRemove={() => setParam("segment", "")}
               />
             )}
             {labelFilter && (
               <FilterChip
                 label={labelFilter}
-                onRemove={() => setLabelFilter("")}
+                onRemove={() => setParam("label", "")}
               />
             )}
           </div>

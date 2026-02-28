@@ -24,8 +24,14 @@ from scoring.engine import (
     _fuzzy_lookup,
 )
 from scoring.weights import PRODUCER_TIERS
-from pipeline.spotify_collector import simulate_spotify_data
-from pipeline.musicbrainz_collector import simulate_release_data
+
+# Import simulators only for initial seed (not rescore)
+try:
+    from pipeline.spotify_collector import simulate_spotify_data
+    from pipeline.musicbrainz_collector import simulate_release_data
+except ImportError:
+    simulate_spotify_data = None
+    simulate_release_data = None
 
 router = APIRouter(tags=["seed"])
 logger = logging.getLogger(__name__)
@@ -254,9 +260,9 @@ def rescore_all(
     db: Session = Depends(get_db),
     _auth=Depends(_verify_secret),
 ):
-    """Recalculate all scores using the current scoring engine.
-    Also refreshes artist metadata (label, agency, management) from
-    the data files. Does NOT wipe the DB."""
+    """Reload all data from JSON files: artists, producers, relationships, scores.
+    Uses pre-computed scores from scores.json (built by R/build_scores.R from
+    real mined data: Wikipedia pageviews, Deezer fans, Reddit buzz, Kworb streams)."""
     artists = db.query(Artist).all()
 
     # Refresh artist metadata and insert new artists from data files
@@ -272,15 +278,11 @@ def rescore_all(
         if not src:
             continue
         changed = False
-        if src.get("current_label") and artist.current_label != src["current_label"]:
-            artist.current_label = src["current_label"]
-            changed = True
-        if src.get("booking_agency") and artist.booking_agency != src["booking_agency"]:
-            artist.booking_agency = src["booking_agency"]
-            changed = True
-        if src.get("current_management_co") and artist.current_management_co != src["current_management_co"]:
-            artist.current_management_co = src["current_management_co"]
-            changed = True
+        for field in ["current_label", "booking_agency", "current_management_co",
+                      "current_manager", "booking_agent"]:
+            if src.get(field) and getattr(artist, field, None) != src[field]:
+                setattr(artist, field, src[field])
+                changed = True
         if changed:
             metadata_updated += 1
 
@@ -288,7 +290,7 @@ def rescore_all(
     for a in artists_data:
         if a["name"] in existing_names:
             continue
-        new_artist = Artist(
+        db.add(Artist(
             spotify_id=a["spotify_id"],
             name=a["name"],
             genres=json.dumps(a.get("genres", [])),
@@ -297,30 +299,10 @@ def rescore_all(
             current_manager=a.get("current_manager"),
             current_management_co=a.get("current_management_co"),
             booking_agency=a.get("booking_agency"),
+            booking_agent=a.get("booking_agent"),
             active=True,
-        )
-        db.add(new_artist)
-        artists_added += 1
-
-        # Create simulated snapshot for new artist
-        sp_data = simulate_spotify_data(a["name"], a["spotify_id"])
-        yt_data = None
-        try:
-            from pipeline.youtube_collector import simulate_youtube_data
-            yt_data = simulate_youtube_data(a["name"], "")
-        except Exception:
-            pass
-        db.add(ArtistSnapshot(
-            artist_id=a["spotify_id"],
-            snapshot_date=date.today(),
-            spotify_popularity=sp_data.popularity,
-            spotify_followers=sp_data.followers,
-            youtube_subscribers=yt_data.subscriber_count if yt_data else None,
-            youtube_total_views=yt_data.total_views if yt_data else None,
-            youtube_recent_views=yt_data.recent_video_views if yt_data else None,
-            youtube_comment_count=yt_data.recent_comment_count if yt_data else None,
         ))
-
+        artists_added += 1
     db.flush()
 
     # Refresh producers from data file
@@ -360,68 +342,28 @@ def rescore_all(
             rels_added += 1
     db.flush()
 
-    # Re-query to include newly added artists
-    artists = db.query(Artist).all()
-
+    # Load pre-computed scores from scores.json
+    scores_data = _load_json("scores.json")
+    scores_by_artist = {s["artist_id"]: s for s in scores_data}
     today = date.today()
     updated = 0
 
+    # Re-query to include newly added artists
+    artists = db.query(Artist).all()
+
     for artist in artists:
-        snapshots = (
-            db.query(ArtistSnapshot)
-            .filter(ArtistSnapshot.artist_id == artist.spotify_id)
-            .order_by(ArtistSnapshot.snapshot_date.desc())
-            .limit(2)
-            .all()
-        )
-        current_snap = snapshots[0] if snapshots else None
+        score_src = scores_by_artist.get(artist.spotify_id)
+        if not score_src:
+            logger.warning("No pre-computed score for %s", artist.name)
+            continue
 
-        pop = current_snap.spotify_popularity or 0 if current_snap else 0
-        trajectory = 20 + (pop * 0.75)
-
-        producer_name = _get_producer(artist.name, db)
-        industry_signal = compute_industry_signal(
-            label_name=artist.current_label,
-            producer_name=producer_name,
-            agency_name=artist.booking_agency,
-            management_name=artist.current_management_co,
-        )
-
-        sp_sim = simulate_spotify_data(artist.name, artist.spotify_id)
-        track_pops = sp_sim.top_track_popularities
-        yt_vel = None
-        if current_snap and current_snap.youtube_recent_views:
-            views = current_snap.youtube_recent_views
-            comments = current_snap.youtube_comment_count or 0
-            if views > 0:
-                yt_vel = (comments / views) * 1000
-        engagement = compute_engagement(
-            track_popularity_distribution=track_pops,
-            youtube_comment_velocity=yt_vel,
-        )
-
-        rel_data = simulate_release_data(artist.name)
-        release_positioning = compute_release_positioning(
-            rel_data.months_since_release
-        )
-
-        composite = compute_composite(
-            trajectory, industry_signal, engagement, release_positioning
-        )
-        grade = assign_grade(composite)
-
-        prod_tier = None
-        if producer_name:
-            prod_tier = _fuzzy_lookup(producer_name, PRODUCER_TIERS)
-
-        segment_tag = assign_segment_tag(
-            composite=composite,
-            trajectory=trajectory,
-            industry_signal=industry_signal,
-            previous_composite=None,
-            label_name=artist.current_label,
-            producer_tier=prod_tier,
-        )
+        trajectory = score_src.get("trajectory", 0)
+        industry_signal = score_src.get("industry_signal", 0)
+        engagement = score_src.get("engagement", 0)
+        release_positioning = score_src.get("release_positioning", 0)
+        composite = score_src.get("composite", 0)
+        grade = score_src.get("grade", "D")
+        segment_tag = score_src.get("segment_tag", "Established Stable")
 
         # Update existing score or create new one
         existing = (

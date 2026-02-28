@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef, useCallback, useMemo } from "react";
-import { useSearchParams, useNavigate } from "react-router-dom";
+import { useSearchParams, useNavigate, Link } from "react-router-dom";
 import ForceGraph2D from "react-force-graph-2d";
-import { Minus, Plus, Maximize2, X, Eye, EyeOff } from "lucide-react";
+import { Minus, Plus, Maximize2, X, Eye, EyeOff, User } from "lucide-react";
 import { getNetworkGraph } from "../api/client";
 import type { NetworkGraph, NetworkNode } from "../types";
 
@@ -38,6 +38,7 @@ interface GraphNode extends Record<string, unknown> {
   label: string;
   type: string;
   score: number | null;
+  spotify_id?: string;
   val: number;
   x?: number;
   y?: number;
@@ -68,6 +69,7 @@ export function NetworkPage() {
   const [selectedNode, setSelectedNode] = useState<NetworkNode | null>(null);
   const [hoveredNode, setHoveredNode] = useState<string | null>(null);
   const [artistOnly, setArtistOnly] = useState(false);
+  const [topN, setTopN] = useState<number | null>(initialCenter ? null : 20);
 
   // Relationship type filters -- all on by default
   const [relFilters, setRelFilters] = useState<Record<string, boolean>>({
@@ -89,14 +91,14 @@ export function NetworkPage() {
     setLoading(true);
     setSelectedNode(null);
     try {
-      const data = await getNetworkGraph(center || undefined, depth);
+      const data = await getNetworkGraph(center || undefined, depth, center ? undefined : topN ?? undefined);
       setGraph(data);
     } catch (err) {
       console.error("Failed to fetch network:", err);
     } finally {
       setLoading(false);
     }
-  }, [center, depth]);
+  }, [center, depth, topN]);
 
   useEffect(() => {
     fetchGraph();
@@ -116,6 +118,7 @@ export function NetworkPage() {
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     setCenter(searchInput);
+    if (searchInput) setTopN(null);
   };
 
   const handleNodeClick = (node: GraphNode) => {
@@ -169,6 +172,7 @@ export function NetworkPage() {
         label: n.label,
         type: n.type,
         score: n.score,
+        spotify_id: n.spotify_id,
         val: n.type === "artist" ? (n.score ? n.score / 10 : 4) : 1.5,
       })),
       links: finalLinks.map((l) => ({
@@ -270,6 +274,7 @@ export function NetworkPage() {
               onClick={() => {
                 setCenter("");
                 setSearchInput("");
+                setTopN(20);
               }}
               className="px-3 py-2 bg-surface-raised border border-surface-border text-steel text-sm rounded-lg hover:text-gray-200 transition-colors"
             >
@@ -333,6 +338,25 @@ export function NetworkPage() {
               </div>
             ))}
           </div>
+
+          {/* Top N toggle */}
+          {!center && (
+            <div className="flex items-center gap-1 mr-2">
+              {[20, null].map((n) => (
+                <button
+                  key={n ?? "all"}
+                  onClick={() => setTopN(n)}
+                  className={`px-2 py-1 text-xs rounded transition-all ${
+                    topN === n
+                      ? "bg-accent/10 text-accent border border-accent/30"
+                      : "bg-surface-overlay border border-surface-border text-gray-400 hover:text-gray-200"
+                  }`}
+                >
+                  {n ? `Top ${n}` : "All"}
+                </button>
+              ))}
+            </div>
+          )}
 
           <span className="text-xs text-gray-600 ml-2">Depth:</span>
           <button
@@ -594,7 +618,7 @@ export function NetworkPage() {
               ))}
             </div>
 
-            <div className="mt-3 flex gap-2">
+            <div className="mt-3 flex flex-wrap gap-2">
               {selectedNode.type === "artist" && (
                 <button
                   onClick={() => {
@@ -605,6 +629,15 @@ export function NetworkPage() {
                 >
                   Center here
                 </button>
+              )}
+              {selectedNode.type === "artist" && selectedNode.spotify_id && (
+                <Link
+                  to={`/artist/${selectedNode.spotify_id}`}
+                  className="flex items-center gap-1 px-2.5 py-1.5 bg-accent text-white text-xs font-medium rounded-lg hover:bg-brand-red-dark transition-colors"
+                >
+                  <User size={12} />
+                  View Profile
+                </Link>
               )}
               <button
                 onClick={() => {

@@ -6,11 +6,9 @@
     "current_manager": "James Vitalo",
     "current_management_co": "5B Artists + Media",
     "booking_agency": "Wasserman",
-    "genres": [
-      "metalcore",
-      "hardcore"
-    ],
-    "spotify_id": "4qrHkx5cgWIslciLXUMrYw"
+    "genres": ["metalcore", "hardcore"],
+    "spotify_id": "4qrHkx5cgWIslciLXUMrYw",
+    "country": "Oldham County, Kentucky, USA"
   },
   {
     "name": "Spiritbox",
@@ -19,11 +17,10 @@
     "current_manager": "Jason Mageau",
     "current_management_co": "Culture Wave",
     "booking_agency": "IAG",
-    "genres": [
-      "progressive metalcore",
-      "alt-metal"
-    ],
-    "spotify_id": "4MzJMcHQBl9SIYSjwWn8QW"
+    "genres": ["progressive metalcore", "alt-metal"],
+    "spotify_id": "4MzJMcHQBl9SIYSjwWn8QW",
+    "country": "Columbia, Canada",
+    "website": "https://spiritbox.com"
   },
   {
     "name": "Sleep Token",
@@ -32,11 +29,9 @@
     "current_manager": "Ryan Richards",
     "current_management_co": "Future History Management",
     "booking_agency": "UTA",
-    "genres": [
-      "post-metalcore",
-      "alt-metal"
-    ],
-    "spotify_id": "2n2RSaZqBuUUukhbLlpnE6"
+    "genres": ["post-metalcore", "alt-metal"],
+    "spotify_id": "2n2RSaZqBuUUukhbLlpnE6",
+    "country": "London, England"
   },
   {
     "name": "Periphery",
@@ -45,11 +40,9 @@
     "current_manager": "Wayne Pighini",
     "current_management_co": "Fly South Music Group",
     "booking_agency": "UTA",
-    "genres": [
-      "progressive metalcore",
-      "djent"
-    ],
-    "spotify_id": "6d24kC5fxHFOSEAmjQPPhc"
+    "genres": ["progressive metalcore", "djent"],
+    "spotify_id": "6d24kC5fxHFOSEAmjQPPhc",
+    "country": "Washington, D.C., U.S"
   },
   {
     "name": "Lamb of God",
@@ -58,10 +51,10 @@
     "current_manager": "Brad Fuhrman",
     "current_management_co": "5B Artists + Media",
     "booking_agency": "Wasserman",
-    "genres": [
-      "groove metal"
-    ],
-    "spotify_id": "3JFsVIxOn7STeilPICkkB2"
+    "genres": "groove metal",
+    "spotify_id": "3JFsVIxOn7STeilPICkkB2",
+    "country": "Virginia, USA",
+    "website": "www.lamb-of-god.com"
   },
   {
     "name": "Erra",
@@ -70,10 +63,10 @@
     "current_manager": "Cory Hajde",
     "current_management_co": "Alternate Side / BravoArtist",
     "booking_agency": "Sound Talent Group",
-    "genres": [
-      "progressive metalcore"
-    ],
-    "spotify_id": "2UoOdQyBGyzrEfxcY77ce0"
+    "genres": "progressive metalcore",
+    "spotify_id": "2UoOdQyBGyzrEfxcY77ce0",
+    "country": "Birmingham,USA",
+    "website": "erramusic.com"
   },
   {
     "name": "Whitechapel",
@@ -82,86 +75,75 @@
     "current_manager": "Steve Davis, Vaughn Lewis",
     "current_management_co": "Unchained Management",
     "booking_agency": "IAG",
-    "genres": [
-      "deathcore"
-    ],
-    "spotify_id": "5274obTQJjzjyycRyJlfml"
+    "genres": "deathcore",
+    "spotify_id": "5274obTQJjzjyycRyJlfml",
+    "country": "Knoxville, Tennessee"
   },
   {
     "name": "Kublai Khan TX",
     "current_label": "Rise Records",
     "distribution": "BMG",
-    "current_manager": null,
-    "current_management_co": null,
+    "current_manager": {},
+    "current_management_co": {},
     "booking_agency": "Sound Talent Group",
-    "genres": [
-      "metalcore",
-      "hardcore"
-    ],
-    "spotify_id": "5BIOo2mCAokFcLHXO2Llb4"
+    "genres": ["metalcore", "hardcore"],
+    "spotify_id": "5BIOo2mCAokFcLHXO2Llb4",
+    "country": "Sherman, Texas"
   },
   {
     "name": "Born of Osiris",
     "current_label": "Sumerian Records",
     "distribution": "Virgin Music (UMG)",
     "current_manager": "E.J. Shannon",
-    "current_management_co": null,
+    "current_management_co": {},
     "booking_agency": "Avocado Booking",
-    "genres": [
-      "progressive metalcore",
-      "djent"
-    ],
-    "spotify_id": "4HgqjpBaWctBWVHafQIpRt"
+    "genres": ["progressive metalcore", "djent"],
+    "spotify_id": "4HgqjpBaWctBWVHafQIpRt",
+    "country": "Chicago, USA",
+    "website": "sumerianrecords.com/artist/details/Born+of+Osiris/id:7"
   },
   {
     "name": "Bilmuri",
     "current_label": "Columbia Records",
     "distribution": "Sony Music",
     "current_manager": "Jameson Roper",
-    "current_management_co": null,
+    "current_management_co": {},
     "booking_agency": "Wasserman",
-    "genres": [
-      "metalcore",
-      "alt-metal"
-    ],
+    "genres": ["metalcore", "alt-metal"],
     "spotify_id": "5Rc75vGFBWZPgL7EXb4k89"
   },
   {
     "name": "Thrown",
     "current_label": "Arising Empire",
     "distribution": "Kontor New Media",
-    "current_manager": null,
-    "current_management_co": null,
-    "booking_agency": null,
-    "genres": [
-      "nu-metalcore"
-    ],
-    "spotify_id": "5eBCPtU2iPbzuMRre9BePt"
+    "current_manager": {},
+    "current_management_co": {},
+    "booking_agency": {},
+    "genres": "nu-metalcore",
+    "spotify_id": "5eBCPtU2iPbzuMRre9BePt",
+    "country": "Sweden"
   },
   {
     "name": "Lorna Shore",
     "current_label": "Century Media",
     "distribution": "Sony Music",
-    "current_manager": null,
+    "current_manager": {},
     "current_management_co": "Unchained Management",
     "booking_agency": "IAG",
-    "genres": [
-      "deathcore"
-    ],
-    "spotify_id": "6vXYoy8ouRVib302zxaxFF"
+    "genres": "deathcore",
+    "spotify_id": "6vXYoy8ouRVib302zxaxFF",
+    "country": "Warren County, New Jersey"
   },
   {
     "name": "Bad Omens",
     "current_label": "Sumerian Records",
     "distribution": "Virgin Music (UMG)",
-    "current_manager": null,
+    "current_manager": {},
     "current_management_co": "MDDN",
     "booking_agency": "CAA",
-    "genres": [
-      "post-metalcore",
-      "alt-metal"
-    ],
-    "spotify_id": "3Ri4H12KFyu98LMjSoij5V"
+    "genres": ["post-metalcore", "alt-metal"],
+    "spotify_id": "3Ri4H12KFyu98LMjSoij5V",
+    "country": "Richmond, Virginia, USA"
   },
   {
     "name": "Turnstile",
@@ -170,233 +152,208 @@
     "current_manager": "James Vitalo",
     "current_management_co": "5B Artists + Media",
     "booking_agency": "Wasserman",
-    "genres": [
-      "hardcore"
-    ],
-    "spotify_id": "2qnpHrOzdmOo1S4ox3j17x"
+    "genres": "hardcore",
+    "spotify_id": "2qnpHrOzdmOo1S4ox3j17x",
+    "country": "Balltimore,USA"
   },
   {
     "name": "Architects",
     "current_label": "Epitaph Records",
     "distribution": "Epitaph (self-distributed)",
-    "current_manager": null,
+    "current_manager": {},
     "current_management_co": "MDDN",
     "booking_agency": "CAA",
-    "genres": [
-      "metalcore"
-    ],
-    "spotify_id": "3ZztVuWxHzNpl0THurTFCv"
+    "genres": "metalcore",
+    "spotify_id": "3ZztVuWxHzNpl0THurTFCv",
+    "country": "Brighton, England",
+    "website": "architectsofficial.com"
   },
   {
     "name": "Wage War",
     "current_label": "Fearless Records",
     "distribution": "Concord",
-    "current_manager": null,
+    "current_manager": {},
     "current_management_co": "Fly South Music Group",
     "booking_agency": "UTA",
-    "genres": [
-      "metalcore"
-    ],
-    "spotify_id": "6bu7CtcOMWcS0BMq7snHW6"
+    "genres": "metalcore",
+    "spotify_id": "6bu7CtcOMWcS0BMq7snHW6",
+    "country": "Ocala, Florida, USA",
+    "website": "wagewarband.com"
   },
   {
     "name": "Veil of Maya",
     "current_label": "Sumerian Records",
     "distribution": "Virgin Music (UMG)",
-    "current_manager": null,
+    "current_manager": {},
     "current_management_co": "Outerloop Group",
     "booking_agency": "UTA",
-    "genres": [
-      "progressive metalcore",
-      "djent"
-    ],
-    "spotify_id": "2i7CQcVBh2K6uOR3CH09M1"
+    "genres": ["progressive metalcore", "djent"],
+    "spotify_id": "2i7CQcVBh2K6uOR3CH09M1",
+    "country": "Chicago,USA"
   },
   {
     "name": "Animals As Leaders",
     "current_label": "Sumerian Records",
     "distribution": "Virgin Music (UMG)",
-    "current_manager": null,
-    "current_management_co": null,
+    "current_manager": {},
+    "current_management_co": {},
     "booking_agency": "Sound Talent Group",
-    "genres": [
-      "progressive metal",
-      "djent"
-    ],
-    "spotify_id": "65C6Unk7nhg2aCnVuAPMo8"
+    "genres": ["progressive metal", "djent"],
+    "spotify_id": "65C6Unk7nhg2aCnVuAPMo8",
+    "website": "prostheticrecords.com/?p=499"
   },
   {
     "name": "Dayseeker",
     "current_label": "Spinefarm Records",
     "distribution": "Universal Music Group",
-    "current_manager": null,
+    "current_manager": {},
     "current_management_co": "Alternate Side",
-    "booking_agency": null,
-    "genres": [
-      "post-metalcore",
-      "alt-metal"
-    ],
-    "spotify_id": "5FjQVp1Lb0kltmwIuu5kfj"
+    "booking_agency": {},
+    "genres": ["post-metalcore", "alt-metal"],
+    "spotify_id": "5FjQVp1Lb0kltmwIuu5kfj",
+    "country": "Orange Country, California"
   },
   {
     "name": "Slaughter to Prevail",
     "current_label": "Sumerian Records",
     "distribution": "Virgin Music (UMG)",
-    "current_manager": null,
-    "current_management_co": null,
+    "current_manager": {},
+    "current_management_co": {},
     "booking_agency": "IAG",
-    "genres": [
-      "deathcore"
-    ],
-    "spotify_id": "24Oiw7BlvO1BETecDLJt6m"
+    "genres": "deathcore",
+    "spotify_id": "24Oiw7BlvO1BETecDLJt6m",
+    "country": "Yekaterinburg, Russia",
+    "website": "www.slaughtertoprevail.com"
   },
   {
     "name": "Drain",
     "current_label": "Epitaph Records",
     "distribution": "Epitaph",
-    "current_manager": null,
-    "current_management_co": null,
+    "current_manager": {},
+    "current_management_co": {},
     "booking_agency": "Wasserman",
-    "genres": [
-      "hardcore"
-    ],
-    "spotify_id": "7FAAkDlPg6pg0860CIDzmu"
+    "genres": "hardcore",
+    "spotify_id": "7FAAkDlPg6pg0860CIDzmu",
+    "country": "Stockholm, Sweden"
   },
   {
     "name": "Fit for an Autopsy",
     "current_label": "MNRK Music Group",
     "distribution": "MNRK",
-    "current_manager": null,
-    "current_management_co": null,
+    "current_manager": {},
+    "current_management_co": {},
     "booking_agency": "Sound Talent Group",
-    "genres": [
-      "deathcore"
-    ],
-    "spotify_id": "0qJpY7K8p7g6sacvaGNt6i"
+    "genres": "deathcore",
+    "spotify_id": "0qJpY7K8p7g6sacvaGNt6i",
+    "country": "New Jersey,USA",
+    "website": "www.fitforanautopsy.com"
   },
   {
     "name": "Counterparts",
     "current_label": "Pure Noise Records",
     "distribution": "Orchard (Sony)",
-    "current_manager": null,
-    "current_management_co": null,
+    "current_manager": {},
+    "current_management_co": {},
     "booking_agency": "Wasserman",
-    "genres": [
-      "metalcore",
-      "hardcore"
-    ],
+    "genres": ["metalcore", "hardcore"],
     "spotify_id": "5LyRnL0rysObxDRxzSfV1z"
   },
   {
     "name": "Ice Nine Kills",
     "current_label": "Fearless Records",
     "distribution": "Concord",
-    "current_manager": null,
+    "current_manager": {},
     "current_management_co": "Outerloop Group",
     "booking_agency": "Sound Talent Group",
-    "genres": [
-      "metalcore"
-    ],
-    "spotify_id": "52qKfVcIV4GS8A8Vay2xtt"
+    "genres": "metalcore",
+    "spotify_id": "52qKfVcIV4GS8A8Vay2xtt",
+    "country": "Boston,USA",
+    "website": "www.iceninekills.com"
   },
   {
     "name": "Motionless In White",
     "current_label": "Roadrunner Records",
     "distribution": "Warner Music Group",
-    "current_manager": null,
-    "current_management_co": null,
+    "current_manager": {},
+    "current_management_co": {},
     "booking_agency": "Wasserman",
-    "genres": [
-      "metalcore",
-      "gothic metal"
-    ],
-    "spotify_id": "6MwPCCR936cYfM1dLsGVnl"
+    "genres": ["metalcore", "gothic metal"],
+    "spotify_id": "6MwPCCR936cYfM1dLsGVnl",
+    "country": "Scranton, USA"
   },
   {
     "name": "Gojira",
     "current_label": "Roadrunner Records",
     "distribution": "Warner Music Group",
-    "current_manager": null,
+    "current_manager": {},
     "current_management_co": "Rick Sales Entertainment Group",
     "booking_agency": "IAG",
-    "genres": [
-      "groove metal",
-      "progressive metal"
-    ],
-    "spotify_id": "0GDGKpJFhVpcjIGF8N6Ewt"
+    "genres": ["groove metal", "progressive metal"],
+    "spotify_id": "0GDGKpJFhVpcjIGF8N6Ewt",
+    "country": "Bayonne, France",
+    "website": "www.gojira-music.com"
   },
   {
     "name": "Trivium",
     "current_label": "Roadrunner Records",
     "distribution": "Warner Music Group",
-    "current_manager": null,
-    "current_management_co": null,
+    "current_manager": {},
+    "current_management_co": {},
     "booking_agency": "Sound Talent Group",
-    "genres": [
-      "metalcore",
-      "thrash metal"
-    ],
-    "spotify_id": "278ZYwGhdK6QTzE3MFePnP"
+    "genres": ["metalcore", "thrash metal"],
+    "spotify_id": "278ZYwGhdK6QTzE3MFePnP",
+    "country": "Orlando, Florida, USA"
   },
   {
     "name": "August Burns Red",
     "current_label": "Fearless Records",
     "distribution": "Concord",
-    "current_manager": null,
-    "current_management_co": null,
+    "current_manager": {},
+    "current_management_co": {},
     "booking_agency": "Wasserman",
-    "genres": [
-      "metalcore"
-    ],
-    "spotify_id": "5p9CTsn5ueGU4oScNX1axu"
+    "genres": "metalcore",
+    "spotify_id": "5p9CTsn5ueGU4oScNX1axu",
+    "country": "Manheim, Pennsylvania, USA",
+    "website": "www.augustburnsred.com"
   },
   {
     "name": "Loathe",
     "current_label": "SharpTone Records",
     "distribution": "Believe",
-    "current_manager": null,
+    "current_manager": {},
     "current_management_co": "Culture Wave",
     "booking_agency": "Sound Talent Group",
-    "genres": [
-      "nu-metalcore",
-      "alt-metal"
-    ],
+    "genres": ["nu-metalcore", "alt-metal"],
     "spotify_id": "4G9wSdX0klmoHfjm9i6DLd"
   },
   {
     "name": "Alpha Wolf",
     "current_label": "SharpTone Records",
     "distribution": "Believe",
-    "current_manager": null,
-    "current_management_co": null,
+    "current_manager": {},
+    "current_management_co": {},
     "booking_agency": "Destroy All Lines",
-    "genres": [
-      "nu-metalcore"
-    ],
+    "genres": "nu-metalcore",
     "spotify_id": "2tjnvrUmP46XNjFh9V0NGc"
   },
   {
     "name": "Invent Animate",
     "current_label": "UNFD",
     "distribution": "FUGA",
-    "current_manager": null,
+    "current_manager": {},
     "current_management_co": "SL Management",
     "booking_agency": "Sound Talent Group",
-    "genres": [
-      "progressive metalcore"
-    ],
+    "genres": "progressive metalcore",
     "spotify_id": "3ALVPmg5sZexSVD2m9atEt"
   },
   {
     "name": "Polaris",
     "current_label": "SharpTone Records",
     "distribution": "Believe",
-    "current_manager": null,
+    "current_manager": {},
     "current_management_co": "Culture Wave",
     "booking_agency": "IAG",
-    "genres": [
-      "metalcore"
-    ],
+    "genres": "metalcore",
     "spotify_id": "0v2e0oznnTaIXKLGKHphfX"
   },
   {
@@ -406,10 +363,9 @@
     "current_manager": "Cory Hajde",
     "current_management_co": "Alternate Side",
     "booking_agency": "Sound Talent Group",
-    "genres": [
-      "metalcore"
-    ],
-    "spotify_id": "0JGTiwfinlCuANGu4Gq2XU"
+    "genres": "metalcore",
+    "spotify_id": "0JGTiwfinlCuANGu4Gq2XU",
+    "country": "Los Angeles, USA"
   },
   {
     "name": "Fit For A King",
@@ -418,304 +374,273 @@
     "current_manager": "Cory Hajde",
     "current_management_co": "Alternate Side",
     "booking_agency": "Sound Talent Group",
-    "genres": [
-      "metalcore"
-    ],
-    "spotify_id": "0OgdRTPItr9dw4XYp4JJUx"
+    "genres": "metalcore",
+    "spotify_id": "0OgdRTPItr9dw4XYp4JJUx",
+    "country": "Tyler, Texas, USA",
+    "website": "fitforakingband.com"
   },
   {
     "name": "Dance Gavin Dance",
     "current_label": "Rise Records",
     "distribution": "BMG",
-    "current_manager": null,
-    "current_management_co": null,
-    "booking_agency": null,
-    "genres": [
-      "post-hardcore",
-      "progressive"
-    ],
-    "spotify_id": "6guC9FqvlVboSKTI77NG2k"
+    "current_manager": {},
+    "current_management_co": {},
+    "booking_agency": {},
+    "genres": ["post-hardcore", "progressive"],
+    "spotify_id": "6guC9FqvlVboSKTI77NG2k",
+    "country": "Sacramento,USA"
   },
   {
     "name": "We Came As Romans",
     "current_label": "SharpTone Records",
     "distribution": "Believe",
-    "current_manager": null,
+    "current_manager": {},
     "current_management_co": "Culture Wave",
     "booking_agency": "Wasserman",
-    "genres": [
-      "metalcore"
-    ],
-    "spotify_id": "6qO6LhD6FuXK5e2PtfAIMz"
+    "genres": "metalcore",
+    "spotify_id": "6qO6LhD6FuXK5e2PtfAIMz",
+    "country": "Troy ,USA",
+    "website": "www.wecameasromans.com"
   },
   {
     "name": "After The Burial",
     "current_label": "Sumerian Records",
     "distribution": "Virgin Music (UMG)",
-    "current_manager": null,
+    "current_manager": {},
     "current_management_co": "Culture Wave",
     "booking_agency": "Sound Talent Group",
-    "genres": [
-      "progressive metalcore",
-      "djent"
-    ],
-    "spotify_id": "0uNj4RxFjG0iVPlZS753en"
+    "genres": ["progressive metalcore", "djent"],
+    "spotify_id": "0uNj4RxFjG0iVPlZS753en",
+    "country": "Minnesota, USA"
   },
   {
     "name": "Brand Of Sacrifice",
     "current_label": "Nuclear Blast",
     "distribution": "Believe",
-    "current_manager": null,
+    "current_manager": {},
     "current_management_co": "Culture Wave",
-    "booking_agency": null,
-    "genres": [
-      "deathcore"
-    ],
+    "booking_agency": {},
+    "genres": "deathcore",
     "spotify_id": "4d6Rawrese4OLF1zZCztod"
   },
   {
     "name": "Currents",
     "current_label": "SharpTone Records",
     "distribution": "Believe",
-    "current_manager": null,
-    "current_management_co": null,
-    "booking_agency": null,
-    "genres": [
-      "metalcore"
-    ],
+    "current_manager": {},
+    "current_management_co": {},
+    "booking_agency": {},
+    "genres": "metalcore",
     "spotify_id": "5pqvAI85RMxL9K0xHvSwGu"
   },
   {
     "name": "Like Moths To Flames",
     "current_label": "UNFD",
     "distribution": "FUGA",
-    "current_manager": null,
-    "current_management_co": null,
+    "current_manager": {},
+    "current_management_co": {},
     "booking_agency": "Sound Talent Group",
-    "genres": [
-      "metalcore"
-    ],
-    "spotify_id": "6RRpZz1uPqY9E28kmSPAhw"
+    "genres": "metalcore",
+    "spotify_id": "6RRpZz1uPqY9E28kmSPAhw",
+    "country": "Ohio, USA"
   },
   {
     "name": "Rivers of Nihil",
     "current_label": "Metal Blade Records",
     "distribution": "RED (Sony)",
-    "current_manager": null,
-    "current_management_co": null,
-    "booking_agency": null,
-    "genres": [
-      "progressive metal",
-      "death metal"
-    ],
-    "spotify_id": "3UJmyt9ApeZTmOlMvBNGLN"
+    "current_manager": {},
+    "current_management_co": {},
+    "booking_agency": {},
+    "genres": ["progressive metal", "death metal"],
+    "spotify_id": "3UJmyt9ApeZTmOlMvBNGLN",
+    "country": "Reading, Pennsylvania, USA"
   },
   {
     "name": "Between the Buried and Me",
     "current_label": "InsideOutMusic",
     "distribution": "Sony Music",
-    "current_manager": null,
-    "current_management_co": null,
+    "current_manager": {},
+    "current_management_co": {},
     "booking_agency": "Sound Talent Group",
-    "genres": [
-      "progressive metal"
-    ],
-    "spotify_id": "2JC4hZm1egeJDEolLsMwZ9"
+    "genres": "progressive metal",
+    "spotify_id": "2JC4hZm1egeJDEolLsMwZ9",
+    "country": "North Carolina, USA",
+    "website": "www.betweentheburiedandme.com"
   },
   {
     "name": "A Day To Remember",
     "current_label": "Fueled by Ramen",
     "distribution": "Warner Music Group",
-    "current_manager": null,
+    "current_manager": {},
     "current_management_co": "Fly South Music Group",
     "booking_agency": "CAA",
-    "genres": [
-      "metalcore",
-      "pop-punk"
-    ],
-    "spotify_id": "4NiJW4q9ichVqL1aUsgGAN"
+    "genres": ["metalcore", "pop-punk"],
+    "spotify_id": "4NiJW4q9ichVqL1aUsgGAN",
+    "country": "Ocala, Florida, USA",
+    "website": "www.adtr.com"
   },
   {
     "name": "Underoath",
     "current_label": "Fearless Records",
     "distribution": "Concord",
-    "current_manager": null,
+    "current_manager": {},
     "current_management_co": "Force Media Management",
     "booking_agency": "IAG",
-    "genres": [
-      "metalcore",
-      "post-hardcore"
-    ],
-    "spotify_id": "3GzWhE2xadJiW8MqRKIVSK"
+    "genres": ["metalcore", "post-hardcore"],
+    "spotify_id": "3GzWhE2xadJiW8MqRKIVSK",
+    "country": "Tampa, USA",
+    "website": "www.underoath777.com"
   },
   {
     "name": "Northlane",
     "current_label": "UNFD",
     "distribution": "FUGA",
-    "current_manager": null,
+    "current_manager": {},
     "current_management_co": "Immortal Music Group",
     "booking_agency": "Wasserman",
-    "genres": [
-      "metalcore",
-      "djent"
-    ],
+    "genres": ["metalcore", "djent"],
     "spotify_id": "3qyg72RGnGdF521zMU02u9"
   },
   {
     "name": "Bring Me the Horizon",
     "current_label": "RCA Records",
     "distribution": "Sony Music",
-    "current_manager": null,
+    "current_manager": {},
     "current_management_co": "Raw Power Management",
     "booking_agency": "UTA",
-    "genres": [
-      "metalcore",
-      "alt-metal"
-    ],
-    "spotify_id": "1Ffb6ejR6Fe5IamqA5oRUF"
+    "genres": ["metalcore", "alt-metal"],
+    "spotify_id": "1Ffb6ejR6Fe5IamqA5oRUF",
+    "country": "Sheffield, England",
+    "website": "www.bringmethehorizon.co.uk"
   },
   {
     "name": "The Ghost Inside",
     "current_label": "Epitaph Records",
     "distribution": "Epitaph",
-    "current_manager": null,
+    "current_manager": {},
     "current_management_co": "Fly South Music Group",
     "booking_agency": "UTA",
-    "genres": [
-      "metalcore",
-      "hardcore"
-    ],
-    "spotify_id": "6kQB2RN7WwryMdJ1MoQh1E"
+    "genres": ["metalcore", "hardcore"],
+    "spotify_id": "6kQB2RN7WwryMdJ1MoQh1E",
+    "country": "Los Angeles, CA, USA",
+    "website": "theghostinside.com"
   },
   {
     "name": "Converge",
     "current_label": "Epitaph Records",
     "distribution": "Epitaph",
-    "current_manager": null,
-    "current_management_co": null,
-    "booking_agency": null,
-    "genres": [
-      "mathcore",
-      "hardcore"
-    ],
-    "spotify_id": "7kHzfxMLtVHHb523s43rY1"
+    "current_manager": {},
+    "current_management_co": {},
+    "booking_agency": {},
+    "genres": ["mathcore", "hardcore"],
+    "spotify_id": "7kHzfxMLtVHHb523s43rY1",
+    "country": "Salem, Massachusetts, USA",
+    "website": "www.convergecult.com"
   },
   {
     "name": "Code Orange",
     "current_label": "Blue Grape Music",
     "distribution": "ADA (Warner)",
-    "current_manager": null,
-    "current_management_co": null,
+    "current_manager": {},
+    "current_management_co": {},
     "booking_agency": "WME",
-    "genres": [
-      "hardcore",
-      "industrial"
-    ],
-    "spotify_id": "6qtECqesbU29iftyeWmldK"
+    "genres": ["hardcore", "industrial"],
+    "spotify_id": "6qtECqesbU29iftyeWmldK",
+    "country": "Pittsburgh, Pennsylvania",
+    "website": "codeorangetoth.com"
   },
   {
     "name": "Eidola",
     "current_label": "3DOT Recordings",
-    "distribution": null,
-    "current_manager": null,
+    "distribution": {},
+    "current_manager": {},
     "current_management_co": "Scarim Management",
-    "booking_agency": null,
-    "genres": [
-      "post-hardcore",
-      "progressive rock"
-    ],
+    "booking_agency": {},
+    "genres": ["post-hardcore", "progressive rock"],
     "spotify_id": "3z8aGzEIL6yA1mFXNFf9E3"
   },
   {
     "name": "Sleeping With Sirens",
     "current_label": "Sumerian Records",
-    "distribution": null,
-    "current_manager": null,
+    "distribution": {},
+    "current_manager": {},
     "current_management_co": "Fly South Music Group",
     "booking_agency": "Sound Talent Group",
-    "genres": [
-      "post-hardcore",
-      "pop rock"
-    ],
-    "spotify_id": "3N8Hy6xQnQv1F1XCiyGQqA"
+    "genres": ["post-hardcore", "pop rock"],
+    "spotify_id": "3N8Hy6xQnQv1F1XCiyGQqA",
+    "country": "Orlando, Florida",
+    "website": "www.sleepingwithsirens.net"
   },
   {
     "name": "Pierce the Veil",
     "current_label": "Fearless Records",
     "distribution": "Concord Music Group",
-    "current_manager": null,
+    "current_manager": {},
     "current_management_co": "Opera Ghost Management",
     "booking_agency": "CAA",
-    "genres": [
-      "post-hardcore",
-      "pop punk"
-    ],
-    "spotify_id": "4iJLPqClelZOBCBifm8Fzv"
+    "genres": ["post-hardcore", "pop punk"],
+    "spotify_id": "4iJLPqClelZOBCBifm8Fzv",
+    "country": "San Diego, California",
+    "website": "www.piercetheveil.net"
   },
   {
     "name": "Avenged Sevenfold",
     "current_label": "Warner Records",
     "distribution": "Warner Music Group",
-    "current_manager": null,
+    "current_manager": {},
     "current_management_co": "Velvet Hammer Music & Management Group",
     "booking_agency": "CAA",
-    "genres": [
-      "heavy metal",
-      "hard rock"
-    ],
-    "spotify_id": "0nmQIMXWTXfhgOBdNzhGOs"
+    "genres": ["heavy metal", "hard rock"],
+    "spotify_id": "0nmQIMXWTXfhgOBdNzhGOs",
+    "country": "California, USA",
+    "website": "www.avengedsevenfold.com"
   },
   {
     "name": "Parkway Drive",
     "current_label": "Epitaph Records",
-    "distribution": null,
-    "current_manager": null,
+    "distribution": {},
+    "current_manager": {},
     "current_management_co": "Destroy All Lines",
     "booking_agency": "IAG",
-    "genres": [
-      "metalcore",
-      "heavy metal"
-    ],
-    "spotify_id": "159qqlGwzE04xyqpfAwRLo"
+    "genres": ["metalcore", "heavy metal"],
+    "spotify_id": "159qqlGwzE04xyqpfAwRLo",
+    "country": "Byron Bay, Australia"
   },
   {
     "name": "Thrice",
     "current_label": "Epitaph Records",
-    "distribution": null,
-    "current_manager": null,
+    "distribution": {},
+    "current_manager": {},
     "current_management_co": "Relentless Artist Management",
-    "booking_agency": null,
-    "genres": [
-      "post-hardcore",
-      "alternative rock"
-    ],
-    "spotify_id": "3NChzMpu9exTlNPiqUQ2DE"
+    "booking_agency": {},
+    "genres": ["post-hardcore", "alternative rock"],
+    "spotify_id": "3NChzMpu9exTlNPiqUQ2DE",
+    "country": "Irvine, California, USA",
+    "website": "www.thrice.net"
   },
   {
     "name": "Atreyu",
     "current_label": "Spinefarm Records",
     "distribution": "Universal Music Group",
-    "current_manager": null,
-    "current_management_co": null,
-    "booking_agency": null,
-    "genres": [
-      "metalcore",
-      "heavy metal"
-    ],
-    "spotify_id": "3LkSiHbjqOHCKCqBfEZOTv"
+    "current_manager": {},
+    "current_management_co": {},
+    "booking_agency": {},
+    "genres": ["metalcore", "heavy metal"],
+    "spotify_id": "3LkSiHbjqOHCKCqBfEZOTv",
+    "country": "Yorba Linda, California",
+    "website": "www.roadrunnerrecords.co.uk/artist/Atreyu"
   },
   {
     "name": "Bullet for My Valentine",
     "current_label": "Spinefarm Records",
     "distribution": "Universal Music Group",
-    "current_manager": null,
+    "current_manager": {},
     "current_management_co": "Raw Power Management",
     "booking_agency": "CAA",
-    "genres": [
-      "metalcore",
-      "heavy metal"
-    ],
-    "spotify_id": "7iWiAD5LLKyiox2grgfmUT"
+    "genres": ["metalcore", "heavy metal"],
+    "spotify_id": "7iWiAD5LLKyiox2grgfmUT",
+    "country": "Bridgend, Wales",
+    "website": "bulletformyvalentine.com"
   },
   {
     "name": "Killswitch Engage",
@@ -724,154 +649,137 @@
     "current_manager": "Vaughn Lewis",
     "current_management_co": "Unchained Management",
     "booking_agency": "UTA",
-    "genres": [
-      "metalcore",
-      "melodic metalcore"
-    ],
-    "spotify_id": "37394IP6uhnjIpsawpMu4l"
+    "genres": ["metalcore", "melodic metalcore"],
+    "spotify_id": "37394IP6uhnjIpsawpMu4l",
+    "country": "Westfield, MA",
+    "website": "www.killswitchengage.com"
   },
   {
     "name": "The Word Alive",
     "current_label": "Thriller Records",
-    "distribution": null,
-    "current_manager": null,
-    "current_management_co": null,
-    "booking_agency": null,
-    "genres": [
-      "metalcore",
-      "post-hardcore"
-    ],
-    "spotify_id": "1CF8aEN939swnuIZGFI7Hk"
+    "distribution": {},
+    "current_manager": {},
+    "current_management_co": {},
+    "booking_agency": {},
+    "genres": ["metalcore", "post-hardcore"],
+    "spotify_id": "1CF8aEN939swnuIZGFI7Hk",
+    "country": "Phoenix, Arizona",
+    "website": "wearethewordalive.com"
   },
   {
     "name": "Greyhaven",
     "current_label": "Solid State Records",
-    "distribution": null,
-    "current_manager": null,
-    "current_management_co": null,
+    "distribution": {},
+    "current_manager": {},
+    "current_management_co": {},
     "booking_agency": "Wasserman",
-    "genres": [
-      "post-hardcore",
-      "mathcore"
-    ],
+    "genres": ["post-hardcore", "mathcore"],
     "spotify_id": "1zmx3NwOp6vR4qEjmhSiLL"
   },
   {
     "name": "Falling in Reverse",
     "current_label": "Epitaph Records",
-    "distribution": null,
-    "current_manager": null,
-    "current_management_co": null,
+    "distribution": {},
+    "current_manager": {},
+    "current_management_co": {},
     "booking_agency": "IAG",
-    "genres": [
-      "post-hardcore",
-      "hard rock"
-    ],
-    "spotify_id": "2CmaKO2zEGJ1NWpS1yfVGz"
+    "genres": ["post-hardcore", "hard rock"],
+    "spotify_id": "2CmaKO2zEGJ1NWpS1yfVGz",
+    "country": "Las Vegas, Nevada, U.S.A",
+    "website": "www.fallinginreverse.com"
   },
   {
     "name": "Babymetal",
     "current_label": "Capitol Records",
     "distribution": "Universal Music Group",
-    "current_manager": null,
+    "current_manager": {},
     "current_management_co": "5B Artist Management",
     "booking_agency": "CAA",
-    "genres": [
-      "kawaii metal",
-      "heavy metal"
-    ],
-    "spotify_id": "630wzNP2OL7fl4Xl0GnMWq"
+    "genres": ["kawaii metal", "heavy metal"],
+    "spotify_id": "630wzNP2OL7fl4Xl0GnMWq",
+    "country": "Tokyo, Japan",
+    "website": "babymetal.com"
   },
   {
     "name": "Nothing More",
     "current_label": "Better Noise Music",
-    "distribution": null,
-    "current_manager": null,
+    "distribution": {},
+    "current_manager": {},
     "current_management_co": "Shelter Music Group",
-    "booking_agency": null,
-    "genres": [
-      "hard rock",
-      "alternative metal"
-    ],
-    "spotify_id": "39VNwvlQTqE9SvgPjjnMpc"
+    "booking_agency": {},
+    "genres": ["hard rock", "alternative metal"],
+    "spotify_id": "39VNwvlQTqE9SvgPjjnMpc",
+    "country": "San Antonio,Texas,USA",
+    "website": "nothingmore.net"
   },
   {
     "name": "Halestorm",
     "current_label": "Atlantic Records",
     "distribution": "Warner Music Group",
-    "current_manager": null,
+    "current_manager": {},
     "current_management_co": "In De Goot Entertainment",
     "booking_agency": "CAA",
-    "genres": [
-      "hard rock",
-      "heavy metal"
-    ],
-    "spotify_id": "6om12Ev5ppgoMy3OYSoech"
+    "genres": ["hard rock", "heavy metal"],
+    "spotify_id": "6om12Ev5ppgoMy3OYSoech",
+    "country": "Red Lion, Pennsylvania",
+    "website": "www.halestormrocks.com "
   },
   {
     "name": "Saosin",
     "current_label": "Epitaph Records",
-    "distribution": null,
-    "current_manager": null,
-    "current_management_co": null,
-    "booking_agency": null,
-    "genres": [
-      "post-hardcore",
-      "alternative rock"
-    ],
-    "spotify_id": "1NUOfvAhA9AvsF1ISMkgHX"
+    "distribution": {},
+    "current_manager": {},
+    "current_management_co": {},
+    "booking_agency": {},
+    "genres": ["post-hardcore", "alternative rock"],
+    "spotify_id": "1NUOfvAhA9AvsF1ISMkgHX",
+    "country": "Newport Beach, California",
+    "website": "www.saosin.com"
   },
   {
     "name": "Spite",
     "current_label": "Rise Records",
     "distribution": "BMG",
-    "current_manager": null,
-    "current_management_co": null,
-    "booking_agency": null,
-    "genres": [
-      "deathcore",
-      "death metal"
-    ],
+    "current_manager": {},
+    "current_management_co": {},
+    "booking_agency": {},
+    "genres": ["deathcore", "death metal"],
     "spotify_id": "2DynE7m1BMVl4hQMvCXXq0"
   },
   {
     "name": "In This Moment",
     "current_label": "Better Noise Music",
-    "distribution": null,
-    "current_manager": null,
+    "distribution": {},
+    "current_manager": {},
     "current_management_co": "C3 Management",
-    "booking_agency": null,
-    "genres": [
-      "alternative metal",
-      "gothic metal"
-    ],
-    "spotify_id": "6tbLPxj1uQ6vsRQZI2YFCT"
+    "booking_agency": {},
+    "genres": ["alternative metal", "gothic metal"],
+    "spotify_id": "6tbLPxj1uQ6vsRQZI2YFCT",
+    "country": "Los Angeles, USA",
+    "website": "www.inthismomentofficial.com"
   },
   {
     "name": "My Chemical Romance",
     "current_label": "Warner Records",
     "distribution": "Warner Music Group",
-    "current_manager": null,
-    "current_management_co": null,
+    "current_manager": {},
+    "current_management_co": {},
     "booking_agency": "Wasserman",
-    "genres": [
-      "alternative rock",
-      "pop punk"
-    ],
-    "spotify_id": "7FBcuc1gsnv6Y1nwFtNRCb"
+    "genres": ["alternative rock", "pop punk"],
+    "spotify_id": "7FBcuc1gsnv6Y1nwFtNRCb",
+    "country": "New Jersey, USA"
   },
   {
     "name": "Taking Back Sunday",
     "current_label": "Fantasy Records",
     "distribution": "Concord Music Group",
     "current_manager": "Jillian Newman",
-    "current_management_co": null,
+    "current_management_co": {},
     "booking_agency": "CAA",
-    "genres": [
-      "alternative rock",
-      "emo"
-    ],
-    "spotify_id": "24XtlMhEMNdi822vi0MhY1"
+    "genres": ["alternative rock", "emo"],
+    "spotify_id": "24XtlMhEMNdi822vi0MhY1",
+    "country": "Long Island, New York, USA",
+    "website": "www.takingbacksunday.com"
   },
   {
     "name": "Coheed and Cambria",
@@ -880,75 +788,61 @@
     "current_manager": "Blaze James",
     "current_management_co": "The Fellowship",
     "booking_agency": "WME",
-    "genres": [
-      "progressive rock",
-      "post-hardcore"
-    ],
-    "spotify_id": "3utxjLheHaVEd9bPjQRsy8"
+    "genres": ["progressive rock", "post-hardcore"],
+    "spotify_id": "3utxjLheHaVEd9bPjQRsy8",
+    "country": "New York, USA",
+    "website": "www.coheedandcambria.com"
   },
   {
     "name": "Make Them Suffer",
     "current_label": "SharpTone Records",
-    "distribution": null,
-    "current_manager": null,
+    "distribution": {},
+    "current_manager": {},
     "current_management_co": "Immortal Music Group",
     "booking_agency": "Wasserman",
-    "genres": [
-      "metalcore",
-      "deathcore"
-    ],
+    "genres": ["metalcore", "deathcore"],
     "spotify_id": "0FZcPgWI3BsFQl4rOAGSHT"
   },
   {
     "name": "Cane Hill",
     "current_label": "Out of Line Music",
-    "distribution": null,
-    "current_manager": null,
-    "current_management_co": null,
-    "booking_agency": null,
-    "genres": [
-      "nu metal",
-      "alternative metal"
-    ],
+    "distribution": {},
+    "current_manager": {},
+    "current_management_co": {},
+    "booking_agency": {},
+    "genres": ["nu metal", "alternative metal"],
     "spotify_id": "0DZKzOGHDqGaf1N2pmsBRZ"
   },
   {
     "name": "Volumes",
     "current_label": "Fearless Records",
     "distribution": "Concord Music Group",
-    "current_manager": null,
-    "current_management_co": null,
-    "booking_agency": null,
-    "genres": [
-      "progressive metalcore",
-      "djent"
-    ],
+    "current_manager": {},
+    "current_management_co": {},
+    "booking_agency": {},
+    "genres": ["progressive metalcore", "djent"],
     "spotify_id": "1DgmdsnwOexqTH8ohPCFAU"
   },
   {
     "name": "The Used",
     "current_label": "Anger Music Group / Hopeless Records",
-    "distribution": null,
-    "current_manager": null,
+    "distribution": {},
+    "current_manager": {},
     "current_management_co": "Anger Management Group",
     "booking_agency": "CAA",
-    "genres": [
-      "post-hardcore",
-      "emo"
-    ],
-    "spotify_id": "55VydwMyCuGcavwPuhutPL"
+    "genres": ["post-hardcore", "emo"],
+    "spotify_id": "55VydwMyCuGcavwPuhutPL",
+    "country": "Utah, USA"
   },
   {
     "name": "Soil",
     "current_label": "Cleopatra Records / Pavement Entertainment",
-    "distribution": null,
-    "current_manager": null,
-    "current_management_co": null,
-    "booking_agency": null,
-    "genres": [
-      "nu metal",
-      "alternative metal"
-    ],
-    "spotify_id": "4PoYwGOztIrPpBfRIlMSxP"
+    "distribution": {},
+    "current_manager": {},
+    "current_management_co": {},
+    "booking_agency": {},
+    "genres": ["nu metal", "alternative metal"],
+    "spotify_id": "4PoYwGOztIrPpBfRIlMSxP",
+    "country": "Chicago, US"
   }
 ]

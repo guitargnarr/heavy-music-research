@@ -94,11 +94,25 @@ class RelationshipResponse(BaseModel):
     model_config = {"from_attributes": True}
 
 
+class ProducerCredit(BaseModel):
+    name: str
+    studio: Optional[str] = None
+
+
+class RelatedArtistBrief(BaseModel):
+    spotify_id: str
+    name: str
+    image_url: Optional[str] = None
+    composite: Optional[float] = None
+    grade: Optional[str] = None
+
+
 class NetworkNode(BaseModel):
     id: str
     label: str
     type: str  # artist, producer, label, management
     score: Optional[float] = None
+    spotify_id: Optional[str] = None
 
 
 class NetworkLink(BaseModel):

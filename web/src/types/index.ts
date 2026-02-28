@@ -80,6 +80,19 @@ export interface FestivalSummary {
   artists: string[];
 }
 
+export interface ProducerCredit {
+  name: string;
+  studio: string | null;
+}
+
+export interface RelatedArtist {
+  spotify_id: string;
+  name: string;
+  image_url: string | null;
+  composite: number | null;
+  grade: string | null;
+}
+
 export interface ArtistDetail {
   spotify_id: string;
   name: string;
@@ -96,6 +109,8 @@ export interface ArtistDetail {
   scores: ScoreRecord[];
   upcoming_events: EventRecord[];
   label_contact: LabelContact | null;
+  producers: ProducerCredit[];
+  related_artists: RelatedArtist[];
 }
 
 export interface NetworkNode {
@@ -103,6 +118,7 @@ export interface NetworkNode {
   label: string;
   type: "artist" | "producer" | "label" | "management" | "agency";
   score: number | null;
+  spotify_id?: string;
 }
 
 export interface NetworkLink {

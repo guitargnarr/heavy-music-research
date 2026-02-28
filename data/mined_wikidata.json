@@ -1,0 +1,850 @@
+{
+  "matched": 65,
+  "not_found": ["Kublai Khan TX", "Animals As Leaders", "Motionless In White", "Fit For A King", "We Came As Romans", "After The Burial", "Brand Of Sacrifice", "Like Moths To Flames", "A Day To Remember", "Sleeping With Sirens"],
+  "artists": [
+    {
+      "name": "Alpha Wolf",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q36827208",
+      "musicbrainz_id": "2tjnvrUmP46XNjFh9V0NGc",
+      "discogs_id": null,
+      "labels": [],
+      "genres": [],
+      "country": "Australia",
+      "inception": "2013-01-01T00:00:00Z"
+    },
+    {
+      "name": "Architects",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q4787002",
+      "musicbrainz_id": null,
+      "discogs_id": null,
+      "labels": "Anodyne Records",
+      "genres": "alternative rock",
+      "country": "United States",
+      "inception": "2004-01-01T00:00:00Z"
+    },
+    {
+      "name": "Architects",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q620454",
+      "musicbrainz_id": "3ZztVuWxHzNpl0THurTFCv",
+      "discogs_id": null,
+      "labels": ["Century Media Records", "Epitaph Records", "In at the Deep End Records"],
+      "genres": "metalcore",
+      "country": "United Kingdom",
+      "inception": "2004-01-01T00:00:00Z"
+    },
+    {
+      "name": "Atreyu",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q240703",
+      "musicbrainz_id": "3LkSiHbjqOHCKCqBfEZOTv",
+      "discogs_id": null,
+      "labels": "Victory Records",
+      "genres": ["metalcore", "alternative metal"],
+      "country": "United States",
+      "inception": "1998-01-01T00:00:00Z"
+    },
+    {
+      "name": "August Burns Red",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q537954",
+      "musicbrainz_id": "5p9CTsn5ueGU4oScNX1axu",
+      "discogs_id": null,
+      "labels": ["Solid State Records", "Fearless Records"],
+      "genres": "metalcore",
+      "country": "United States",
+      "inception": "2003-01-01T00:00:00Z"
+    },
+    {
+      "name": "Avenged Sevenfold",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q165193",
+      "musicbrainz_id": "0nmQIMXWTXfhgOBdNzhGOs",
+      "discogs_id": null,
+      "labels": ["Warner Music Group", "Capitol Records", "Warner Bros. Records", "Hopeless Records", "Good Life Recordings", "Warner Records Inc."],
+      "genres": ["progressive metal", "metalcore", "heavy metal music"],
+      "country": "United States",
+      "inception": "1999-01-01T00:00:00Z"
+    },
+    {
+      "name": "Babymetal",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q11190781",
+      "musicbrainz_id": "630wzNP2OL7fl4Xl0GnMWq",
+      "discogs_id": null,
+      "labels": ["Capitol Records", "Toy's Factory", "BMD Fox Records"],
+      "genres": ["kawaii metal", "death metal", "speed metal", "J-pop", "power metal", "pop music"],
+      "country": "Japan",
+      "inception": "2010-01-01T00:00:00Z"
+    },
+    {
+      "name": "Bad Omens",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q54958373",
+      "musicbrainz_id": "3Ri4H12KFyu98LMjSoij5V",
+      "discogs_id": null,
+      "labels": [],
+      "genres": ["metalcore", "alternative metal"],
+      "country": "United States",
+      "inception": null
+    },
+    {
+      "name": "Between the Buried and Me",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q850616",
+      "musicbrainz_id": "2JC4hZm1egeJDEolLsMwZ9",
+      "discogs_id": null,
+      "labels": ["Lifeforce Records", "Metal Blade Records", "Victory Records"],
+      "genres": ["progressive metal", "metalcore"],
+      "country": "United States",
+      "inception": "2000-01-01T00:00:00Z"
+    },
+    {
+      "name": "Bilmuri",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q112214147",
+      "musicbrainz_id": null,
+      "discogs_id": null,
+      "labels": [],
+      "genres": ["punk music", "alternative music", "indie rock", "alternative metal", "alternative rock", "punk rock"],
+      "country": "United States",
+      "inception": "2016-01-01T00:00:00Z"
+    },
+    {
+      "name": "Born of Osiris",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q679818",
+      "musicbrainz_id": "4HgqjpBaWctBWVHafQIpRt",
+      "discogs_id": null,
+      "labels": "Sumerian Records",
+      "genres": ["djent", "deathcore", "metalcore"],
+      "country": "United States",
+      "inception": "2003-01-01T00:00:00Z"
+    },
+    {
+      "name": "Bring Me the Horizon",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q494784",
+      "musicbrainz_id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "discogs_id": null,
+      "labels": ["Columbia Records", "RCA Records", "Epitaph Records", "BMG Rights Management", "Earache Records", "Visible Noise", "Sony Music"],
+      "genres": ["pop rock", "post-hardcore", "deathcore", "metalcore", "techno", "alternative metal"],
+      "country": "United Kingdom",
+      "inception": "2004-01-01T00:00:00Z"
+    },
+    {
+      "name": "Bullet for My Valentine",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q485385",
+      "musicbrainz_id": "7iWiAD5LLKyiox2grgfmUT",
+      "discogs_id": null,
+      "labels": ["Columbia Records", "RCA Records", "GUN Records", "Trustkill Records", "Visible Noise"],
+      "genres": ["metalcore", "punk rock"],
+      "country": "United Kingdom",
+      "inception": "1998-01-01T00:00:00Z"
+    },
+    {
+      "name": "Cane Hill",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q25056942",
+      "musicbrainz_id": "0DZKzOGHDqGaf1N2pmsBRZ",
+      "discogs_id": null,
+      "labels": "Rise Records",
+      "genres": "alternative metal",
+      "country": "United States",
+      "inception": "2011-01-01T00:00:00Z"
+    },
+    {
+      "name": "Code Orange",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q5140037",
+      "musicbrainz_id": "6qtECqesbU29iftyeWmldK",
+      "discogs_id": null,
+      "labels": ["Roadrunner Records", "Deathwish Inc."],
+      "genres": ["sludge metal", "metalcore", "hardcore punk"],
+      "country": "United States",
+      "inception": "2008-01-01T00:00:00Z"
+    },
+    {
+      "name": "Coheed and Cambria",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q4299",
+      "musicbrainz_id": "3utxjLheHaVEd9bPjQRsy8",
+      "discogs_id": null,
+      "labels": ["Columbia Records", "Equal Vision Records", "300 Entertainment"],
+      "genres": ["progressive metal", "progressive rock", "alternative rock"],
+      "country": "United States",
+      "inception": "1995-01-01T00:00:00Z"
+    },
+    {
+      "name": "Converge",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q281894",
+      "musicbrainz_id": "7kHzfxMLtVHHb523s43rY1",
+      "discogs_id": null,
+      "labels": ["Equal Vision Records", "Epitaph Records", "Deathwish Inc.", "Undecided Records"],
+      "genres": "metalcore",
+      "country": "United States",
+      "inception": "1990-01-01T00:00:00Z"
+    },
+    {
+      "name": "Counterparts",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q5176999",
+      "musicbrainz_id": null,
+      "discogs_id": null,
+      "labels": "Victory Records",
+      "genres": "punk rock",
+      "country": "Canada",
+      "inception": "2007-01-01T00:00:00Z"
+    },
+    {
+      "name": "Currents",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q51029545",
+      "musicbrainz_id": null,
+      "discogs_id": null,
+      "labels": [],
+      "genres": "heavy metal music",
+      "country": "United States",
+      "inception": null
+    },
+    {
+      "name": "Currents",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q60824634",
+      "musicbrainz_id": null,
+      "discogs_id": null,
+      "labels": [],
+      "genres": "metalcore",
+      "country": "United States",
+      "inception": "2009-01-01T00:00:00Z"
+    },
+    {
+      "name": "Dance Gavin Dance",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q3013333",
+      "musicbrainz_id": "6guC9FqvlVboSKTI77NG2k",
+      "discogs_id": null,
+      "labels": "Rise Records",
+      "genres": "post-hardcore",
+      "country": "United States",
+      "inception": "2005-01-01T00:00:00Z"
+    },
+    {
+      "name": "Dayseeker",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q19277905",
+      "musicbrainz_id": "5FjQVp1Lb0kltmwIuu5kfj",
+      "discogs_id": null,
+      "labels": "InVogue Records",
+      "genres": "post-hardcore",
+      "country": "United States",
+      "inception": "2012-01-01T00:00:00Z"
+    },
+    {
+      "name": "Drain",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q16833643",
+      "musicbrainz_id": null,
+      "discogs_id": null,
+      "labels": "Trance Syndicate",
+      "genres": "noise rock",
+      "country": "United States",
+      "inception": "1992-01-01T00:00:00Z"
+    },
+    {
+      "name": "Drain",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q120639597",
+      "musicbrainz_id": null,
+      "discogs_id": null,
+      "labels": "Epitaph Records",
+      "genres": "hardcore punk",
+      "country": "United States",
+      "inception": "2014-01-01T00:00:00Z"
+    },
+    {
+      "name": "Eidola",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q60744025",
+      "musicbrainz_id": null,
+      "discogs_id": null,
+      "labels": [],
+      "genres": [],
+      "country": null,
+      "inception": null
+    },
+    {
+      "name": "Erra",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q18990899",
+      "musicbrainz_id": null,
+      "discogs_id": null,
+      "labels": "Sumerian Records",
+      "genres": "metalcore",
+      "country": "United States",
+      "inception": "2009-01-01T00:00:00Z"
+    },
+    {
+      "name": "Falling in Reverse",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q519515",
+      "musicbrainz_id": "2CmaKO2zEGJ1NWpS1yfVGz",
+      "discogs_id": null,
+      "labels": "Epitaph Records",
+      "genres": ["pop-punk", "post-hardcore", "metalcore", "emo"],
+      "country": "United States",
+      "inception": "2008-01-01T00:00:00Z"
+    },
+    {
+      "name": "Fit for an Autopsy",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q1421122",
+      "musicbrainz_id": "0qJpY7K8p7g6sacvaGNt6i",
+      "discogs_id": null,
+      "labels": "MNRK Music Group",
+      "genres": "punk rock",
+      "country": "United States",
+      "inception": "2008-01-01T00:00:00Z"
+    },
+    {
+      "name": "Gojira",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q1011412",
+      "musicbrainz_id": "0GDGKpJFhVpcjIGF8N6Ewt",
+      "discogs_id": "55597",
+      "labels": ["Roadrunner Records", "Listenable Records", "Prosthetic Records"],
+      "genres": ["technical death metal", "progressive metal", "groove metal"],
+      "country": "France",
+      "inception": "1996-01-01T00:00:00Z"
+    },
+    {
+      "name": "Greyhaven",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q5608392",
+      "musicbrainz_id": null,
+      "discogs_id": "608",
+      "labels": [],
+      "genres": "progressive metal",
+      "country": "United States",
+      "inception": "1996-01-01T00:00:00Z"
+    },
+    {
+      "name": "Halestorm",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q935503",
+      "musicbrainz_id": "6om12Ev5ppgoMy3OYSoech",
+      "discogs_id": null,
+      "labels": "Atlantic Records",
+      "genres": ["hard rock", "alternative metal"],
+      "country": "United States",
+      "inception": "1998-01-01T00:00:00Z"
+    },
+    {
+      "name": "Ice Nine Kills",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q5985325",
+      "musicbrainz_id": "52qKfVcIV4GS8A8Vay2xtt",
+      "discogs_id": null,
+      "labels": ["Ferret Music", "Fearless Records"],
+      "genres": ["post-hardcore", "symphonic metal", "melodic metalcore", "alternative metal"],
+      "country": "United States",
+      "inception": "2002-01-01T00:00:00Z"
+    },
+    {
+      "name": "In This Moment",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q1468680",
+      "musicbrainz_id": "6tbLPxj1uQ6vsRQZI2YFCT",
+      "discogs_id": null,
+      "labels": "Century Media Records",
+      "genres": ["industrial metal", "gothic metal", "metalcore", "alternative metal"],
+      "country": "United States",
+      "inception": "2006-01-01T00:00:00Z"
+    },
+    {
+      "name": "Invent Animate",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q20191939",
+      "musicbrainz_id": null,
+      "discogs_id": null,
+      "labels": "Tragic Hero Records",
+      "genres": "progressive metal",
+      "country": "United States",
+      "inception": null
+    },
+    {
+      "name": "Killswitch Engage",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q462709",
+      "musicbrainz_id": "37394IP6uhnjIpsawpMu4l",
+      "discogs_id": "3075",
+      "labels": ["Roadrunner Records", "Ferret Music"],
+      "genres": "melodic metalcore",
+      "country": "United States",
+      "inception": "1998-01-01T00:00:00Z"
+    },
+    {
+      "name": "Knocked Loose",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q27817179",
+      "musicbrainz_id": "4qrHkx5cgWIslciLXUMrYw",
+      "discogs_id": null,
+      "labels": [],
+      "genres": ["metalcore", "hardcore punk"],
+      "country": "United States",
+      "inception": "2013-01-01T00:00:00Z"
+    },
+    {
+      "name": "Lamb of God",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q207731",
+      "musicbrainz_id": "3JFsVIxOn7STeilPICkkB2",
+      "discogs_id": "59",
+      "labels": ["Nuclear Blast", "Epic Records", "Black Market Activities", "Legion Records"],
+      "genres": ["groove metal", "metalcore"],
+      "country": "United States",
+      "inception": "1994-01-01T00:00:00Z"
+    },
+    {
+      "name": "Loathe",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q30610109",
+      "musicbrainz_id": "4G9wSdX0klmoHfjm9i6DLd",
+      "discogs_id": null,
+      "labels": "SharpTone Records",
+      "genres": ["djent", "progressive metal", "nu metal", "deathcore", "metalcore"],
+      "country": "United Kingdom",
+      "inception": "2014-01-01T00:00:00Z"
+    },
+    {
+      "name": "Lorna Shore",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q17125981",
+      "musicbrainz_id": "6vXYoy8ouRVib302zxaxFF",
+      "discogs_id": "3540513913",
+      "labels": "Century Media Records",
+      "genres": "deathcore",
+      "country": "United States",
+      "inception": "2010-01-01T00:00:00Z"
+    },
+    {
+      "name": "Make Them Suffer",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q11880653",
+      "musicbrainz_id": "0FZcPgWI3BsFQl4rOAGSHT",
+      "discogs_id": "3540328594",
+      "labels": "Rise Records",
+      "genres": ["deathcore", "metalcore"],
+      "country": "Australia",
+      "inception": "2008-01-01T00:00:00Z"
+    },
+    {
+      "name": "My Chemical Romance",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q483285",
+      "musicbrainz_id": "7FBcuc1gsnv6Y1nwFtNRCb",
+      "discogs_id": null,
+      "labels": ["Warner Music Group", "Reprise Records", "Eyeball Records"],
+      "genres": ["gothic rock", "pop-punk", "post-hardcore", "hard rock", "alternative metal", "alternative rock", "emo", "punk rock"],
+      "country": "United States",
+      "inception": "2001-01-01T00:00:00Z"
+    },
+    {
+      "name": "Northlane",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q7059558",
+      "musicbrainz_id": "3qyg72RGnGdF521zMU02u9",
+      "discogs_id": null,
+      "labels": "UNFD",
+      "genres": "hardcore punk",
+      "country": "Australia",
+      "inception": "2009-01-01T00:00:00Z"
+    },
+    {
+      "name": "Nothing More",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q18157965",
+      "musicbrainz_id": "39VNwvlQTqE9SvgPjjnMpc",
+      "discogs_id": null,
+      "labels": "Eleven Seven Music",
+      "genres": ["alternative metal", "alternative rock"],
+      "country": "United States",
+      "inception": "2003-01-01T00:00:00Z"
+    },
+    {
+      "name": "Parkway Drive",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q282855",
+      "musicbrainz_id": "159qqlGwzE04xyqpfAwRLo",
+      "discogs_id": null,
+      "labels": ["Epitaph Records", "Golf Records", "Resist Records"],
+      "genres": ["metalcore", "heavy metal music"],
+      "country": "Australia",
+      "inception": "2003-01-01T00:00:00Z"
+    },
+    {
+      "name": "Periphery",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q2071101",
+      "musicbrainz_id": "6d24kC5fxHFOSEAmjQPPhc",
+      "discogs_id": null,
+      "labels": "Sumerian Records",
+      "genres": "progressive metal",
+      "country": "United States",
+      "inception": "2004-01-01T00:00:00Z"
+    },
+    {
+      "name": "Pierce the Veil",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q1169219",
+      "musicbrainz_id": "4iJLPqClelZOBCBifm8Fzv",
+      "discogs_id": null,
+      "labels": ["Equal Vision Records", "Fearless Records"],
+      "genres": ["experimental rock", "pop rock", "pop-punk", "post-hardcore", "progressive rock", "alternative rock", "emo", "hardcore punk"],
+      "country": "United States",
+      "inception": "2006-01-01T00:00:00Z"
+    },
+    {
+      "name": "Polaris",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q938895",
+      "musicbrainz_id": "1ZOKm4ZfrMPjTynDt99aCp",
+      "discogs_id": null,
+      "labels": [],
+      "genres": "alternative rock",
+      "country": "United States",
+      "inception": "1993-01-01T00:00:00Z"
+    },
+    {
+      "name": "Polaris",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q11239779",
+      "musicbrainz_id": "6d3nubbHrZF64o8YL4Z9NF",
+      "discogs_id": null,
+      "labels": [],
+      "genres": "rock music",
+      "country": "Japan",
+      "inception": null
+    },
+    {
+      "name": "Polaris",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q51029232",
+      "musicbrainz_id": "0v2e0oznnTaIXKLGKHphfX",
+      "discogs_id": null,
+      "labels": [],
+      "genres": "metalcore",
+      "country": "Australia",
+      "inception": null
+    },
+    {
+      "name": "Rivers of Nihil",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q15842558",
+      "musicbrainz_id": "3UJmyt9ApeZTmOlMvBNGLN",
+      "discogs_id": "3540301156",
+      "labels": "Metal Blade Records",
+      "genres": "technical death metal",
+      "country": "United States",
+      "inception": null
+    },
+    {
+      "name": "Saosin",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q664871",
+      "musicbrainz_id": "1NUOfvAhA9AvsF1ISMkgHX",
+      "discogs_id": null,
+      "labels": ["Capitol Records", "Epitaph Records"],
+      "genres": "alternative rock",
+      "country": "United States",
+      "inception": "2003-01-01T00:00:00Z"
+    },
+    {
+      "name": "Silent Planet",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q18712529",
+      "musicbrainz_id": null,
+      "discogs_id": null,
+      "labels": ["Solid State Records", "UNFD"],
+      "genres": "progressive metalcore",
+      "country": "United States",
+      "inception": "2009-01-01T00:00:00Z"
+    },
+    {
+      "name": "Slaughter to Prevail",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q25391098",
+      "musicbrainz_id": "24Oiw7BlvO1BETecDLJt6m",
+      "discogs_id": null,
+      "labels": "Sumerian Records",
+      "genres": "deathcore",
+      "country": "United States",
+      "inception": null
+    },
+    {
+      "name": "Sleep Token",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q96405837",
+      "musicbrainz_id": null,
+      "discogs_id": null,
+      "labels": ["RCA Records", "Spinefarm Records", "Basick Records"],
+      "genres": "alternative metal",
+      "country": "United Kingdom",
+      "inception": null
+    },
+    {
+      "name": "Soil",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q1425700",
+      "musicbrainz_id": "4PoYwGOztIrPpBfRIlMSxP",
+      "discogs_id": null,
+      "labels": ["J Records", "DRT Entertainment"],
+      "genres": ["nu metal", "hard rock", "alternative metal"],
+      "country": "United States",
+      "inception": "1997-01-01T00:00:00Z"
+    },
+    {
+      "name": "Soil",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q20128094",
+      "musicbrainz_id": null,
+      "discogs_id": null,
+      "labels": [],
+      "genres": [],
+      "country": null,
+      "inception": null
+    },
+    {
+      "name": "Spiritbox",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q104881702",
+      "musicbrainz_id": "4MzJMcHQBl9SIYSjwWn8QW",
+      "discogs_id": null,
+      "labels": "Rise Records",
+      "genres": "heavy metal music",
+      "country": "Canada",
+      "inception": null
+    },
+    {
+      "name": "Spite",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q7578286",
+      "musicbrainz_id": null,
+      "discogs_id": null,
+      "labels": [],
+      "genres": [],
+      "country": "United States",
+      "inception": "1983-01-01T00:00:00Z"
+    },
+    {
+      "name": "Taking Back Sunday",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q283487",
+      "musicbrainz_id": "24XtlMhEMNdi822vi0MhY1",
+      "discogs_id": null,
+      "labels": ["Warner Bros. Records", "Victory Records"],
+      "genres": ["emo pop", "post-punk", "pop-punk", "post-hardcore", "alternative rock", "emo"],
+      "country": "United States",
+      "inception": "1999-01-01T00:00:00Z"
+    },
+    {
+      "name": "The Ghost Inside",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q1327539",
+      "musicbrainz_id": "6kQB2RN7WwryMdJ1MoQh1E",
+      "discogs_id": null,
+      "labels": "Epitaph Records",
+      "genres": "punk rock",
+      "country": "United States",
+      "inception": "2004-01-01T00:00:00Z"
+    },
+    {
+      "name": "The Used",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q847970",
+      "musicbrainz_id": "55VydwMyCuGcavwPuhutPL",
+      "discogs_id": null,
+      "labels": ["Reprise Records", "Hopeless Records"],
+      "genres": "alternative rock",
+      "country": "United States",
+      "inception": "2001-01-01T00:00:00Z"
+    },
+    {
+      "name": "The Word Alive",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q1693189",
+      "musicbrainz_id": "1CF8aEN939swnuIZGFI7Hk",
+      "discogs_id": null,
+      "labels": "Fearless Records",
+      "genres": "metalcore",
+      "country": "United States",
+      "inception": "2008-01-01T00:00:00Z"
+    },
+    {
+      "name": "Thrice",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q1503015",
+      "musicbrainz_id": "3NChzMpu9exTlNPiqUQ2DE",
+      "discogs_id": null,
+      "labels": ["Epitaph Records", "Golf Records", "Sub City Records"],
+      "genres": ["experimental rock", "melodic hardcore", "post-hardcore", "post-grunge", "alternative rock"],
+      "country": "United States",
+      "inception": "1998-01-01T00:00:00Z"
+    },
+    {
+      "name": "Thrown",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q130323106",
+      "musicbrainz_id": null,
+      "discogs_id": null,
+      "labels": [],
+      "genres": [],
+      "country": null,
+      "inception": null
+    },
+    {
+      "name": "Trivium",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q390684",
+      "musicbrainz_id": "278ZYwGhdK6QTzE3MFePnP",
+      "discogs_id": "6795",
+      "labels": ["Roadrunner Records", "Lifeforce Records"],
+      "genres": ["melodic metalcore", "thrash metal", "progressive metal", "heavy metal music"],
+      "country": "United States",
+      "inception": "1999-01-01T00:00:00Z"
+    },
+    {
+      "name": "Turnstile",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q18719133",
+      "musicbrainz_id": null,
+      "discogs_id": null,
+      "labels": [],
+      "genres": "hardcore punk",
+      "country": "United States",
+      "inception": "2010-01-01T00:00:00Z"
+    },
+    {
+      "name": "Underoath",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q913673",
+      "musicbrainz_id": "3GzWhE2xadJiW8MqRKIVSK",
+      "discogs_id": "98854",
+      "labels": ["Roadrunner Records", "Golf Records"],
+      "genres": ["Christian metal", "post-hardcore", "metalcore"],
+      "country": "United States",
+      "inception": "1997-01-01T00:00:00Z"
+    },
+    {
+      "name": "Veil of Maya",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q1573029",
+      "musicbrainz_id": "2i7CQcVBh2K6uOR3CH09M1",
+      "discogs_id": "45084",
+      "labels": "Sumerian Records",
+      "genres": ["djent", "deathcore", "metalcore"],
+      "country": "United States",
+      "inception": "2004-01-01T00:00:00Z"
+    },
+    {
+      "name": "Volumes",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q15853160",
+      "musicbrainz_id": "1DgmdsnwOexqTH8ohPCFAU",
+      "discogs_id": null,
+      "labels": [],
+      "genres": "punk rock",
+      "country": "United States",
+      "inception": "2009-01-01T00:00:00Z"
+    },
+    {
+      "name": "Wage War",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q22669962",
+      "musicbrainz_id": "6bu7CtcOMWcS0BMq7snHW6",
+      "discogs_id": null,
+      "labels": "Fearless Records",
+      "genres": "metalcore",
+      "country": "United States",
+      "inception": "2013-01-01T00:00:00Z"
+    },
+    {
+      "name": "Whitechapel",
+      "wikidata_uri": "http://www.wikidata.org/entity/Q1138974",
+      "musicbrainz_id": "5274obTQJjzjyycRyJlfml",
+      "discogs_id": "100482",
+      "labels": "Metal Blade Records",
+      "genres": ["deathcore", "death metal"],
+      "country": "United States",
+      "inception": "2006-01-01T00:00:00Z"
+    }
+  ],
+  "discrepancies": [
+    {
+      "artist": "Periphery",
+      "field": "label",
+      "our_value": "3DOT Recordings",
+      "wikidata_value": "Sumerian Records"
+    },
+    {
+      "artist": "Erra",
+      "field": "label",
+      "our_value": "UNFD",
+      "wikidata_value": "Sumerian Records"
+    },
+    {
+      "artist": "Architects",
+      "field": "label",
+      "our_value": "Epitaph Records",
+      "wikidata_value": "Anodyne Records"
+    },
+    {
+      "artist": "Dayseeker",
+      "field": "label",
+      "our_value": "Spinefarm Records",
+      "wikidata_value": "InVogue Records"
+    },
+    {
+      "artist": "Drain",
+      "field": "label",
+      "our_value": "Epitaph Records",
+      "wikidata_value": "Trance Syndicate"
+    },
+    {
+      "artist": "Counterparts",
+      "field": "label",
+      "our_value": "Pure Noise Records",
+      "wikidata_value": "Victory Records"
+    },
+    {
+      "artist": "Invent Animate",
+      "field": "label",
+      "our_value": "UNFD",
+      "wikidata_value": "Tragic Hero Records"
+    },
+    {
+      "artist": "Between the Buried and Me",
+      "field": "label",
+      "our_value": "InsideOutMusic",
+      "wikidata_value": "Lifeforce Records | Metal Blade Records | Victory Records"
+    },
+    {
+      "artist": "Underoath",
+      "field": "label",
+      "our_value": "Fearless Records",
+      "wikidata_value": "Roadrunner Records | Golf Records"
+    },
+    {
+      "artist": "Code Orange",
+      "field": "label",
+      "our_value": "Blue Grape Music",
+      "wikidata_value": "Roadrunner Records | Deathwish Inc."
+    },
+    {
+      "artist": "Atreyu",
+      "field": "label",
+      "our_value": "Spinefarm Records",
+      "wikidata_value": "Victory Records"
+    },
+    {
+      "artist": "Bullet for My Valentine",
+      "field": "label",
+      "our_value": "Spinefarm Records",
+      "wikidata_value": "Columbia Records | RCA Records | GUN Records | Trustkill Records | Visible Noise"
+    },
+    {
+      "artist": "Killswitch Engage",
+      "field": "label",
+      "our_value": "Metal Blade Records",
+      "wikidata_value": "Roadrunner Records | Ferret Music"
+    },
+    {
+      "artist": "The Word Alive",
+      "field": "label",
+      "our_value": "Thriller Records",
+      "wikidata_value": "Fearless Records"
+    },
+    {
+      "artist": "Nothing More",
+      "field": "label",
+      "our_value": "Better Noise Music",
+      "wikidata_value": "Eleven Seven Music"
+    },
+    {
+      "artist": "In This Moment",
+      "field": "label",
+      "our_value": "Better Noise Music",
+      "wikidata_value": "Century Media Records"
+    },
+    {
+      "artist": "My Chemical Romance",
+      "field": "label",
+      "our_value": "Warner Records",
+      "wikidata_value": "Warner Music Group | Reprise Records | Eyeball Records"
+    },
+    {
+      "artist": "Taking Back Sunday",
+      "field": "label",
+      "our_value": "Fantasy Records",
+      "wikidata_value": "Warner Bros. Records | Victory Records"
+    },
+    {
+      "artist": "Coheed and Cambria",
+      "field": "label",
+      "our_value": "Roadrunner Records",
+      "wikidata_value": "Columbia Records | Equal Vision Records | 300 Entertainment"
+    },
+    {
+      "artist": "Make Them Suffer",
+      "field": "label",
+      "our_value": "SharpTone Records",
+      "wikidata_value": "Rise Records"
+    },
+    {
+      "artist": "Cane Hill",
+      "field": "label",
+      "our_value": "Out of Line Music",
+      "wikidata_value": "Rise Records"
+    },
+    {
+      "artist": "Soil",
+      "field": "label",
+      "our_value": "Cleopatra Records / Pavement Entertainment",
+      "wikidata_value": "J Records | DRT Entertainment"
+    }
+  ]
+}

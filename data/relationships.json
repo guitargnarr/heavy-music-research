@@ -2259,5 +2259,2826 @@
     "target_type": "agency",
     "target_id": "Sound Talent Group",
     "relationship_type": "booked_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Knocked Loose",
+    "target_type": "producer",
+    "target_id": "Jeff Dunne",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Whitechapel",
+    "target_type": "producer",
+    "target_id": "WZRD BLD",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Born of Osiris",
+    "target_type": "producer",
+    "target_id": "Nick Sampson",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Architects",
+    "target_type": "producer",
+    "target_id": "John Seymour",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Architects",
+    "target_type": "producer",
+    "target_id": "Ray Toro",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Animals As Leaders",
+    "target_type": "producer",
+    "target_id": "Javier Reyes",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Animals As Leaders",
+    "target_type": "producer",
+    "target_id": "Nick Morzov",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Dayseeker",
+    "target_type": "producer",
+    "target_id": "Zakk Cervini",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Ice Nine Kills",
+    "target_type": "producer",
+    "target_id": "Julian Garguilo",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Ice Nine Kills",
+    "target_type": "producer",
+    "target_id": "Zakk Cervini",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Motionless In White",
+    "target_type": "producer",
+    "target_id": "Justin deBlieck",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Invent Animate",
+    "target_type": "producer",
+    "target_id": "Daniel Braunstein",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit For A King",
+    "target_type": "producer",
+    "target_id": "Jeff Dunne",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "We Came As Romans",
+    "target_type": "producer",
+    "target_id": "Jeff Dunne",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Currents",
+    "target_type": "producer",
+    "target_id": "Jean-Etienne Collin Marcoux",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "producer",
+    "target_id": "Alex Tumay",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "producer",
+    "target_id": "Dan Lancaster",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "producer",
+    "target_id": "Josh Wilbur",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "producer",
+    "target_id": "Neal Avron",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "producer",
+    "target_id": "Tom Lord-Alge",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "producer",
+    "target_id": "Rhys May",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "producer",
+    "target_id": "Scott Skrzynski",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bring Me the Horizon",
+    "target_type": "producer",
+    "target_id": "Julian Gargiulo",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "The Ghost Inside",
+    "target_type": "producer",
+    "target_id": "Julian Garguilo",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "The Ghost Inside",
+    "target_type": "producer",
+    "target_id": "Nik Trekov",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "The Ghost Inside",
+    "target_type": "producer",
+    "target_id": "Zakk Cervini",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Converge",
+    "target_type": "producer",
+    "target_id": "Kurt Ballou",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Pierce the Veil",
+    "target_type": "producer",
+    "target_id": "Adam Hawkins",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Parkway Drive",
+    "target_type": "producer",
+    "target_id": "Zakk Cervini",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bullet for My Valentine",
+    "target_type": "producer",
+    "target_id": "Colin Richardson",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Killswitch Engage",
+    "target_type": "producer",
+    "target_id": "Andy Sneap",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Saosin",
+    "target_type": "producer",
+    "target_id": "Beau Burchell",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "My Chemical Romance",
+    "target_type": "producer",
+    "target_id": "Rich Costey",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "My Chemical Romance",
+    "target_type": "producer",
+    "target_id": "Jeff Citron",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Taking Back Sunday",
+    "target_type": "producer",
+    "target_id": "Neal Avron",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Coheed and Cambria",
+    "target_type": "producer",
+    "target_id": "Nik Trekov",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Cane Hill",
+    "target_type": "producer",
+    "target_id": "George Collings",
+    "relationship_type": "produced_by"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Spiritbox",
+    "target_type": "artist",
+    "target_id": "Invent Animate",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Erra",
+    "target_type": "artist",
+    "target_id": "Invent Animate",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Dayseeker",
+    "target_type": "artist",
+    "target_id": "Invent Animate",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit For A King",
+    "target_type": "artist",
+    "target_id": "Invent Animate",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "The Ghost Inside",
+    "target_type": "artist",
+    "target_id": "Invent Animate",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Lamb of God",
+    "target_type": "artist",
+    "target_id": "A Day To Remember",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bad Omens",
+    "target_type": "artist",
+    "target_id": "Dayseeker",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bad Omens",
+    "target_type": "artist",
+    "target_id": "Ice Nine Kills",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bad Omens",
+    "target_type": "artist",
+    "target_id": "The Ghost Inside",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bad Omens",
+    "target_type": "artist",
+    "target_id": "Parkway Drive",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bring Me the Horizon",
+    "target_type": "artist",
+    "target_id": "Dayseeker",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bring Me the Horizon",
+    "target_type": "artist",
+    "target_id": "Ice Nine Kills",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bring Me the Horizon",
+    "target_type": "artist",
+    "target_id": "The Ghost Inside",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bring Me the Horizon",
+    "target_type": "artist",
+    "target_id": "Parkway Drive",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Coheed and Cambria",
+    "target_type": "artist",
+    "target_id": "Dayseeker",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Coheed and Cambria",
+    "target_type": "artist",
+    "target_id": "Ice Nine Kills",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Coheed and Cambria",
+    "target_type": "artist",
+    "target_id": "The Ghost Inside",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Coheed and Cambria",
+    "target_type": "artist",
+    "target_id": "Parkway Drive",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Dayseeker",
+    "target_type": "artist",
+    "target_id": "Ice Nine Kills",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Dayseeker",
+    "target_type": "artist",
+    "target_id": "Parkway Drive",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Ice Nine Kills",
+    "target_type": "artist",
+    "target_id": "The Ghost Inside",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Ice Nine Kills",
+    "target_type": "artist",
+    "target_id": "Parkway Drive",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "The Ghost Inside",
+    "target_type": "artist",
+    "target_id": "Parkway Drive",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Ice Nine Kills",
+    "target_type": "artist",
+    "target_id": "Whitechapel",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Motionless In White",
+    "target_type": "artist",
+    "target_id": "Whitechapel",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit For A King",
+    "target_type": "artist",
+    "target_id": "Whitechapel",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "We Came As Romans",
+    "target_type": "artist",
+    "target_id": "Whitechapel",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "artist",
+    "target_id": "Whitechapel",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "We Came As Romans",
+    "target_type": "artist",
+    "target_id": "Born of Osiris",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "My Chemical Romance",
+    "target_type": "artist",
+    "target_id": "Architects",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Make Them Suffer",
+    "target_type": "artist",
+    "target_id": "Fit For A King",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Make Them Suffer",
+    "target_type": "artist",
+    "target_id": "We Came As Romans",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "artist",
+    "target_id": "Taking Back Sunday",
+    "relationship_type": "shared_producer"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Knocked Loose",
+    "target_type": "artist",
+    "target_id": "Kublai Khan TX",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Knocked Loose",
+    "target_type": "artist",
+    "target_id": "Whitechapel",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Knocked Loose",
+    "target_type": "artist",
+    "target_id": "thrown",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Knocked Loose",
+    "target_type": "artist",
+    "target_id": "Fit For An Autopsy",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Knocked Loose",
+    "target_type": "artist",
+    "target_id": "After The Burial",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Knocked Loose",
+    "target_type": "artist",
+    "target_id": "Alpha Wolf",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Knocked Loose",
+    "target_type": "artist",
+    "target_id": "Lorna Shore",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Spiritbox",
+    "target_type": "artist",
+    "target_id": "Wage War",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Spiritbox",
+    "target_type": "artist",
+    "target_id": "Architects",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Spiritbox",
+    "target_type": "artist",
+    "target_id": "We Came As Romans",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Spiritbox",
+    "target_type": "artist",
+    "target_id": "Fit For A King",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Spiritbox",
+    "target_type": "artist",
+    "target_id": "Currents",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Spiritbox",
+    "target_type": "artist",
+    "target_id": "Bad Omens",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Spiritbox",
+    "target_type": "artist",
+    "target_id": "The Ghost Inside",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Spiritbox",
+    "target_type": "artist",
+    "target_id": "NORTHLANE",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Sleep Token",
+    "target_type": "artist",
+    "target_id": "Bad Omens",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Sleep Token",
+    "target_type": "artist",
+    "target_id": "Spiritbox",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Sleep Token",
+    "target_type": "artist",
+    "target_id": "Dayseeker",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Sleep Token",
+    "target_type": "artist",
+    "target_id": "Bring Me the Horizon",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Sleep Token",
+    "target_type": "artist",
+    "target_id": "Architects",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Sleep Token",
+    "target_type": "artist",
+    "target_id": "Bilmuri",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Sleep Token",
+    "target_type": "artist",
+    "target_id": "Ice Nine Kills",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Sleep Token",
+    "target_type": "artist",
+    "target_id": "Motionless In White",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Periphery",
+    "target_type": "artist",
+    "target_id": "Whitechapel",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Periphery",
+    "target_type": "artist",
+    "target_id": "Slaughter to Prevail",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Periphery",
+    "target_type": "artist",
+    "target_id": "Knocked Loose",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Periphery",
+    "target_type": "artist",
+    "target_id": "The Ghost Inside",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Lamb of God",
+    "target_type": "artist",
+    "target_id": "Gojira",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Lamb of God",
+    "target_type": "artist",
+    "target_id": "Trivium",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Erra",
+    "target_type": "artist",
+    "target_id": "NORTHLANE",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Erra",
+    "target_type": "artist",
+    "target_id": "Currents",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Erra",
+    "target_type": "artist",
+    "target_id": "Fit For A King",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Erra",
+    "target_type": "artist",
+    "target_id": "Make Them Suffer",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Erra",
+    "target_type": "artist",
+    "target_id": "Wage War",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Erra",
+    "target_type": "artist",
+    "target_id": "Like Moths to Flames",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Erra",
+    "target_type": "artist",
+    "target_id": "The Ghost Inside",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Erra",
+    "target_type": "artist",
+    "target_id": "Polaris",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Erra",
+    "target_type": "artist",
+    "target_id": "Silent Planet",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Erra",
+    "target_type": "artist",
+    "target_id": "Born Of Osiris",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Erra",
+    "target_type": "artist",
+    "target_id": "Alpha Wolf",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Whitechapel",
+    "target_type": "artist",
+    "target_id": "Lorna Shore",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Whitechapel",
+    "target_type": "artist",
+    "target_id": "Fit For An Autopsy",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Whitechapel",
+    "target_type": "artist",
+    "target_id": "Spite",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Whitechapel",
+    "target_type": "artist",
+    "target_id": "Slaughter to Prevail",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Whitechapel",
+    "target_type": "artist",
+    "target_id": "Brand of Sacrifice",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Whitechapel",
+    "target_type": "artist",
+    "target_id": "Born Of Osiris",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Whitechapel",
+    "target_type": "artist",
+    "target_id": "After The Burial",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Kublai Khan TX",
+    "target_type": "artist",
+    "target_id": "Whitechapel",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Kublai Khan TX",
+    "target_type": "artist",
+    "target_id": "After The Burial",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Kublai Khan TX",
+    "target_type": "artist",
+    "target_id": "Fit For An Autopsy",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Kublai Khan TX",
+    "target_type": "artist",
+    "target_id": "Spite",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Kublai Khan TX",
+    "target_type": "artist",
+    "target_id": "Slaughter to Prevail",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Born of Osiris",
+    "target_type": "artist",
+    "target_id": "Alpha Wolf",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Born of Osiris",
+    "target_type": "artist",
+    "target_id": "Veil Of Maya",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Born of Osiris",
+    "target_type": "artist",
+    "target_id": "Whitechapel",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Born of Osiris",
+    "target_type": "artist",
+    "target_id": "Fit For A King",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Born of Osiris",
+    "target_type": "artist",
+    "target_id": "After The Burial",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Born of Osiris",
+    "target_type": "artist",
+    "target_id": "Lorna Shore",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Born of Osiris",
+    "target_type": "artist",
+    "target_id": "NORTHLANE",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Born of Osiris",
+    "target_type": "artist",
+    "target_id": "Make Them Suffer",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bilmuri",
+    "target_type": "artist",
+    "target_id": "Dayseeker",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bilmuri",
+    "target_type": "artist",
+    "target_id": "NORTHLANE",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bilmuri",
+    "target_type": "artist",
+    "target_id": "VOLUMES",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Thrown",
+    "target_type": "artist",
+    "target_id": "Whitechapel",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Thrown",
+    "target_type": "artist",
+    "target_id": "Knocked Loose",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Thrown",
+    "target_type": "artist",
+    "target_id": "Alpha Wolf",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Thrown",
+    "target_type": "artist",
+    "target_id": "Lorna Shore",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Thrown",
+    "target_type": "artist",
+    "target_id": "After The Burial",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Thrown",
+    "target_type": "artist",
+    "target_id": "Make Them Suffer",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Lorna Shore",
+    "target_type": "artist",
+    "target_id": "Slaughter to Prevail",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Lorna Shore",
+    "target_type": "artist",
+    "target_id": "Fit For An Autopsy",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Lorna Shore",
+    "target_type": "artist",
+    "target_id": "Make Them Suffer",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Lorna Shore",
+    "target_type": "artist",
+    "target_id": "Born Of Osiris",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Lorna Shore",
+    "target_type": "artist",
+    "target_id": "After The Burial",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bad Omens",
+    "target_type": "artist",
+    "target_id": "Dayseeker",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bad Omens",
+    "target_type": "artist",
+    "target_id": "The Word Alive",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bad Omens",
+    "target_type": "artist",
+    "target_id": "Motionless In White",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bad Omens",
+    "target_type": "artist",
+    "target_id": "Bring Me the Horizon",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bad Omens",
+    "target_type": "artist",
+    "target_id": "Architects",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bad Omens",
+    "target_type": "artist",
+    "target_id": "We Came As Romans",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bad Omens",
+    "target_type": "artist",
+    "target_id": "Nothing More",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Turnstile",
+    "target_type": "artist",
+    "target_id": "Converge",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Architects",
+    "target_type": "artist",
+    "target_id": "Wage War",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Architects",
+    "target_type": "artist",
+    "target_id": "Ice Nine Kills",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Architects",
+    "target_type": "artist",
+    "target_id": "We Came As Romans",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Architects",
+    "target_type": "artist",
+    "target_id": "Motionless In White",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Architects",
+    "target_type": "artist",
+    "target_id": "Fit For A King",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Architects",
+    "target_type": "artist",
+    "target_id": "Atreyu",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Wage War",
+    "target_type": "artist",
+    "target_id": "Fit For A King",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Wage War",
+    "target_type": "artist",
+    "target_id": "We Came As Romans",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Wage War",
+    "target_type": "artist",
+    "target_id": "The Ghost Inside",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Wage War",
+    "target_type": "artist",
+    "target_id": "Like Moths to Flames",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Wage War",
+    "target_type": "artist",
+    "target_id": "ERRA",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Wage War",
+    "target_type": "artist",
+    "target_id": "Currents",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Veil of Maya",
+    "target_type": "artist",
+    "target_id": "Alpha Wolf",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Veil of Maya",
+    "target_type": "artist",
+    "target_id": "Fit For A King",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Veil of Maya",
+    "target_type": "artist",
+    "target_id": "Make Them Suffer",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Veil of Maya",
+    "target_type": "artist",
+    "target_id": "Like Moths to Flames",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Veil of Maya",
+    "target_type": "artist",
+    "target_id": "Wage War",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Veil of Maya",
+    "target_type": "artist",
+    "target_id": "The Ghost Inside",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Veil of Maya",
+    "target_type": "artist",
+    "target_id": "Born Of Osiris",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Veil of Maya",
+    "target_type": "artist",
+    "target_id": "Currents",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Veil of Maya",
+    "target_type": "artist",
+    "target_id": "ERRA",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Veil of Maya",
+    "target_type": "artist",
+    "target_id": "August Burns Red",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Veil of Maya",
+    "target_type": "artist",
+    "target_id": "NORTHLANE",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Animals As Leaders",
+    "target_type": "artist",
+    "target_id": "Between the Buried and Me",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Animals As Leaders",
+    "target_type": "artist",
+    "target_id": "Gojira",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Dayseeker",
+    "target_type": "artist",
+    "target_id": "The Word Alive",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Dayseeker",
+    "target_type": "artist",
+    "target_id": "Wage War",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Slaughter to Prevail",
+    "target_type": "artist",
+    "target_id": "Parkway Drive",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Slaughter to Prevail",
+    "target_type": "artist",
+    "target_id": "After The Burial",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Drain",
+    "target_type": "artist",
+    "target_id": "Rivers Of Nihil",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Drain",
+    "target_type": "artist",
+    "target_id": "Kublai Khan TX",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Drain",
+    "target_type": "artist",
+    "target_id": "Converge",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Drain",
+    "target_type": "artist",
+    "target_id": "Periphery",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit for an Autopsy",
+    "target_type": "artist",
+    "target_id": "Whitechapel",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit for an Autopsy",
+    "target_type": "artist",
+    "target_id": "Spite",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit for an Autopsy",
+    "target_type": "artist",
+    "target_id": "Lorna Shore",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit for an Autopsy",
+    "target_type": "artist",
+    "target_id": "Brand of Sacrifice",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Counterparts",
+    "target_type": "artist",
+    "target_id": "Born Of Osiris",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Ice Nine Kills",
+    "target_type": "artist",
+    "target_id": "Motionless In White",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Ice Nine Kills",
+    "target_type": "artist",
+    "target_id": "Atreyu",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Ice Nine Kills",
+    "target_type": "artist",
+    "target_id": "We Came As Romans",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Ice Nine Kills",
+    "target_type": "artist",
+    "target_id": "Bad Omens",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Ice Nine Kills",
+    "target_type": "artist",
+    "target_id": "Spiritbox",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Ice Nine Kills",
+    "target_type": "artist",
+    "target_id": "Wage War",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Motionless In White",
+    "target_type": "artist",
+    "target_id": "Bring Me the Horizon",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Motionless In White",
+    "target_type": "artist",
+    "target_id": "Atreyu",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Motionless In White",
+    "target_type": "artist",
+    "target_id": "Bullet for My Valentine",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Motionless In White",
+    "target_type": "artist",
+    "target_id": "We Came As Romans",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Motionless In White",
+    "target_type": "artist",
+    "target_id": "A Day to Remember",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Motionless In White",
+    "target_type": "artist",
+    "target_id": "Nothing More",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Trivium",
+    "target_type": "artist",
+    "target_id": "Killswitch Engage",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Trivium",
+    "target_type": "artist",
+    "target_id": "Bullet for My Valentine",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Trivium",
+    "target_type": "artist",
+    "target_id": "Parkway Drive",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Trivium",
+    "target_type": "artist",
+    "target_id": "In This Moment",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Trivium",
+    "target_type": "artist",
+    "target_id": "Atreyu",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "August Burns Red",
+    "target_type": "artist",
+    "target_id": "Fit For A King",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "August Burns Red",
+    "target_type": "artist",
+    "target_id": "The Ghost Inside",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "August Burns Red",
+    "target_type": "artist",
+    "target_id": "Architects",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "August Burns Red",
+    "target_type": "artist",
+    "target_id": "Veil Of Maya",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "August Burns Red",
+    "target_type": "artist",
+    "target_id": "Parkway Drive",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Loathe",
+    "target_type": "artist",
+    "target_id": "Periphery",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Alpha Wolf",
+    "target_type": "artist",
+    "target_id": "Born Of Osiris",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Alpha Wolf",
+    "target_type": "artist",
+    "target_id": "Veil Of Maya",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Alpha Wolf",
+    "target_type": "artist",
+    "target_id": "Like Moths to Flames",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Alpha Wolf",
+    "target_type": "artist",
+    "target_id": "Make Them Suffer",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Alpha Wolf",
+    "target_type": "artist",
+    "target_id": "Wage War",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Alpha Wolf",
+    "target_type": "artist",
+    "target_id": "Currents",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Alpha Wolf",
+    "target_type": "artist",
+    "target_id": "The Ghost Inside",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Invent Animate",
+    "target_type": "artist",
+    "target_id": "NORTHLANE",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Invent Animate",
+    "target_type": "artist",
+    "target_id": "ERRA",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Invent Animate",
+    "target_type": "artist",
+    "target_id": "Silent Planet",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Invent Animate",
+    "target_type": "artist",
+    "target_id": "Like Moths to Flames",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Invent Animate",
+    "target_type": "artist",
+    "target_id": "Currents",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Invent Animate",
+    "target_type": "artist",
+    "target_id": "Fit For A King",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Invent Animate",
+    "target_type": "artist",
+    "target_id": "Make Them Suffer",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Polaris",
+    "target_type": "artist",
+    "target_id": "NORTHLANE",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Polaris",
+    "target_type": "artist",
+    "target_id": "ERRA",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Polaris",
+    "target_type": "artist",
+    "target_id": "Veil Of Maya",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Polaris",
+    "target_type": "artist",
+    "target_id": "Currents",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Polaris",
+    "target_type": "artist",
+    "target_id": "Fit For A King",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Polaris",
+    "target_type": "artist",
+    "target_id": "Make Them Suffer",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Polaris",
+    "target_type": "artist",
+    "target_id": "Architects",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Polaris",
+    "target_type": "artist",
+    "target_id": "Like Moths to Flames",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Polaris",
+    "target_type": "artist",
+    "target_id": "Wage War",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Polaris",
+    "target_type": "artist",
+    "target_id": "Born Of Osiris",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Polaris",
+    "target_type": "artist",
+    "target_id": "The Ghost Inside",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Polaris",
+    "target_type": "artist",
+    "target_id": "Silent Planet",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Silent Planet",
+    "target_type": "artist",
+    "target_id": "Like Moths to Flames",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Silent Planet",
+    "target_type": "artist",
+    "target_id": "NORTHLANE",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Silent Planet",
+    "target_type": "artist",
+    "target_id": "Currents",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Silent Planet",
+    "target_type": "artist",
+    "target_id": "ERRA",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Silent Planet",
+    "target_type": "artist",
+    "target_id": "Make Them Suffer",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Silent Planet",
+    "target_type": "artist",
+    "target_id": "Fit For A King",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Silent Planet",
+    "target_type": "artist",
+    "target_id": "The Ghost Inside",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Silent Planet",
+    "target_type": "artist",
+    "target_id": "Alpha Wolf",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit For A King",
+    "target_type": "artist",
+    "target_id": "The Ghost Inside",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit For A King",
+    "target_type": "artist",
+    "target_id": "NORTHLANE",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit For A King",
+    "target_type": "artist",
+    "target_id": "Currents",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit For A King",
+    "target_type": "artist",
+    "target_id": "ERRA",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit For A King",
+    "target_type": "artist",
+    "target_id": "Make Them Suffer",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit For A King",
+    "target_type": "artist",
+    "target_id": "Born Of Osiris",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit For A King",
+    "target_type": "artist",
+    "target_id": "Like Moths to Flames",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit For A King",
+    "target_type": "artist",
+    "target_id": "We Came As Romans",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Fit For A King",
+    "target_type": "artist",
+    "target_id": "Veil Of Maya",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Dance Gavin Dance",
+    "target_type": "artist",
+    "target_id": "Underoath",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Dance Gavin Dance",
+    "target_type": "artist",
+    "target_id": "Sleeping With Sirens",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Dance Gavin Dance",
+    "target_type": "artist",
+    "target_id": "We Came As Romans",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Dance Gavin Dance",
+    "target_type": "artist",
+    "target_id": "A Day to Remember",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Dance Gavin Dance",
+    "target_type": "artist",
+    "target_id": "The Word Alive",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "We Came As Romans",
+    "target_type": "artist",
+    "target_id": "The Word Alive",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "After The Burial",
+    "target_type": "artist",
+    "target_id": "Born Of Osiris",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "After The Burial",
+    "target_type": "artist",
+    "target_id": "Fit For An Autopsy",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "After The Burial",
+    "target_type": "artist",
+    "target_id": "Spite",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Brand Of Sacrifice",
+    "target_type": "artist",
+    "target_id": "Fit For An Autopsy",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Brand Of Sacrifice",
+    "target_type": "artist",
+    "target_id": "Lorna Shore",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Brand Of Sacrifice",
+    "target_type": "artist",
+    "target_id": "Whitechapel",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Brand Of Sacrifice",
+    "target_type": "artist",
+    "target_id": "Spite",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Currents",
+    "target_type": "artist",
+    "target_id": "NORTHLANE",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Currents",
+    "target_type": "artist",
+    "target_id": "Make Them Suffer",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Currents",
+    "target_type": "artist",
+    "target_id": "ERRA",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Currents",
+    "target_type": "artist",
+    "target_id": "The Ghost Inside",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Currents",
+    "target_type": "artist",
+    "target_id": "We Came As Romans",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Currents",
+    "target_type": "artist",
+    "target_id": "Like Moths to Flames",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Like Moths To Flames",
+    "target_type": "artist",
+    "target_id": "Fit For A King",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Like Moths To Flames",
+    "target_type": "artist",
+    "target_id": "Wage War",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Like Moths To Flames",
+    "target_type": "artist",
+    "target_id": "Architects",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Like Moths To Flames",
+    "target_type": "artist",
+    "target_id": "NORTHLANE",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Like Moths To Flames",
+    "target_type": "artist",
+    "target_id": "The Ghost Inside",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Like Moths To Flames",
+    "target_type": "artist",
+    "target_id": "We Came As Romans",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Like Moths To Flames",
+    "target_type": "artist",
+    "target_id": "Silent Planet",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Rivers of Nihil",
+    "target_type": "artist",
+    "target_id": "Drain",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Rivers of Nihil",
+    "target_type": "artist",
+    "target_id": "Periphery",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Rivers of Nihil",
+    "target_type": "artist",
+    "target_id": "Whitechapel",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Between the Buried and Me",
+    "target_type": "artist",
+    "target_id": "Converge",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "artist",
+    "target_id": "Sleeping With Sirens",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "artist",
+    "target_id": "Falling In Reverse",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "artist",
+    "target_id": "Atreyu",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "artist",
+    "target_id": "Underoath",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "artist",
+    "target_id": "Bring Me the Horizon",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "artist",
+    "target_id": "We Came As Romans",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "artist",
+    "target_id": "Bullet for My Valentine",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "A Day To Remember",
+    "target_type": "artist",
+    "target_id": "Nothing More",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Underoath",
+    "target_type": "artist",
+    "target_id": "A Day to Remember",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Underoath",
+    "target_type": "artist",
+    "target_id": "We Came As Romans",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Underoath",
+    "target_type": "artist",
+    "target_id": "Sleeping With Sirens",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Underoath",
+    "target_type": "artist",
+    "target_id": "Atreyu",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Underoath",
+    "target_type": "artist",
+    "target_id": "Bring Me the Horizon",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Northlane",
+    "target_type": "artist",
+    "target_id": "ERRA",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Northlane",
+    "target_type": "artist",
+    "target_id": "Currents",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Northlane",
+    "target_type": "artist",
+    "target_id": "Silent Planet",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Northlane",
+    "target_type": "artist",
+    "target_id": "Like Moths to Flames",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Northlane",
+    "target_type": "artist",
+    "target_id": "Fit For A King",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Northlane",
+    "target_type": "artist",
+    "target_id": "Make Them Suffer",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Northlane",
+    "target_type": "artist",
+    "target_id": "Born Of Osiris",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Northlane",
+    "target_type": "artist",
+    "target_id": "Alpha Wolf",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Northlane",
+    "target_type": "artist",
+    "target_id": "The Ghost Inside",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Northlane",
+    "target_type": "artist",
+    "target_id": "Wage War",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bring Me the Horizon",
+    "target_type": "artist",
+    "target_id": "Falling In Reverse",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bring Me the Horizon",
+    "target_type": "artist",
+    "target_id": "A Day to Remember",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bring Me the Horizon",
+    "target_type": "artist",
+    "target_id": "Architects",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bring Me the Horizon",
+    "target_type": "artist",
+    "target_id": "Ice Nine Kills",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bring Me the Horizon",
+    "target_type": "artist",
+    "target_id": "Bullet for My Valentine",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bring Me the Horizon",
+    "target_type": "artist",
+    "target_id": "Sleeping With Sirens",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "The Ghost Inside",
+    "target_type": "artist",
+    "target_id": "Architects",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "The Ghost Inside",
+    "target_type": "artist",
+    "target_id": "Veil Of Maya",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Code Orange",
+    "target_type": "artist",
+    "target_id": "Lamb of God",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Code Orange",
+    "target_type": "artist",
+    "target_id": "Gojira",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Code Orange",
+    "target_type": "artist",
+    "target_id": "Killswitch Engage",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Eidola",
+    "target_type": "artist",
+    "target_id": "Bilmuri",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Eidola",
+    "target_type": "artist",
+    "target_id": "VOLUMES",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Eidola",
+    "target_type": "artist",
+    "target_id": "Dance Gavin Dance",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Eidola",
+    "target_type": "artist",
+    "target_id": "Dayseeker",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Sleeping With Sirens",
+    "target_type": "artist",
+    "target_id": "Pierce the Veil",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Sleeping With Sirens",
+    "target_type": "artist",
+    "target_id": "A Day to Remember",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Sleeping With Sirens",
+    "target_type": "artist",
+    "target_id": "The Used",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Sleeping With Sirens",
+    "target_type": "artist",
+    "target_id": "Falling In Reverse",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Sleeping With Sirens",
+    "target_type": "artist",
+    "target_id": "Saosin",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Pierce the Veil",
+    "target_type": "artist",
+    "target_id": "Falling In Reverse",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Pierce the Veil",
+    "target_type": "artist",
+    "target_id": "Dance Gavin Dance",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Pierce the Veil",
+    "target_type": "artist",
+    "target_id": "The Used",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Pierce the Veil",
+    "target_type": "artist",
+    "target_id": "My Chemical Romance",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Pierce the Veil",
+    "target_type": "artist",
+    "target_id": "Bring Me the Horizon",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Pierce the Veil",
+    "target_type": "artist",
+    "target_id": "A Day to Remember",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Avenged Sevenfold",
+    "target_type": "artist",
+    "target_id": "Bullet for My Valentine",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Avenged Sevenfold",
+    "target_type": "artist",
+    "target_id": "Trivium",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Parkway Drive",
+    "target_type": "artist",
+    "target_id": "Killswitch Engage",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Parkway Drive",
+    "target_type": "artist",
+    "target_id": "Bullet for My Valentine",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Parkway Drive",
+    "target_type": "artist",
+    "target_id": "Architects",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Thrice",
+    "target_type": "artist",
+    "target_id": "Coheed and Cambria",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Thrice",
+    "target_type": "artist",
+    "target_id": "A Day to Remember",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Thrice",
+    "target_type": "artist",
+    "target_id": "Underoath",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Thrice",
+    "target_type": "artist",
+    "target_id": "Dance Gavin Dance",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Atreyu",
+    "target_type": "artist",
+    "target_id": "Bullet for My Valentine",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Atreyu",
+    "target_type": "artist",
+    "target_id": "A Day to Remember",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Atreyu",
+    "target_type": "artist",
+    "target_id": "In This Moment",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Atreyu",
+    "target_type": "artist",
+    "target_id": "Nothing More",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bullet for My Valentine",
+    "target_type": "artist",
+    "target_id": "In This Moment",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bullet for My Valentine",
+    "target_type": "artist",
+    "target_id": "Killswitch Engage",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Bullet for My Valentine",
+    "target_type": "artist",
+    "target_id": "A Day to Remember",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Killswitch Engage",
+    "target_type": "artist",
+    "target_id": "Atreyu",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Killswitch Engage",
+    "target_type": "artist",
+    "target_id": "Periphery",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "The Word Alive",
+    "target_type": "artist",
+    "target_id": "Wage War",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Greyhaven",
+    "target_type": "artist",
+    "target_id": "NORTHLANE",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Greyhaven",
+    "target_type": "artist",
+    "target_id": "VOLUMES",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Greyhaven",
+    "target_type": "artist",
+    "target_id": "Bilmuri",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Falling in Reverse",
+    "target_type": "artist",
+    "target_id": "Bring Me the Horizon",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Falling in Reverse",
+    "target_type": "artist",
+    "target_id": "A Day to Remember",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Falling in Reverse",
+    "target_type": "artist",
+    "target_id": "Motionless In White",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Falling in Reverse",
+    "target_type": "artist",
+    "target_id": "Bullet for My Valentine",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Falling in Reverse",
+    "target_type": "artist",
+    "target_id": "We Came As Romans",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Falling in Reverse",
+    "target_type": "artist",
+    "target_id": "Nothing More",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Falling in Reverse",
+    "target_type": "artist",
+    "target_id": "Atreyu",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Falling in Reverse",
+    "target_type": "artist",
+    "target_id": "Ice Nine Kills",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Babymetal",
+    "target_type": "artist",
+    "target_id": "In This Moment",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Nothing More",
+    "target_type": "artist",
+    "target_id": "We Came As Romans",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Halestorm",
+    "target_type": "artist",
+    "target_id": "In This Moment",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Halestorm",
+    "target_type": "artist",
+    "target_id": "Atreyu",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Halestorm",
+    "target_type": "artist",
+    "target_id": "Bullet for My Valentine",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Saosin",
+    "target_type": "artist",
+    "target_id": "Underoath",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Saosin",
+    "target_type": "artist",
+    "target_id": "Dance Gavin Dance",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Saosin",
+    "target_type": "artist",
+    "target_id": "The Used",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Saosin",
+    "target_type": "artist",
+    "target_id": "Pierce the Veil",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Spite",
+    "target_type": "artist",
+    "target_id": "Lorna Shore",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Spite",
+    "target_type": "artist",
+    "target_id": "Fit For An Autopsy",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Spite",
+    "target_type": "artist",
+    "target_id": "Brand of Sacrifice",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "In This Moment",
+    "target_type": "artist",
+    "target_id": "Killswitch Engage",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "In This Moment",
+    "target_type": "artist",
+    "target_id": "Parkway Drive",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "In This Moment",
+    "target_type": "artist",
+    "target_id": "Motionless In White",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "My Chemical Romance",
+    "target_type": "artist",
+    "target_id": "The Used",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "My Chemical Romance",
+    "target_type": "artist",
+    "target_id": "Taking Back Sunday",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Taking Back Sunday",
+    "target_type": "artist",
+    "target_id": "The Used",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Coheed and Cambria",
+    "target_type": "artist",
+    "target_id": "The Used",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Coheed and Cambria",
+    "target_type": "artist",
+    "target_id": "A Day to Remember",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Make Them Suffer",
+    "target_type": "artist",
+    "target_id": "NORTHLANE",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Make Them Suffer",
+    "target_type": "artist",
+    "target_id": "Wage War",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Make Them Suffer",
+    "target_type": "artist",
+    "target_id": "Born Of Osiris",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Make Them Suffer",
+    "target_type": "artist",
+    "target_id": "The Ghost Inside",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Make Them Suffer",
+    "target_type": "artist",
+    "target_id": "ERRA",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Make Them Suffer",
+    "target_type": "artist",
+    "target_id": "Veil Of Maya",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Cane Hill",
+    "target_type": "artist",
+    "target_id": "Periphery",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Cane Hill",
+    "target_type": "artist",
+    "target_id": "NORTHLANE",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Cane Hill",
+    "target_type": "artist",
+    "target_id": "Currents",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Cane Hill",
+    "target_type": "artist",
+    "target_id": "Make Them Suffer",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Cane Hill",
+    "target_type": "artist",
+    "target_id": "Fit For A King",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Cane Hill",
+    "target_type": "artist",
+    "target_id": "We Came As Romans",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Volumes",
+    "target_type": "artist",
+    "target_id": "NORTHLANE",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Volumes",
+    "target_type": "artist",
+    "target_id": "Like Moths to Flames",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Volumes",
+    "target_type": "artist",
+    "target_id": "ERRA",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Volumes",
+    "target_type": "artist",
+    "target_id": "Fit For A King",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Volumes",
+    "target_type": "artist",
+    "target_id": "Currents",
+    "relationship_type": "similar_to"
+  },
+  {
+    "source_type": "artist",
+    "source_id": "Volumes",
+    "target_type": "artist",
+    "target_id": "Silent Planet",
+    "relationship_type": "similar_to"
   }
 ]

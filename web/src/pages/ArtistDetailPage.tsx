@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import { ArrowLeft, Network, ExternalLink, MapPin, Ticket } from "lucide-react";
+import { ArrowLeft, Network, ExternalLink, MapPin, Ticket, Music2 } from "lucide-react";
 import {
   AreaChart,
   Area,
@@ -13,7 +13,6 @@ import { getArtistDetail } from "../api/client";
 import { GradeBadge } from "../components/shared/GradeBadge";
 import { SegmentTag } from "../components/shared/SegmentTag";
 import { ScoreBar } from "../components/shared/ScoreBar";
-import { ScoreRadar } from "../components/shared/ScoreRadar";
 import type { ArtistDetail } from "../types";
 
 export function ArtistDetailPage() {
@@ -161,19 +160,26 @@ export function ArtistDetailPage() {
           </div>
         )}
 
-        {latestScore && (
-          <div className="card p-5">
-            <h2 className="text-[10px] font-medium text-steel uppercase tracking-widest mb-2">
-              Score Profile
-            </h2>
-            <ScoreRadar
-              trajectory={latestScore.trajectory}
-              industrySignal={latestScore.industry_signal}
-              engagement={latestScore.engagement}
-              releasePositioning={latestScore.release_positioning}
-            />
-          </div>
-        )}
+        <div className="card p-5 space-y-3">
+          <h2 className="text-[10px] font-medium text-steel uppercase tracking-widest">
+            Producer Credits
+          </h2>
+          {(!artist.producers || artist.producers.length === 0) ? (
+            <p className="text-xs text-steel italic">No producer data yet</p>
+          ) : (
+            artist.producers.map((p) => (
+              <div key={p.name} className="flex items-start gap-2">
+                <Music2 size={12} className="text-blue-400 mt-0.5 shrink-0" />
+                <div>
+                  <div className="text-sm font-medium text-gray-200">{p.name}</div>
+                  {p.studio && (
+                    <div className="text-xs text-steel font-mono">{p.studio}</div>
+                  )}
+                </div>
+              </div>
+            ))
+          )}
+        </div>
 
         <div className="card p-5 space-y-3">
           <h2 className="text-[10px] font-medium text-steel uppercase tracking-widest">
@@ -208,12 +214,49 @@ export function ArtistDetailPage() {
         </div>
       </div>
 
+      {/* Related Artists (shared producers) */}
+      {artist.related_artists && artist.related_artists.length > 0 && (
+        <div className="card p-5">
+          <h2 className="text-[10px] font-medium text-steel uppercase tracking-widest mb-3">
+            Related Artists <span className="text-steel/50 normal-case">(shared producers)</span>
+          </h2>
+          <div className="flex flex-wrap gap-2">
+            {artist.related_artists.map((ra) => (
+              <Link
+                key={ra.spotify_id}
+                to={`/artist/${ra.spotify_id}`}
+                className="flex items-center gap-2 px-3 py-2 rounded-lg bg-surface-overlay border border-surface-border hover:border-accent/30 transition-colors group"
+              >
+                {ra.image_url ? (
+                  <img src={ra.image_url} alt="" className="w-6 h-6 rounded-full object-cover" />
+                ) : (
+                  <div className="w-6 h-6 rounded-full bg-surface-border" />
+                )}
+                <span className="text-sm text-gray-300 group-hover:text-white transition-colors">{ra.name}</span>
+                {ra.composite != null && (
+                  <span className="text-xs font-mono text-steel">{ra.composite.toFixed(0)}</span>
+                )}
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
+
       {/* Score history */}
       {scoreHistory.length > 1 && (
         <div className="card p-5">
-          <h2 className="text-[10px] font-medium text-steel uppercase tracking-widest mb-4">
-            Score History
-          </h2>
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-1 mb-4">
+            <h2 className="text-[10px] font-medium text-steel uppercase tracking-widest">
+              Score History
+            </h2>
+            <div className="flex flex-wrap gap-x-3 gap-y-1 text-[10px] text-steel ml-auto">
+              <span className="flex items-center gap-1"><span className="inline-block w-3 h-0.5 bg-red-600 rounded" /> Composite</span>
+              <span className="flex items-center gap-1"><span className="inline-block w-3 h-0.5 bg-green-500 rounded opacity-60" /> Trajectory</span>
+              <span className="flex items-center gap-1"><span className="inline-block w-3 h-0.5 bg-blue-500 rounded opacity-60" /> Industry</span>
+              <span className="flex items-center gap-1"><span className="inline-block w-3 h-0.5 bg-amber-500 rounded opacity-60" /> Engagement</span>
+              <span className="flex items-center gap-1"><span className="inline-block w-3 h-0.5 bg-purple-500 rounded opacity-60" /> Release</span>
+            </div>
+          </div>
           <ResponsiveContainer width="100%" height={250}>
             <AreaChart data={scoreHistory}>
               <defs>
@@ -244,6 +287,10 @@ export function ArtistDetailPage() {
                 }}
                 labelStyle={{ color: "#8a8f98" }}
               />
+              <Area type="monotone" dataKey="trajectory" stroke="#22c55e" fill="none" strokeWidth={1} strokeDasharray="4 2" dot={false} />
+              <Area type="monotone" dataKey="industry" stroke="#3b82f6" fill="none" strokeWidth={1} strokeDasharray="4 2" dot={false} />
+              <Area type="monotone" dataKey="engagement" stroke="#f59e0b" fill="none" strokeWidth={1} strokeDasharray="4 2" dot={false} />
+              <Area type="monotone" dataKey="release" stroke="#a855f7" fill="none" strokeWidth={1} strokeDasharray="4 2" dot={false} />
               <Area
                 type="monotone"
                 dataKey="composite"

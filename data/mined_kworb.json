@@ -1,0 +1,1081 @@
+[
+  {
+    "name": "Knocked Loose",
+    "spotify_id": "4qrHkx5cgWIslciLXUMrYw",
+    "found": false
+  },
+  {
+    "name": "Spiritbox",
+    "spotify_id": "4MzJMcHQBl9SIYSjwWn8QW",
+    "found": false
+  },
+  {
+    "name": "Sleep Token",
+    "spotify_id": "2n2RSaZqBuUUukhbLlpnE6",
+    "found": true,
+    "total_streams": 156955654,
+    "track_count": 10,
+    "top_track": "Caramel",
+    "top_track_streams": 43241234,
+    "avg_daily_total": "NA",
+    "tracks": [
+      {
+        "title": "Caramel",
+        "streams": 43241234,
+        "daily": "NA"
+      },
+      {
+        "title": "Emergence",
+        "streams": 38092619,
+        "daily": "NA"
+      },
+      {
+        "title": "Damocles",
+        "streams": 20851231,
+        "daily": "NA"
+      },
+      {
+        "title": "Dangerous",
+        "streams": 11608464,
+        "daily": "NA"
+      },
+      {
+        "title": "Even In Arcadia",
+        "streams": 9307745,
+        "daily": "NA"
+      },
+      {
+        "title": "Look To Windward",
+        "streams": 8738442,
+        "daily": "NA"
+      },
+      {
+        "title": "Past Self",
+        "streams": 8356368,
+        "daily": "NA"
+      },
+      {
+        "title": "Gethsemane",
+        "streams": 6558183,
+        "daily": "NA"
+      },
+      {
+        "title": "Provider",
+        "streams": 6070411,
+        "daily": "NA"
+      },
+      {
+        "title": "Infinite Baths",
+        "streams": 4130957,
+        "daily": "NA"
+      }
+    ]
+  },
+  {
+    "name": "Periphery",
+    "spotify_id": "6d24kC5fxHFOSEAmjQPPhc",
+    "found": false
+  },
+  {
+    "name": "Lamb of God",
+    "spotify_id": "3JFsVIxOn7STeilPICkkB2",
+    "found": true,
+    "total_streams": 8097,
+    "track_count": 1,
+    "top_track": "Checkmate",
+    "top_track_streams": 8097,
+    "avg_daily_total": "NA",
+    "tracks": [
+      {
+        "title": "Checkmate",
+        "streams": 8097,
+        "daily": "NA"
+      }
+    ]
+  },
+  {
+    "name": "Erra",
+    "spotify_id": "2UoOdQyBGyzrEfxcY77ce0",
+    "found": false
+  },
+  {
+    "name": "Whitechapel",
+    "spotify_id": "5274obTQJjzjyycRyJlfml",
+    "found": false
+  },
+  {
+    "name": "Kublai Khan TX",
+    "spotify_id": "5BIOo2mCAokFcLHXO2Llb4",
+    "found": false
+  },
+  {
+    "name": "Born of Osiris",
+    "spotify_id": "4HgqjpBaWctBWVHafQIpRt",
+    "found": false
+  },
+  {
+    "name": "Bilmuri",
+    "spotify_id": "5Rc75vGFBWZPgL7EXb4k89",
+    "found": false
+  },
+  {
+    "name": "Thrown",
+    "spotify_id": "5eBCPtU2iPbzuMRre9BePt",
+    "found": false
+  },
+  {
+    "name": "Lorna Shore",
+    "spotify_id": "6vXYoy8ouRVib302zxaxFF",
+    "found": true,
+    "total_streams": 130798,
+    "track_count": 6,
+    "top_track": "Glenwood",
+    "top_track_streams": 59481,
+    "avg_daily_total": "NA",
+    "tracks": [
+      {
+        "title": "Glenwood",
+        "streams": 59481,
+        "daily": "NA"
+      },
+      {
+        "title": "Prison of Flesh",
+        "streams": 28880,
+        "daily": "NA"
+      },
+      {
+        "title": "Oblivion",
+        "streams": 13632,
+        "daily": "NA"
+      },
+      {
+        "title": "In Darkness",
+        "streams": 10742,
+        "daily": "NA"
+      },
+      {
+        "title": "Lionheart",
+        "streams": 9649,
+        "daily": "NA"
+      },
+      {
+        "title": "Unbreakable",
+        "streams": 8414,
+        "daily": "NA"
+      }
+    ]
+  },
+  {
+    "name": "Bad Omens",
+    "spotify_id": "3Ri4H12KFyu98LMjSoij5V",
+    "found": true,
+    "total_streams": 468134,
+    "track_count": 4,
+    "top_track": "Specter",
+    "top_track_streams": 374902,
+    "avg_daily_total": "NA",
+    "tracks": [
+      {
+        "title": "Specter",
+        "streams": 374902,
+        "daily": "NA"
+      },
+      {
+        "title": "Dying To Love",
+        "streams": 65547,
+        "daily": "NA"
+      },
+      {
+        "title": "Left For Good",
+        "streams": 26339,
+        "daily": "NA"
+      },
+      {
+        "title": "Impose",
+        "streams": 1346,
+        "daily": "NA"
+      }
+    ]
+  },
+  {
+    "name": "Turnstile",
+    "spotify_id": "2qnpHrOzdmOo1S4ox3j17x",
+    "found": false
+  },
+  {
+    "name": "Architects",
+    "spotify_id": "3ZztVuWxHzNpl0THurTFCv",
+    "found": true,
+    "total_streams": 10555,
+    "track_count": 1,
+    "top_track": "Blackhole",
+    "top_track_streams": 10555,
+    "avg_daily_total": "NA",
+    "tracks": [
+      {
+        "title": "Blackhole",
+        "streams": 10555,
+        "daily": "NA"
+      }
+    ]
+  },
+  {
+    "name": "Wage War",
+    "spotify_id": "6bu7CtcOMWcS0BMq7snHW6",
+    "found": false
+  },
+  {
+    "name": "Veil of Maya",
+    "spotify_id": "2i7CQcVBh2K6uOR3CH09M1",
+    "found": false
+  },
+  {
+    "name": "Animals As Leaders",
+    "spotify_id": "65C6Unk7nhg2aCnVuAPMo8",
+    "found": false
+  },
+  {
+    "name": "Dayseeker",
+    "spotify_id": "5FjQVp1Lb0kltmwIuu5kfj",
+    "found": false
+  },
+  {
+    "name": "Slaughter to Prevail",
+    "spotify_id": "24Oiw7BlvO1BETecDLJt6m",
+    "found": false
+  },
+  {
+    "name": "Drain",
+    "spotify_id": "7FAAkDlPg6pg0860CIDzmu",
+    "found": false
+  },
+  {
+    "name": "Fit for an Autopsy",
+    "spotify_id": "0qJpY7K8p7g6sacvaGNt6i",
+    "found": false
+  },
+  {
+    "name": "Counterparts",
+    "spotify_id": "5LyRnL0rysObxDRxzSfV1z",
+    "found": false
+  },
+  {
+    "name": "Ice Nine Kills",
+    "spotify_id": "52qKfVcIV4GS8A8Vay2xtt",
+    "found": true,
+    "total_streams": 6970,
+    "track_count": 1,
+    "top_track": "* Heart Of A Champion",
+    "top_track_streams": 6970,
+    "avg_daily_total": "NA",
+    "tracks": [
+      {
+        "title": "* Heart Of A Champion",
+        "streams": 6970,
+        "daily": "NA"
+      }
+    ]
+  },
+  {
+    "name": "Motionless In White",
+    "spotify_id": "6MwPCCR936cYfM1dLsGVnl",
+    "found": false
+  },
+  {
+    "name": "Gojira",
+    "spotify_id": "0GDGKpJFhVpcjIGF8N6Ewt",
+    "found": true,
+    "total_streams": 16514,
+    "track_count": 3,
+    "top_track": "Born For One Thing",
+    "top_track_streams": 7506,
+    "avg_daily_total": "NA",
+    "tracks": [
+      {
+        "title": "Born For One Thing",
+        "streams": 7506,
+        "daily": "NA"
+      },
+      {
+        "title": "Amazonia",
+        "streams": 7081,
+        "daily": "NA"
+      },
+      {
+        "title": "Stranded",
+        "streams": 1927,
+        "daily": "NA"
+      }
+    ]
+  },
+  {
+    "name": "Trivium",
+    "spotify_id": "278ZYwGhdK6QTzE3MFePnP",
+    "found": true,
+    "total_streams": 4629,
+    "track_count": 1,
+    "top_track": "Until The World Goes Cold",
+    "top_track_streams": 4629,
+    "avg_daily_total": "NA",
+    "tracks": [
+      {
+        "title": "Until The World Goes Cold",
+        "streams": 4629,
+        "daily": "NA"
+      }
+    ]
+  },
+  {
+    "name": "August Burns Red",
+    "spotify_id": "5p9CTsn5ueGU4oScNX1axu",
+    "found": true,
+    "total_streams": 8737,
+    "track_count": 1,
+    "top_track": "White Washed",
+    "top_track_streams": 8737,
+    "avg_daily_total": "NA",
+    "tracks": [
+      {
+        "title": "White Washed",
+        "streams": 8737,
+        "daily": "NA"
+      }
+    ]
+  },
+  {
+    "name": "Loathe",
+    "spotify_id": "4G9wSdX0klmoHfjm9i6DLd",
+    "found": false
+  },
+  {
+    "name": "Alpha Wolf",
+    "spotify_id": "2tjnvrUmP46XNjFh9V0NGc",
+    "found": false
+  },
+  {
+    "name": "Invent Animate",
+    "spotify_id": "3ALVPmg5sZexSVD2m9atEt",
+    "found": false
+  },
+  {
+    "name": "Polaris",
+    "spotify_id": "0v2e0oznnTaIXKLGKHphfX",
+    "found": false
+  },
+  {
+    "name": "Silent Planet",
+    "spotify_id": "0JGTiwfinlCuANGu4Gq2XU",
+    "found": false
+  },
+  {
+    "name": "Fit For A King",
+    "spotify_id": "0OgdRTPItr9dw4XYp4JJUx",
+    "found": false
+  },
+  {
+    "name": "Dance Gavin Dance",
+    "spotify_id": "6guC9FqvlVboSKTI77NG2k",
+    "found": false
+  },
+  {
+    "name": "We Came As Romans",
+    "spotify_id": "6qO6LhD6FuXK5e2PtfAIMz",
+    "found": false
+  },
+  {
+    "name": "After The Burial",
+    "spotify_id": "0uNj4RxFjG0iVPlZS753en",
+    "found": false
+  },
+  {
+    "name": "Brand Of Sacrifice",
+    "spotify_id": "4d6Rawrese4OLF1zZCztod",
+    "found": false
+  },
+  {
+    "name": "Currents",
+    "spotify_id": "5pqvAI85RMxL9K0xHvSwGu",
+    "found": false
+  },
+  {
+    "name": "Like Moths To Flames",
+    "spotify_id": "6RRpZz1uPqY9E28kmSPAhw",
+    "found": false
+  },
+  {
+    "name": "Rivers of Nihil",
+    "spotify_id": "3UJmyt9ApeZTmOlMvBNGLN",
+    "found": false
+  },
+  {
+    "name": "Between the Buried and Me",
+    "spotify_id": "2JC4hZm1egeJDEolLsMwZ9",
+    "found": false
+  },
+  {
+    "name": "A Day To Remember",
+    "spotify_id": "4NiJW4q9ichVqL1aUsgGAN",
+    "found": true,
+    "total_streams": 6254003,
+    "track_count": 3,
+    "top_track": "* Rescue Me",
+    "top_track_streams": 6226279,
+    "avg_daily_total": "NA",
+    "tracks": [
+      {
+        "title": "* Rescue Me",
+        "streams": 6226279,
+        "daily": "NA"
+      },
+      {
+        "title": "Paranoia",
+        "streams": 23065,
+        "daily": "NA"
+      },
+      {
+        "title": "All I Want - Acoustic",
+        "streams": 4659,
+        "daily": "NA"
+      }
+    ]
+  },
+  {
+    "name": "Underoath",
+    "spotify_id": "3GzWhE2xadJiW8MqRKIVSK",
+    "found": true,
+    "total_streams": 205738,
+    "track_count": 1,
+    "top_track": "* a bulleT w/ my namE On",
+    "top_track_streams": 205738,
+    "avg_daily_total": "NA",
+    "tracks": [
+      {
+        "title": "* a bulleT w/ my namE On",
+        "streams": 205738,
+        "daily": "NA"
+      }
+    ]
+  },
+  {
+    "name": "Northlane",
+    "spotify_id": "3qyg72RGnGdF521zMU02u9",
+    "found": false
+  },
+  {
+    "name": "Bring Me the Horizon",
+    "spotify_id": "1Ffb6ejR6Fe5IamqA5oRUF",
+    "found": true,
+    "total_streams": 105992218,
+    "track_count": 20,
+    "top_track": "Can You Feel My Heart",
+    "top_track_streams": 27568609,
+    "avg_daily_total": "NA",
+    "tracks": [
+      {
+        "title": "Can You Feel My Heart",
+        "streams": 27568609,
+        "daily": "NA"
+      },
+      {
+        "title": "* maybe",
+        "streams": 22205391,
+        "daily": "NA"
+      },
+      {
+        "title": "Parasite Eve",
+        "streams": 6061969,
+        "daily": "NA"
+      },
+      {
+        "title": "Throne",
+        "streams": 5968291,
+        "daily": "NA"
+      },
+      {
+        "title": "LosT",
+        "streams": 4922430,
+        "daily": "NA"
+      },
+      {
+        "title": "Obey",
+        "streams": 4302199,
+        "daily": "NA"
+      },
+      {
+        "title": "Teardrops",
+        "streams": 3940535,
+        "daily": "NA"
+      },
+      {
+        "title": "* Werewolf",
+        "streams": 3903126,
+        "daily": "NA"
+      },
+      {
+        "title": "Kool-Aid",
+        "streams": 3712797,
+        "daily": "NA"
+      },
+      {
+        "title": "medicine",
+        "streams": 3634532,
+        "daily": "NA"
+      },
+      {
+        "title": "* Bad Habits",
+        "streams": 2794539,
+        "daily": "NA"
+      },
+      {
+        "title": "DiE4u",
+        "streams": 2766528,
+        "daily": "NA"
+      },
+      {
+        "title": "MANTRA",
+        "streams": 2450751,
+        "daily": "NA"
+      },
+      {
+        "title": "DArkSide",
+        "streams": 2194832,
+        "daily": "NA"
+      },
+      {
+        "title": "Follow You",
+        "streams": 1848733,
+        "daily": "NA"
+      },
+      {
+        "title": "Top 10 staTues tHat CriEd bloOd",
+        "streams": 1790236,
+        "daily": "NA"
+      },
+      {
+        "title": "Happy Song",
+        "streams": 1691060,
+        "daily": "NA"
+      },
+      {
+        "title": "1x1",
+        "streams": 1515868,
+        "daily": "NA"
+      },
+      {
+        "title": "* VAMPIR",
+        "streams": 1440001,
+        "daily": "NA"
+      },
+      {
+        "title": "mother tongue",
+        "streams": 1279791,
+        "daily": "NA"
+      }
+    ]
+  },
+  {
+    "name": "The Ghost Inside",
+    "spotify_id": "6kQB2RN7WwryMdJ1MoQh1E",
+    "found": false
+  },
+  {
+    "name": "Converge",
+    "spotify_id": "7kHzfxMLtVHHb523s43rY1",
+    "found": false
+  },
+  {
+    "name": "Code Orange",
+    "spotify_id": "6qtECqesbU29iftyeWmldK",
+    "found": false
+  },
+  {
+    "name": "Eidola",
+    "spotify_id": "3z8aGzEIL6yA1mFXNFf9E3",
+    "found": false
+  },
+  {
+    "name": "Sleeping With Sirens",
+    "spotify_id": "3N8Hy6xQnQv1F1XCiyGQqA",
+    "found": true,
+    "total_streams": 1709,
+    "track_count": 1,
+    "top_track": "The Strays",
+    "top_track_streams": 1709,
+    "avg_daily_total": "NA",
+    "tracks": [
+      {
+        "title": "The Strays",
+        "streams": 1709,
+        "daily": "NA"
+      }
+    ]
+  },
+  {
+    "name": "Pierce the Veil",
+    "spotify_id": "4iJLPqClelZOBCBifm8Fzv",
+    "found": true,
+    "total_streams": 63588565,
+    "track_count": 5,
+    "top_track": "So Far So Fake",
+    "top_track_streams": 43929189,
+    "avg_daily_total": "NA",
+    "tracks": [
+      {
+        "title": "So Far So Fake",
+        "streams": 43929189,
+        "daily": "NA"
+      },
+      {
+        "title": "King For A Day",
+        "streams": 18068806,
+        "daily": "NA"
+      },
+      {
+        "title": "Pass The Nirvana",
+        "streams": 1113725,
+        "daily": "NA"
+      },
+      {
+        "title": "Death Of An Executioner",
+        "streams": 324917,
+        "daily": "NA"
+      },
+      {
+        "title": "Circles",
+        "streams": 151928,
+        "daily": "NA"
+      }
+    ]
+  },
+  {
+    "name": "Avenged Sevenfold",
+    "spotify_id": "0nmQIMXWTXfhgOBdNzhGOs",
+    "found": true,
+    "total_streams": 54839899,
+    "track_count": 11,
+    "top_track": "A Little Piece of Heaven",
+    "top_track_streams": 31000609,
+    "avg_daily_total": "NA",
+    "tracks": [
+      {
+        "title": "A Little Piece of Heaven",
+        "streams": 31000609,
+        "daily": "NA"
+      },
+      {
+        "title": "Dear God",
+        "streams": 12202097,
+        "daily": "NA"
+      },
+      {
+        "title": "So Far Away",
+        "streams": 3629403,
+        "daily": "NA"
+      },
+      {
+        "title": "Gunslinger",
+        "streams": 3296268,
+        "daily": "NA"
+      },
+      {
+        "title": "Seize the Day",
+        "streams": 2302579,
+        "daily": "NA"
+      },
+      {
+        "title": "Afterlife",
+        "streams": 2113347,
+        "daily": "NA"
+      },
+      {
+        "title": "Hail to the King",
+        "streams": 199828,
+        "daily": "NA"
+      },
+      {
+        "title": "The Stage",
+        "streams": 66832,
+        "daily": "NA"
+      },
+      {
+        "title": "Mad Hatter",
+        "streams": 12583,
+        "daily": "NA"
+      },
+      {
+        "title": "Set Me Free",
+        "streams": 8991,
+        "daily": "NA"
+      },
+      {
+        "title": "St. James",
+        "streams": 7362,
+        "daily": "NA"
+      }
+    ]
+  },
+  {
+    "name": "Parkway Drive",
+    "spotify_id": "159qqlGwzE04xyqpfAwRLo",
+    "found": true,
+    "total_streams": 61584,
+    "track_count": 2,
+    "top_track": "Sacred",
+    "top_track_streams": 47744,
+    "avg_daily_total": "NA",
+    "tracks": [
+      {
+        "title": "Sacred",
+        "streams": 47744,
+        "daily": "NA"
+      },
+      {
+        "title": "Vice Grip",
+        "streams": 13840,
+        "daily": "NA"
+      }
+    ]
+  },
+  {
+    "name": "Thrice",
+    "spotify_id": "3NChzMpu9exTlNPiqUQ2DE",
+    "found": false
+  },
+  {
+    "name": "Atreyu",
+    "spotify_id": "3LkSiHbjqOHCKCqBfEZOTv",
+    "found": false
+  },
+  {
+    "name": "Bullet for My Valentine",
+    "spotify_id": "7iWiAD5LLKyiox2grgfmUT",
+    "found": true,
+    "total_streams": 81710,
+    "track_count": 8,
+    "top_track": "You Want a Battle? (Here's a War)",
+    "top_track_streams": 24010,
+    "avg_daily_total": "NA",
+    "tracks": [
+      {
+        "title": "You Want a Battle? (Here's a War)",
+        "streams": 24010,
+        "daily": "NA"
+      },
+      {
+        "title": "* Halo",
+        "streams": 10884,
+        "daily": "NA"
+      },
+      {
+        "title": "Leap Of Faith",
+        "streams": 10437,
+        "daily": "NA"
+      },
+      {
+        "title": "Knives",
+        "streams": 8843,
+        "daily": "NA"
+      },
+      {
+        "title": "Omen",
+        "streams": 6952,
+        "daily": "NA"
+      },
+      {
+        "title": "Bastards",
+        "streams": 6895,
+        "daily": "NA"
+      },
+      {
+        "title": "Shatter - Edit",
+        "streams": 6889,
+        "daily": "NA"
+      },
+      {
+        "title": "Rainbow Veins",
+        "streams": 6800,
+        "daily": "NA"
+      }
+    ]
+  },
+  {
+    "name": "Killswitch Engage",
+    "spotify_id": "37394IP6uhnjIpsawpMu4l",
+    "found": false
+  },
+  {
+    "name": "The Word Alive",
+    "spotify_id": "1CF8aEN939swnuIZGFI7Hk",
+    "found": true,
+    "total_streams": 1849978,
+    "track_count": 2,
+    "top_track": "* RISE",
+    "top_track_streams": 1847581,
+    "avg_daily_total": "NA",
+    "tracks": [
+      {
+        "title": "* RISE",
+        "streams": 1847581,
+        "daily": "NA"
+      },
+      {
+        "title": "* RISE - Remix",
+        "streams": 2397,
+        "daily": "NA"
+      }
+    ]
+  },
+  {
+    "name": "Greyhaven",
+    "spotify_id": "1zmx3NwOp6vR4qEjmhSiLL",
+    "found": false
+  },
+  {
+    "name": "Falling in Reverse",
+    "spotify_id": "2CmaKO2zEGJ1NWpS1yfVGz",
+    "found": true,
+    "total_streams": 5283302,
+    "track_count": 6,
+    "top_track": "Watch The World Burn",
+    "top_track_streams": 3735052,
+    "avg_daily_total": "NA",
+    "tracks": [
+      {
+        "title": "Watch The World Burn",
+        "streams": 3735052,
+        "daily": "NA"
+      },
+      {
+        "title": "God Is A Weapon",
+        "streams": 492223,
+        "daily": "NA"
+      },
+      {
+        "title": "All My Life",
+        "streams": 425947,
+        "daily": "NA"
+      },
+      {
+        "title": "Ronald",
+        "streams": 393653,
+        "daily": "NA"
+      },
+      {
+        "title": "Last Resort - Reimagined",
+        "streams": 230816,
+        "daily": "NA"
+      },
+      {
+        "title": "Zombified",
+        "streams": 5611,
+        "daily": "NA"
+      }
+    ]
+  },
+  {
+    "name": "Babymetal",
+    "spotify_id": "630wzNP2OL7fl4Xl0GnMWq",
+    "found": true,
+    "total_streams": 9717955,
+    "track_count": 9,
+    "top_track": "RATATATA",
+    "top_track_streams": 5032263,
+    "avg_daily_total": "NA",
+    "tracks": [
+      {
+        "title": "RATATATA",
+        "streams": 5032263,
+        "daily": "NA"
+      },
+      {
+        "title": "* The End",
+        "streams": 2924874,
+        "daily": "NA"
+      },
+      {
+        "title": "* Kingslayer",
+        "streams": 1137518,
+        "daily": "NA"
+      },
+      {
+        "title": "* かすかなはな - Kasuka na Hana - (OP Theme to Hell's Paradise: Jigokuraku Season 2)",
+        "streams": 477529,
+        "daily": "NA"
+      },
+      {
+        "title": "Distortion",
+        "streams": 71537,
+        "daily": "NA"
+      },
+      {
+        "title": "Starlight",
+        "streams": 52143,
+        "daily": "NA"
+      },
+      {
+        "title": "Elevator Girl",
+        "streams": 11015,
+        "daily": "NA"
+      },
+      {
+        "title": "PA PA YA!!",
+        "streams": 10047,
+        "daily": "NA"
+      },
+      {
+        "title": "KARATE - Live at Wembley",
+        "streams": 1029,
+        "daily": "NA"
+      }
+    ]
+  },
+  {
+    "name": "Nothing More",
+    "spotify_id": "39VNwvlQTqE9SvgPjjnMpc",
+    "found": true,
+    "total_streams": 116501,
+    "track_count": 1,
+    "top_track": "* Crossing the Rubicon",
+    "top_track_streams": 116501,
+    "avg_daily_total": "NA",
+    "tracks": [
+      {
+        "title": "* Crossing the Rubicon",
+        "streams": 116501,
+        "daily": "NA"
+      }
+    ]
+  },
+  {
+    "name": "Halestorm",
+    "spotify_id": "6om12Ev5ppgoMy3OYSoech",
+    "found": false
+  },
+  {
+    "name": "Saosin",
+    "spotify_id": "1NUOfvAhA9AvsF1ISMkgHX",
+    "found": false
+  },
+  {
+    "name": "Spite",
+    "spotify_id": "2DynE7m1BMVl4hQMvCXXq0",
+    "found": false
+  },
+  {
+    "name": "In This Moment",
+    "spotify_id": "6tbLPxj1uQ6vsRQZI2YFCT",
+    "found": false
+  },
+  {
+    "name": "My Chemical Romance",
+    "spotify_id": "7FBcuc1gsnv6Y1nwFtNRCb",
+    "found": true,
+    "total_streams": 113026343,
+    "track_count": 13,
+    "top_track": "Disenchanted",
+    "top_track_streams": 53701135,
+    "avg_daily_total": "NA",
+    "tracks": [
+      {
+        "title": "Disenchanted",
+        "streams": 53701135,
+        "daily": "NA"
+      },
+      {
+        "title": "Teenagers",
+        "streams": 22722477,
+        "daily": "NA"
+      },
+      {
+        "title": "Cancer",
+        "streams": 15100482,
+        "daily": "NA"
+      },
+      {
+        "title": "I Don't Love You",
+        "streams": 11029822,
+        "daily": "NA"
+      },
+      {
+        "title": "The Foundations of Decay",
+        "streams": 6859683,
+        "daily": "NA"
+      },
+      {
+        "title": "Helena",
+        "streams": 1382496,
+        "daily": "NA"
+      },
+      {
+        "title": "Welcome to the Black Parade",
+        "streams": 1218171,
+        "daily": "NA"
+      },
+      {
+        "title": "I'm Not Okay (I Promise)",
+        "streams": 510541,
+        "daily": "NA"
+      },
+      {
+        "title": "Famous Last Words",
+        "streams": 261595,
+        "daily": "NA"
+      },
+      {
+        "title": "The Ghost of You",
+        "streams": 185175,
+        "daily": "NA"
+      },
+      {
+        "title": "Na Na Na (Na Na Na Na Na Na Na Na Na)",
+        "streams": 49466,
+        "daily": "NA"
+      },
+      {
+        "title": "Dead!",
+        "streams": 2668,
+        "daily": "NA"
+      },
+      {
+        "title": "The Five of Us Are Dying - Rough Mix",
+        "streams": 2632,
+        "daily": "NA"
+      }
+    ]
+  },
+  {
+    "name": "Taking Back Sunday",
+    "spotify_id": "24XtlMhEMNdi822vi0MhY1",
+    "found": false
+  },
+  {
+    "name": "Coheed and Cambria",
+    "spotify_id": "3utxjLheHaVEd9bPjQRsy8",
+    "found": false
+  },
+  {
+    "name": "Make Them Suffer",
+    "spotify_id": "0FZcPgWI3BsFQl4rOAGSHT",
+    "found": false
+  },
+  {
+    "name": "Cane Hill",
+    "spotify_id": "0DZKzOGHDqGaf1N2pmsBRZ",
+    "found": false
+  },
+  {
+    "name": "Volumes",
+    "spotify_id": "1DgmdsnwOexqTH8ohPCFAU",
+    "found": false
+  },
+  {
+    "name": "The Used",
+    "spotify_id": "55VydwMyCuGcavwPuhutPL",
+    "found": false
+  },
+  {
+    "name": "Soil",
+    "spotify_id": "4PoYwGOztIrPpBfRIlMSxP",
+    "found": false
+  }
+]
