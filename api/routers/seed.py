@@ -344,7 +344,15 @@ def rescore_all(
 
     # Load pre-computed scores from scores.json
     scores_data = _load_json("scores.json")
-    scores_by_artist = {s["artist_id"]: s for s in scores_data}
+    # Build lookup by artist_id (real Spotify ID from scores.json)
+    scores_by_id = {s["artist_id"]: s for s in scores_data}
+    # Also build lookup by artist name for fallback (DB may use placeholder IDs)
+    artists_data_map = {a.get("spotify_id"): a["name"] for a in artists_data}
+    scores_by_name = {}
+    for s in scores_data:
+        name = artists_data_map.get(s["artist_id"])
+        if name:
+            scores_by_name[name] = s
     today = date.today()
     updated = 0
 
@@ -352,9 +360,12 @@ def rescore_all(
     artists = db.query(Artist).all()
 
     for artist in artists:
-        score_src = scores_by_artist.get(artist.spotify_id)
+        # Try matching by spotify_id first, then by name
+        score_src = scores_by_id.get(artist.spotify_id)
         if not score_src:
-            logger.warning("No pre-computed score for %s", artist.name)
+            score_src = scores_by_name.get(artist.name)
+        if not score_src:
+            logger.warning("No pre-computed score for %s (%s)", artist.name, artist.spotify_id)
             continue
 
         trajectory = score_src.get("trajectory", 0)
